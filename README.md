@@ -1,4 +1,4 @@
-# 🧠 Quiz Engine
+# 🔁 LearnCycle
 
 Quiz Engine è una web app per la generazione dinamica di quiz universitari, pensata per lo studio attivo e la simulazione d’esame.
 

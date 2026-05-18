@@ -31,7 +31,10 @@ function Home() {
 
   return (
     <div>
-      <h1>Quiz Engine</h1>
+      <h1>LearnCycle</h1>
+      <p style={{ opacity: 0.7 }}>
+        Try • Learn • Understand • Repeat
+      </p>
 
       {/* 🔥 SELEZIONE MODALITÀ */}
       <div style={{ marginBottom: "20px" }}>
