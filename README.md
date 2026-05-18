@@ -108,6 +108,7 @@ Le domande sono organizzate in file JavaScript separati per materia.
 
 Ogni file esporta un array di oggetti con una struttura standard:
 
+
 ```js
 {
   id: 1,
@@ -121,12 +122,13 @@ Ogni file esporta un array di oggetti con una struttura standard:
   correct: 1,
   explanation: "Spiegazione della risposta corretta"
 }
+```
 
 ---
 
 ## 🧠 Scelta tecnica
 
-```md id="v3l9aa" ```
+md id="v3l9aa" 
 
 ## 🧠 Scelta tecnica (senza database)
 
