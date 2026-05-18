@@ -111,3 +111,134 @@ body {
   }
 }
 
+/* ===== Selection page ===== */
+
+.selection {
+  min-height: 100vh;
+  background-color: #f6f7fb;
+  padding: 24px 16px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.selection__content {
+  width: 100%;
+  max-width: 900px;
+  margin-top: 32px;
+}
+
+/* Badge modalità in alto */
+.selection__mode-badge {
+  font-size: 0.9rem;
+  color: #ffffff;
+  background-color: #1f6f82;
+  padding: 6px 12px;
+  border-radius: 999px;
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+/* Titolo e sottotitolo */
+.selection__title {
+  text-align: center;
+  font-size: 2rem;
+  letter-spacing: 0.05em;
+  font-weight: 700;
+  color: #1f2933;
+  margin-bottom: 8px;
+}
+
+.selection__subtitle {
+  text-align: center;
+  font-size: 1rem;
+  color: #4b5563;
+  margin-bottom: 24px;
+}
+
+/* Card scura con lista materie */
+.selection__card {
+  background-color: #0f172a;
+  color: #e5e7eb;
+  border-radius: 24px;
+  padding: 24px 32px;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.selection__group + .selection__group {
+  margin-top: 16px;
+}
+
+/* Singola materia */
+.selection__subject {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 6px 0;
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+
+.selection__subject input[type="checkbox"] {
+  accent-color: #f97316;
+}
+
+.selection__subject-label {
+  line-height: 1.4;
+}
+
+/* Bottone Genera quiz */
+.selection__actions {
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+}
+
+.selection__button {
+  border: none;
+  border-radius: 999px;
+  padding: 12px 36px;
+  background-color: #d6693c;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  transition: transform 0.15s ease, box-shadow 0.15s ease, opacity 0.15s ease;
+}
+
+.selection__button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+.selection__button:not(:disabled):hover {
+  transform: translateY(-1px);
+  box-shadow: 0 12px 22px rgba(0, 0, 0, 0.2);
+}
+
+.selection__button:not(:disabled):active {
+  transform: translateY(0);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive */
+@media (max-width: 640px) {
+  .selection__content {
+    margin-top: 16px;
+  }
+
+  .selection__title {
+    font-size: 1.5rem;
+  }
+
+  .selection__card {
+    padding: 16px 18px;
+  }
+
+  .selection__subject {
+    font-size: 0.9rem;
+  }
+}

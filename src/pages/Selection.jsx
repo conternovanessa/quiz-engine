@@ -1,4 +1,3 @@
-// src/pages/Selection.jsx
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
@@ -8,13 +7,11 @@ import generateQuiz from "../utils/generateQuiz";
 function Selection() {
   const navigate = useNavigate();
 
-  // materie selezionate (stessa logica di prima)
+  // materie selezionate
   const [selectedSubjects, setSelectedSubjects] = useState([]);
 
-  // modalità: la recuperiamo da localStorage, se c'è, altrimenti "exam"
-  const [mode, setMode] = useState(
-    localStorage.getItem("mode") || "exam"
-  );
+  // modalità: recuperata da localStorage, default "exam"
+  const [mode] = useState(localStorage.getItem("mode") || "exam");
 
   function toggleSubject(subjectId) {
     setSelectedSubjects((prev) => {
@@ -26,7 +23,6 @@ function Selection() {
   }
 
   function handleGenerateQuiz() {
-    // genera il quiz con la stessa logica di prima
     const quiz = generateQuiz(selectedSubjects, mode);
 
     localStorage.setItem("quiz", JSON.stringify(quiz));
@@ -36,43 +32,61 @@ function Selection() {
   }
 
   return (
-    <div style={{ padding: "24px" }}>
-      <h1>Seleziona le materie</h1>
-      <p style={{ opacity: 0.7 }}>
-        Modalità corrente: <strong>{mode}</strong>
-      </p>
-
-      {subjects.map((group) => (
-        <div key={group.id} style={{ marginTop: "16px" }}>
-          <h2>{group.name}</h2>
-
-          {group.subjects.map((subject) => (
-            <div key={subject.id}>
-              <label style={{ opacity: subject.enabled ? 1 : 0.5 }}>
-                <input
-                  type="checkbox"
-                  disabled={!subject.enabled}
-                  checked={selectedSubjects.includes(subject.id)}
-                  onChange={() => toggleSubject(subject.id)}
-                />
-                {subject.name}
-              </label>
-            </div>
-          ))}
+    <div className="selection">
+      <div className="selection__content">
+        {/* Badge modalità in alto a sinistra */}
+        <div className="selection__mode-badge">
+          {mode === "learn" ? "Learning mode" : "Exam mode"}
         </div>
-      ))}
 
-      <p style={{ marginTop: "16px" }}>
-        Selected: {JSON.stringify(selectedSubjects)}
-      </p>
+        {/* Titolo + sottotitolo */}
+        <h1 className="selection__title">
+          SU QUALI MATERIE VUOI ALLENARTI?
+        </h1>
+        <p className="selection__subtitle">Esame per il 29 maggio</p>
 
-      <button
-        onClick={handleGenerateQuiz}
-        disabled={selectedSubjects.length === 0}
-        style={{ marginTop: "12px" }}
-      >
-        Genera Quiz
-      </button>
+        {/* Card scura con lista materie (solo quelle enabled) */}
+        <div className="selection__card">
+          {subjects.map((group) => {
+            const enabledSubjects = group.subjects.filter(
+              (subject) => subject.enabled
+            );
+
+            if (enabledSubjects.length === 0) return null;
+
+            return (
+              <div key={group.id} className="selection__group">
+                {enabledSubjects.map((subject) => (
+                  <label
+                    key={subject.id}
+                    className="selection__subject"
+                  >
+                    <input
+                      type="checkbox"
+                      checked={selectedSubjects.includes(subject.id)}
+                      onChange={() => toggleSubject(subject.id)}
+                    />
+                    <span className="selection__subject-label">
+                      {subject.name}
+                    </span>
+                  </label>
+                ))}
+              </div>
+            );
+          })}
+        </div>
+
+        {/* Bottone Genera quiz */}
+        <div className="selection__actions">
+          <button
+            className="selection__button"
+            onClick={handleGenerateQuiz}
+            disabled={selectedSubjects.length === 0}
+          >
+            Genera quiz
+          </button>
+        </div>
+      </div>
     </div>
   );
 }
