@@ -479,6 +479,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: flex-start;
+  overflow-x: hidden; 
 }
 
 .results__content {
@@ -512,7 +513,7 @@ body {
 /* Singolo blocco domanda + card */
 .results__item {
   width: 100%;                /* occupa tutta la larghezza del contenitore */
-  margin: 0 4rem;
+  margin: 0 auto 4rem;
 }
 
 /* Domanda numerata */
@@ -626,9 +627,10 @@ body {
   }
 
   .results__card {
+    width: 100%;
     padding: 1.6rem 4%;
     border-radius: 18px;
-    min-height: 10em;         /* base leggermente più bassa su mobile */
+    min-height: 10em;
   }
 
   .results__answer-text {
