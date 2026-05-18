@@ -8,7 +8,7 @@ Il progetto permette di selezionare più materie e generare automaticamente un q
 
 ## 🚀 Live Demo
 
-👉 https://quiz-engine.vercel.app *(sostituisci con il tuo link reale se diverso)*
+👉 https://quiz-engine-seven.vercel.app/
 
 ---
 
