@@ -8,48 +8,26 @@ import modelliProcessiOrganizzativiQuestions from "../data/questions/modelli-pro
 import projectManagementQuestions from "../data/questions/project-management-questions.js";
 import socialInclusionInclusiveEconomyQuestions from "../data/questions/social-inclusion-inclusive-economics-questions.js";
 
+const MIN_QUESTIONS = 20;
+
 function shuffle(array) {
   return [...array].sort(() => Math.random() - 0.5);
 }
 
-function getQuestionCount(totalSubjects) {
-  switch (totalSubjects) {
-    case 1:
-      return 20;
-
-    case 2:
-      return 10;
-
-    case 3:
-      return 7;
-
-    case 4:
-      return 5;
-
-    case 5:
-      return 4;
-
-    case 6:
-      return Math.random() > 0.5 ? 3 : 4;
-
-    case 7:
-      return 3;
-
-    case 8:
-      return Math.random() > 0.5 ? 2 : 3;
-
-    case 9:
-      return Math.random() > 0.5 ? 2 : 3;
-
-    default:
-      return 3;
-  }
+function getTotalQuestions(subjectCount) {
+  // minimo 20, ma cresce con le materie
+  return Math.max(MIN_QUESTIONS, subjectCount * 7);
 }
 
-function pickQuestions(list, totalSubjects) {
-  const amount = getQuestionCount(totalSubjects);
+function distributeQuestions(subjectCount) {
+  const total = getTotalQuestions(subjectCount);
 
-  return shuffle(list).slice(0, amount);
+  const base = Math.floor(total / subjectCount);
+  const remainder = total % subjectCount;
+
+  return Array.from({ length: subjectCount }, (_, i) =>
+    base + (i < remainder ? 1 : 0)
+  );
 }
 
 const subjectsRegistry = {
@@ -57,42 +35,34 @@ const subjectsRegistry = {
     name: "Innovation Management in Digital Context",
     questions: innovationManagementQuestions,
   },
-
   "behavioral-research": {
     name: "Behavioral Research",
     questions: behavioralResearchQuestions,
   },
-
   "project-management": {
     name: "Project Management",
     questions: projectManagementQuestions,
   },
-
   "social-inclusion-inclusive-economy": {
     name: "Social Inclusion & Inclusive Economy",
     questions: socialInclusionInclusiveEconomyQuestions,
   },
-
   "modelli-processi-organizzativi": {
     name: "Modelli e Processi Organizzativi",
     questions: modelliProcessiOrganizzativiQuestions,
   },
-
   "fondamenti-accessibilita": {
     name: "Fondamenti di Accessibilità",
     questions: fondamentiAccessibilitàQuestions,
   },
-
   "marketing-4p": {
     name: "Marketing: bisogni e posizionamento",
     questions: marketing4PQuestions,
   },
-
   "disegnare-con-le-persone": {
     name: "Disegnare con le persone",
     questions: disegnareConPersoneQuestions,
   },
-
   "inclusive-ux-writing": {
     name: "Inclusive UX Writing",
     questions: inclusiveWritingQuestions,
@@ -102,27 +72,36 @@ const subjectsRegistry = {
 function generateQuiz(selectedSubjects, mode) {
   let questions = [];
 
-  selectedSubjects.forEach((subjectId) => {
-    const subjectData = subjectsRegistry[subjectId];
+  if (!selectedSubjects || selectedSubjects.length === 0) {
+    return {
+      mode,
+      questions: [],
+      createdAt: Date.now(),
+    };
+  }
 
+  const distribution = distributeQuestions(selectedSubjects.length);
+
+  selectedSubjects.forEach((subjectId, index) => {
+    const subjectData = subjectsRegistry[subjectId];
     if (!subjectData) return;
 
-    const selected = pickQuestions(subjectData.questions).map(
-      (q) => ({
+    const amount = distribution[index];
+
+    const selected = shuffle(subjectData.questions)
+      .slice(0, amount)
+      .map((q) => ({
         ...q,
-
         subject: subjectData.name,
-
         correctAnswer: q.correct,
-      })
-    );
+      }));
 
     questions.push(...selected);
   });
 
   return {
     mode,
-    questions,
+    questions: shuffle(questions),
     createdAt: Date.now(),
   };
 }
