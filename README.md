@@ -51,9 +51,13 @@ Il progetto permette di selezionare più materie e generare automaticamente un q
 ## 📁 Struttura del progetto
 
 src/
+
 ├── data/ # Materie e database domande
+
 ├── pages/ # Home, Quiz, Results
+
 ├── utils/ # Logica generazione quiz
+
 ├── App.jsx # Routing principale
 
 
