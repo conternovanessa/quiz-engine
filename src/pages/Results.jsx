@@ -15,56 +15,84 @@ function Results() {
     setScore(s);
   }, []);
 
+  const total = answers.length;
+
   return (
-    <div style={{ padding: "20px" }}>
-      <h1>Risultati</h1>
-
-      <h2>
-        Score: {score} / {answers.length}
-      </h2>
-
-      {answers.map((item, i) => (
-        <div
-          key={i}
-          style={{
-            border: "1px solid #ccc",
-            padding: "15px",
-            marginBottom: "15px",
-            borderRadius: "8px",
-          }}
-        >
-          {/* DOMANDA */}
-          <h3>
-            {i + 1}. {item.question}
-          </h3>
-
-          {/* RISPOSTA UTENTE */}
-          <p
-            style={{
-              color: item.isCorrect ? "green" : "red",
-              fontWeight: "bold",
-            }}
-          >
-            Tua risposta: {item.selectedText}
-          </p>
-
-          {/* RISPOSTA CORRETTA (sempre visibile) */}
-          {!item.isCorrect && (
-            <p style={{ color: "green" }}>
-              Risposta corretta: {item.correctText}
-            </p>
-          )}
-
-          {/* SPIGAZIONE */}
-          <p style={{ marginTop: "10px" }}>
-            {item.explanation}
-          </p>
+    <div className="results">
+      <div className="results__content">
+        {/* Header */}
+        <h1 className="results__title">Risultati</h1>
+        <div className="results__score">
+          {score}/{total}
         </div>
-      ))}
 
-      <button onClick={() => navigate("/")}>
-        Torna alla Home
-      </button>
+        {/* Lista domande */}
+        <div className="results__list">
+          {answers.map((item, i) => {
+            const isCorrect = item.isCorrect;
+
+            return (
+              <div key={i} className="results__item">
+                {/* Testo domanda numerata */}
+                <h2 className="results__question">
+                  {i + 1}. {item.question}
+                </h2>
+
+                {/* Card risposta */}
+                <div
+                  className={
+                    "results__card" +
+                    (isCorrect
+                      ? " results__card--correct"
+                      : " results__card--wrong")
+                  }
+                >
+                  <p className="results__answer-status">
+                    {isCorrect ? "Correct answer" : "Wrong answer"}
+                  </p>
+
+                  <p className="results__answer-label">Tua risposta</p>
+                  <p
+                    className={
+                      "results__answer-text" +
+                      (isCorrect
+                        ? " results__answer-text--correct"
+                        : " results__answer-text--wrong")
+                    }
+                  >
+                    {item.selectedText}
+                  </p>
+
+                  {!isCorrect && (
+                    <>
+                      <p className="results__answer-label">
+                        Correct answer
+                      </p>
+                      <p className="results__answer-text">
+                        {item.correctText}
+                      </p>
+                    </>
+                  )}
+
+                  <p className="results__answer-label">Explanation</p>
+                  <p className="results__answer-text">
+                    {item.explanation}
+                  </p>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+
+        <div className="results__actions">
+          <button
+            className="results__button"
+            onClick={() => navigate("/")}
+          >
+            Torna alla Home
+          </button>
+        </div>
+      </div>
     </div>
   );
 }
