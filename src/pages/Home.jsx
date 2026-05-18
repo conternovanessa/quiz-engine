@@ -1,97 +1,45 @@
-import subjects from "../data/subjects";
+// src/pages/Home.jsx
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import generateQuiz from "../utils/generateQuiz";
 
 function Home() {
   const navigate = useNavigate();
-  const [selectedSubjects, setSelectedSubjects] = useState([]);
+  const [mode, setMode] = useState("exam");
 
-  // 🔥 NUOVO: modalità quiz
-  const [mode, setMode] = useState("exam"); 
-  // default: exam mode
-
-  function toggleSubject(subjectId) {
-    setSelectedSubjects((prev) => {
-      if (prev.includes(subjectId)) {
-        return prev.filter((id) => id !== subjectId);
-      }
-      return [...prev, subjectId];
-    });
-  }
-
-  function handleGenerateQuiz() {
-    const quiz = generateQuiz(selectedSubjects, mode);
-
-    localStorage.setItem("quiz", JSON.stringify(quiz));
-    localStorage.setItem("mode", mode);
-
-    navigate("/quiz");
+  function handleSelectMode(selectedMode) {
+    setMode(selectedMode);
+    localStorage.setItem("mode", selectedMode);
+    navigate("/selection");
   }
 
   return (
-    <div>
-      <h1>LearnCycle</h1>
-      <p style={{ opacity: 0.7 }}>
-        Try • Learn • Understand • Repeat
-      </p>
+    <div className="home">
+      <div className="home__content">
+        <h1 className="home__title">LearnCycle</h1>
+        <p className="home__subtitle">Da quale modalità vuoi partire?</p>
 
-      {/* 🔥 SELEZIONE MODALITÀ */}
-      <div style={{ marginBottom: "20px" }}>
-        <h3>Modalità</h3>
+        <div className="home__buttons">
+          <button
+            className="home__button home__button--exam"
+            onClick={() => handleSelectMode("exam")}
+          >
+            <span className="home__button-label">Exam mode</span>
+            <span className="home__button-caption">
+              (Simulazione di esame)
+            </span>
+          </button>
 
-        <label>
-          <input
-            type="radio"
-            value="exam"
-            checked={mode === "exam"}
-            onChange={() => setMode("exam")}
-          />
-          Exam mode (simulazione esame)
-        </label>
-
-        <br />
-
-        <label>
-          <input
-            type="radio"
-            value="learn"
-            checked={mode === "learn"}
-            onChange={() => setMode("learn")}
-          />
-          Learning mode (studio con spiegazioni)
-        </label>
-      </div>
-
-      {/* MATERIE */}
-      {subjects.map((group) => (
-        <div key={group.id}>
-          <h2>{group.name}</h2>
-
-          {group.subjects.map((subject) => (
-            <div key={subject.id}>
-              <label style={{ opacity: subject.enabled ? 1 : 0.5 }}>
-                <input
-                  type="checkbox"
-                  disabled={!subject.enabled}
-                  checked={selectedSubjects.includes(subject.id)}
-                  onChange={() => toggleSubject(subject.id)}
-                />
-
-                {subject.name}
-              </label>
-            </div>
-          ))}
+          <button
+            className="home__button home__button--learn"
+            onClick={() => handleSelectMode("learn")}
+          >
+            <span className="home__button-label">Learning mode</span>
+            <span className="home__button-caption">
+              (Studio con spiegazione)
+            </span>
+          </button>
         </div>
-      ))}
-
-      <p>
-        Selected: {JSON.stringify(selectedSubjects)}
-      </p>
-
-      <button onClick={handleGenerateQuiz}>
-        Genera Quiz
-      </button>
+      </div>
     </div>
   );
 }
