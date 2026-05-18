@@ -76,8 +76,15 @@ function Selection() {
           })}
         </div>
 
-        {/* Bottone Genera quiz */}
+        {/* Azioni */}
         <div className="selection__actions">
+          <button
+            className="selection__button selection__button--secondary"
+            onClick={() => navigate("/")}
+          >
+            Indietro
+          </button>
+
           <button
             className="selection__button"
             onClick={handleGenerateQuiz}
@@ -86,6 +93,7 @@ function Selection() {
             Genera quiz
           </button>
         </div>
+
       </div>
     </div>
   );

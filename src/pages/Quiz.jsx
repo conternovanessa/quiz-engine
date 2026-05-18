@@ -15,10 +15,13 @@ function Quiz() {
       mode: data.mode,
       questions: data.questions,
       currentIndex: 0,
+      // in exam mode lo score verrà ricalcolato sulle risposte
       score: 0,
+      // answers è un array indicizzato per domanda: answers[index] = answerObj
       answers: [],
       feedback: null,
-      selectedIndex: null, // risposta selezionata ma non ancora confermata
+      // risposta selezionata ma non ancora confermata su questa domanda
+      selectedIndex: null,
     });
   }, []);
 
@@ -45,36 +48,25 @@ function Quiz() {
     }));
   }
 
+  // ricalcola lo score in base alle risposte corrette (usato in exam mode)
+  function recalculateScore(updatedAnswers) {
+    return updatedAnswers.reduce((acc, ans) => {
+      if (ans && ans.isCorrect) return acc + 1;
+      return acc;
+    }, 0);
+  }
+
   // selezione risposta (non conferma)
   function handleSelectAnswer(index) {
     // in learning mode, se c'è già feedback su questa domanda, non permetto di cambiare
-    if (feedback && mode === "learn") return;
+    if (feedback && !isExamMode) return;
 
     updateSession({
       selectedIndex: index,
     });
   }
 
-  function goNext(updatedScore, updatedAnswers) {
-    const nextIndex = currentIndex + 1;
-
-    if (nextIndex < questions.length) {
-      updateSession({
-        currentIndex: nextIndex,
-        score: updatedScore,
-        answers: updatedAnswers,
-        feedback: null,
-        selectedIndex: null,
-      });
-    } else {
-      localStorage.setItem("answers", JSON.stringify(updatedAnswers));
-      localStorage.setItem("score", updatedScore);
-
-      navigate("/results");
-    }
-  }
-
-  // conferma risposta quando clicco "Conferma/Avanti"
+  // conferma risposta corrente (Conferma/Avanti)
   function handleConfirmAndNext() {
     if (selectedIndex === null) return;
 
@@ -91,14 +83,17 @@ function Quiz() {
       subject: question.subject,
     };
 
-    const updatedAnswers = [...answers, newAnswer];
-    const updatedScore = isCorrect ? score + 1 : score;
+    // copia l'array e inserisce/aggiorna la risposta all'indice corrente
+    const updatedAnswers = [...answers];
+    updatedAnswers[currentIndex] = newAnswer;
 
     if (isExamMode) {
-      // exam mode: nessun feedback, si passa direttamente alla prossima
+      // exam mode: ricalcolo score da tutte le risposte
+      const updatedScore = recalculateScore(updatedAnswers);
       goNext(updatedScore, updatedAnswers);
     } else {
       // learning mode: mostra feedback sotto la card
+      const updatedScore = isCorrect ? score + 1 : score;
       updateSession({
         feedback: newAnswer,
         answers: updatedAnswers,
@@ -113,6 +108,44 @@ function Quiz() {
 
     // lo score è già aggiornato, answers già contiene la risposta
     goNext(score, answers);
+  }
+
+  // EXAM MODE: vai alla domanda precedente
+  function handlePreviousExam() {
+    if (!isExamMode) return;
+    if (currentIndex === 0) return;
+
+    const prevIndex = currentIndex - 1;
+    const prevAnswer = answers[prevIndex];
+
+    updateSession({
+      currentIndex: prevIndex,
+      feedback: null,
+      selectedIndex: prevAnswer ? prevAnswer.selectedIndex : null,
+    });
+  }
+
+  function goNext(updatedScore, updatedAnswers) {
+    const nextIndex = currentIndex + 1;
+
+    if (nextIndex < questions.length) {
+      const savedAnswer = updatedAnswers[nextIndex];
+
+      updateSession({
+        currentIndex: nextIndex,
+        score: updatedScore,
+        answers: updatedAnswers,
+        feedback: null,
+        // se nella prossima domanda c'è già una risposta salvata, la ricarichiamo
+        selectedIndex: savedAnswer ? savedAnswer.selectedIndex : null,
+      });
+    } else {
+      // fine quiz
+      localStorage.setItem("answers", JSON.stringify(updatedAnswers));
+      localStorage.setItem("score", updatedScore);
+
+      navigate("/results");
+    }
   }
 
   return (
@@ -209,13 +242,23 @@ function Quiz() {
         {/* Barra di azioni (sotto tutto) */}
         <div className="quiz__actions">
           {isExamMode && (
-            <button
-              className="quiz__next-button"
-              onClick={handleConfirmAndNext}
-              disabled={selectedIndex === null}
-            >
-              Avanti
-            </button>
+            <>
+              <button
+                className="quiz__next-button quiz__next-button--secondary"
+                onClick={handlePreviousExam}
+                disabled={currentIndex === 0}
+              >
+                Indietro
+              </button>
+
+              <button
+                className="quiz__next-button"
+                onClick={handleConfirmAndNext}
+                disabled={selectedIndex === null}
+              >
+                Avanti
+              </button>
+            </>
           )}
 
           {!isExamMode && !feedback && (

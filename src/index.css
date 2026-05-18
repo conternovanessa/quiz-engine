@@ -192,6 +192,7 @@ body {
 .selection__actions {
   display: flex;
   justify-content: center;
+  gap: 16px;
   margin-top: 24px;
 }
 
@@ -206,6 +207,10 @@ body {
   cursor: pointer;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
   transition: transform 0.15s ease, box-shadow 0.15s ease, opacity 0.15s ease;
+}
+
+.selection__button--secondary {
+  background-color: #6b7280; /* grigio per il tasto Indietro */
 }
 
 .selection__button:disabled {
@@ -397,6 +402,7 @@ body {
 .quiz__actions {
   display: flex;
   justify-content: center;
+  gap: 16px;
   margin-top: 16px; /* vicino al feedback */
 }
 
@@ -427,6 +433,10 @@ body {
 .quiz__next-button:not(:disabled):active {
   transform: translateY(0);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.quiz__next-button--secondary {
+  background-color: #6b7280; /* grigio */
 }
 
 /* Responsive */
