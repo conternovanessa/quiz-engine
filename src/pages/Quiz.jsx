@@ -18,15 +18,25 @@ function Quiz() {
       score: 0,
       answers: [],
       feedback: null,
+      selectedIndex: null, // risposta selezionata ma non ancora confermata
     });
   }, []);
 
   if (!session) return <div>Loading quiz...</div>;
 
-  const { questions, currentIndex, mode, score, answers, feedback } =
-    session;
+  const {
+    questions,
+    currentIndex,
+    mode,
+    score,
+    answers,
+    feedback,
+    selectedIndex,
+  } = session;
 
   const question = questions[currentIndex];
+  const totalQuestions = questions.length;
+  const isExamMode = mode === "exam";
 
   function updateSession(updates) {
     setSession((prev) => ({
@@ -35,37 +45,13 @@ function Quiz() {
     }));
   }
 
-  function handleAnswer(index) {
-    const isCorrect = index === question.correctAnswer;
+  // selezione risposta (non conferma)
+  function handleSelectAnswer(index) {
+    // in learning mode, se c'è già feedback su questa domanda, non permetto di cambiare
+    if (feedback && mode === "learn") return;
 
-    const newAnswer = {
-      question: question.question,
-
-      selectedIndex: index,
-      selectedText: question.answers[index],
-
-      correctIndex: question.correctAnswer,
-      correctText: question.answers[question.correctAnswer],
-
-      isCorrect,
-      explanation: question.explanation,
-    };
-
-    // EXAM MODE
-    if (mode === "exam") {
-      const updatedAnswers = [...answers, newAnswer];
-
-      const updatedScore = isCorrect ? score + 1 : score;
-
-      goNext(updatedScore, updatedAnswers);
-      return;
-    }
-
-    // LEARNING MODE
     updateSession({
-      feedback: newAnswer,
-      answers: [...answers, newAnswer],
-      score: isCorrect ? score + 1 : score,
+      selectedIndex: index,
     });
   }
 
@@ -78,6 +64,7 @@ function Quiz() {
         score: updatedScore,
         answers: updatedAnswers,
         feedback: null,
+        selectedIndex: null,
       });
     } else {
       localStorage.setItem("answers", JSON.stringify(updatedAnswers));
@@ -87,75 +74,170 @@ function Quiz() {
     }
   }
 
+  // conferma risposta quando clicco "Conferma/Avanti"
+  function handleConfirmAndNext() {
+    if (selectedIndex === null) return;
+
+    const isCorrect = selectedIndex === question.correctAnswer;
+
+    const newAnswer = {
+      question: question.question,
+      selectedIndex,
+      selectedText: question.answers[selectedIndex],
+      correctIndex: question.correctAnswer,
+      correctText: question.answers[question.correctAnswer],
+      isCorrect,
+      explanation: question.explanation,
+      subject: question.subject,
+    };
+
+    const updatedAnswers = [...answers, newAnswer];
+    const updatedScore = isCorrect ? score + 1 : score;
+
+    if (isExamMode) {
+      // exam mode: nessun feedback, si passa direttamente alla prossima
+      goNext(updatedScore, updatedAnswers);
+    } else {
+      // learning mode: mostra feedback sotto la card
+      updateSession({
+        feedback: newAnswer,
+        answers: updatedAnswers,
+        score: updatedScore,
+      });
+    }
+  }
+
+  // dopo aver letto il feedback in learning mode, vai avanti
+  function handleContinueAfterFeedback() {
+    if (!feedback) return;
+
+    // lo score è già aggiornato, answers già contiene la risposta
+    goNext(score, answers);
+  }
+
   return (
-    <div>
-      <h2>Quiz</h2>
+    <div className="quiz">
+      <div className="quiz__content">
+        {/* Header */}
+        <div className="quiz__header">
+          <div className="quiz__mode">
+            {isExamMode ? "Quiz mode Exam" : "Quiz mode Learning"}
+          </div>
+          <div className="quiz__progress">
+            <span className="quiz__progress-current">
+              {currentIndex + 1}
+            </span>
+            <span className="quiz__progress-total">
+              /{totalQuestions}
+            </span>
+          </div>
+        </div>
 
-      <p>
-        Mode: <b>{mode}</b>
-      </p>
+        {/* Card domanda */}
+        <div className="quiz__card">
+          <div className="quiz__subject-label">Materia del quiz</div>
+          <div className="quiz__subject">{question.subject}</div>
 
-      <h3>
-        {currentIndex + 1}/{questions.length}
-      </h3>
+          <div className="quiz__question">{question.question}</div>
 
-      <h4>{question.subject}</h4>
+          <div className="quiz__answers">
+            {question.answers.map((a, i) => {
+              const isSelected = selectedIndex === i;
 
-      <h2>{question.question}</h2>
+              // solo in learning mode, dopo la conferma (feedback presente),
+              // coloriamo corretta/sbagliata
+              const isCorrectAnswer =
+                !isExamMode && feedback && i === feedback.correctIndex;
+              const isWrongSelected =
+                !isExamMode &&
+                feedback &&
+                i === feedback.selectedIndex &&
+                !feedback.isCorrect;
 
-      {question.answers.map((a, i) => {
-        const isCorrectAnswer =
-          feedback && i === question.correctIndex;
+              let answerClass = "quiz__answer";
+              if (isSelected && !feedback) {
+                answerClass += " quiz__answer--selected";
+              }
+              if (isCorrectAnswer) {
+                answerClass += " quiz__answer--correct";
+              }
+              if (isWrongSelected) {
+                answerClass += " quiz__answer--wrong";
+              }
 
-        const isWrongSelected =
-          feedback && feedback.selectedIndex === i && !feedback.isCorrect;
+              return (
+                <button
+                  key={i}
+                  type="button"
+                  onClick={() => handleSelectAnswer(i)}
+                  className={answerClass}
+                  disabled={!!feedback && !isExamMode} // in learning mode, dopo feedback, non cambi più risposta
+                >
+                  <span className="quiz__answer-text">{a}</span>
+                </button>
+              );
+            })}
+          </div>
+        </div>
 
-        return (
-          <button
-            key={i}
-            onClick={() => handleAnswer(i)}
-            disabled={!!feedback && mode === "learn"}
-            style={{
-              display: "block",
-              margin: "8px 0",
-              background: isCorrectAnswer
-                ? "green"
-                : isWrongSelected
-                ? "red"
-                : "",
-            }}
-          >
-            {a}
-          </button>
-        );
-      })}
+        {/* FEEDBACK solo in learn mode (sotto la card) */}
+        {!isExamMode && feedback && (
+          <div className="quiz__feedback">
+            <h3
+              className={
+                "quiz__feedback-title" +
+                (feedback.isCorrect
+                  ? " quiz__feedback-title--correct"
+                  : " quiz__feedback-title--wrong")
+              }
+            >
+              {feedback.isCorrect ? "Correct" : "Wrong"}
+            </h3>
 
-      {feedback && mode === "learn" && (
-        <div style={{ marginTop: "20px" }}>
-          <h3>{feedback.isCorrect ? "✔ Correct" : "✘ Wrong"}</h3>
+            {!feedback.isCorrect && (
+              <p className="quiz__feedback-text">
+                <b>Correct answer:</b> {feedback.correctText}
+              </p>
+            )}
 
-          {!feedback.isCorrect && (
-            <p>
-              <b>Correct answer:</b> {feedback.correctText}
+            <p className="quiz__feedback-text">
+              <b>Explanation:</b> {feedback.explanation}
             </p>
+          </div>
+        )}
+
+        {/* Barra di azioni (sotto tutto) */}
+        <div className="quiz__actions">
+          {isExamMode && (
+            <button
+              className="quiz__next-button"
+              onClick={handleConfirmAndNext}
+              disabled={selectedIndex === null}
+            >
+              Avanti
+            </button>
           )}
 
-          <p>
-            <b>Explanation:</b> {feedback.explanation}
-          </p>
+          {!isExamMode && !feedback && (
+            <button
+              className="quiz__next-button"
+              onClick={handleConfirmAndNext}
+              disabled={selectedIndex === null}
+            >
+              Conferma
+            </button>
+          )}
 
-          <button
-            onClick={() =>
-              goNext(
-                feedback.isCorrect ? score + 1 : score,
-                answers
-              )
-            }
-          >
-            Prosegui
-          </button>
+          {!isExamMode && feedback && (
+            <button
+              className="quiz__next-button"
+              onClick={handleContinueAfterFeedback}
+            >
+              Avanti
+            </button>
+          )}
         </div>
-      )}
+      </div>
     </div>
   );
 }
