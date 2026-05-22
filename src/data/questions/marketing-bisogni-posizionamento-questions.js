@@ -1,964 +1,964 @@
 const marketing4PQuestions = [
   {
     "id": 1,
-    "question": "Che cosa si intende per customer?",
+    "question": "Per definizione Bisogno si intende ....",
     "answers": [
-      "Un attuale o potenziale acquirente o utilizzatore di un bene o servizio",
-      "Solo il consumatore finale",
-      "Solo il venditore",
-      "Solo chi paga in contanti"
+      "sensazione di mancanza percepita da una persona rispetto a uno stato desiderato, che può essere colmata da beni o servizi",
+      "una descrizione che insiste soprattutto su aspetti organizzativi interni senza riferimento diretto a bisogni, clienti o posizionamento",
+      "una formulazione che enfatizza quasi esclusivamente risultati economici di breve periodo, trascurando valore e relazione con il mercato",
+      "una spiegazione centrata solo su strumenti operativi generici, senza collegarli chiaramente alla strategia di marketing"
     ],
     "correct": 0,
-    "explanation": "Il customer è un attuale o potenziale acquirente o utilizzatore di un bene o servizio. Non coincide necessariamente con il consumatore finale."
+    "explanation": "sensazione di mancanza percepita da una persona rispetto a uno stato desiderato, che può essere colmata da beni o servizi. Questo concetto è fondamentale per comprendere come il marketing collega bisogni, segmentazione e posizionamento competitivo."
   },
   {
     "id": 2,
-    "question": "Che cos’è il marketing secondo Kotler?",
+    "question": "Per Desiderio si intende ....",
     "answers": [
-      "Un processo manageriale e sociale volto a soddisfare i bisogni attraverso creazione e scambio di valore",
-      "Solo pubblicità e promozione",
-      "Solo vendita diretta",
-      "Solo analisi dei costi"
+      "forma che il bisogno assume quando viene orientato verso oggetti specifici, influenzata da cultura, esperienza e contesto",
+      "una descrizione che insiste soprattutto su aspetti organizzativi interni senza riferimento diretto a bisogni, clienti o posizionamento",
+      "una formulazione che enfatizza quasi esclusivamente risultati economici di breve periodo, trascurando valore e relazione con il mercato",
+      "una spiegazione centrata solo su strumenti operativi generici, senza collegarli chiaramente alla strategia di marketing"
     ],
     "correct": 0,
-    "explanation": "Il marketing, secondo Kotler, è un processo manageriale e sociale che mira a soddisfare i bisogni creando e scambiando valore."
+    "explanation": "forma che il bisogno assume quando viene orientato verso oggetti specifici, influenzata da cultura, esperienza e contesto. Questo concetto è fondamentale per comprendere come il marketing collega bisogni, segmentazione e posizionamento competitivo."
   },
   {
     "id": 3,
-    "question": "Perché il marketing non può essere considerato una funzione separata dell’impresa?",
+    "question": "Quando si parla di Domanda di mercato si intende ....",
     "answers": [
-      "Perché riguarda l’intera impresa dal punto di vista del risultato finale, cioè il cliente",
-      "Perché riguarda solo il reparto vendite",
-      "Perché riguarda solo la grafica del prodotto",
-      "Perché riguarda soltanto i social media"
+      "quantità di un bene o servizio che un gruppo di acquirenti è disposto e in grado di acquistare in un certo periodo",
+      "una descrizione che insiste soprattutto su aspetti organizzativi interni senza riferimento diretto a bisogni, clienti o posizionamento",
+      "una formulazione che enfatizza quasi esclusivamente risultati economici di breve periodo, trascurando valore e relazione con il mercato",
+      "una spiegazione centrata solo su strumenti operativi generici, senza collegarli chiaramente alla strategia di marketing"
     ],
     "correct": 0,
-    "explanation": "Il marketing è una visione che coinvolge tutta l’impresa e il suo risultato finale è il cliente."
+    "explanation": "quantità di un bene o servizio che un gruppo di acquirenti è disposto e in grado di acquistare in un certo periodo. Questo concetto è fondamentale per comprendere come il marketing collega bisogni, segmentazione e posizionamento competitivo."
   },
   {
     "id": 4,
-    "question": "Come viene definito un bisogno?",
+    "question": "Per Segmentazione del mercato si intende ....",
     "answers": [
-      "La mancanza totale o parziale di uno o più elementi del benessere della persona",
-      "Un desiderio irrazionale di consumo",
-      "Un lusso non necessario",
-      "Una scelta dettata dalla moda"
+      "suddivisione del mercato complessivo in gruppi omogenei di clienti accomunati da bisogni, caratteristiche o comportamenti simili",
+      "una descrizione che insiste soprattutto su aspetti organizzativi interni senza riferimento diretto a bisogni, clienti o posizionamento",
+      "una formulazione che enfatizza quasi esclusivamente risultati economici di breve periodo, trascurando valore e relazione con il mercato",
+      "una spiegazione centrata solo su strumenti operativi generici, senza collegarli chiaramente alla strategia di marketing"
     ],
     "correct": 0,
-    "explanation": "Il bisogno è una mancanza che, insieme alla motivazione, attiva e dirige il comportamento."
+    "explanation": "suddivisione del mercato complessivo in gruppi omogenei di clienti accomunati da bisogni, caratteristiche o comportamenti simili. Questo concetto è fondamentale per comprendere come il marketing collega bisogni, segmentazione e posizionamento competitivo."
   },
   {
     "id": 5,
-    "question": "Che cos’è un bisogno palese?",
+    "question": "Per Targeting si intende ....",
     "answers": [
-      "Un bisogno esplicito, dichiarato e consapevole",
-      "Un bisogno che non si riesce a esprimere",
-      "Un bisogno creato dalla pubblicità",
-      "Un bisogno che nasce solo dopo l’acquisto"
+      "scelta dei segmenti di mercato a cui rivolgere in modo prioritario l offerta e le azioni di marketing",
+      "una descrizione che insiste soprattutto su aspetti organizzativi interni senza riferimento diretto a bisogni, clienti o posizionamento",
+      "una formulazione che enfatizza quasi esclusivamente risultati economici di breve periodo, trascurando valore e relazione con il mercato",
+      "una spiegazione centrata solo su strumenti operativi generici, senza collegarli chiaramente alla strategia di marketing"
     ],
     "correct": 0,
-    "explanation": "Il bisogno palese è chiaramente espresso e consapevole da parte della persona."
+    "explanation": "scelta dei segmenti di mercato a cui rivolgere in modo prioritario l offerta e le azioni di marketing. Questo concetto è fondamentale per comprendere come il marketing collega bisogni, segmentazione e posizionamento competitivo."
   },
   {
     "id": 6,
-    "question": "Che cos’è un bisogno latente?",
+    "question": "Per definizione Posizionamento si intende ....",
     "answers": [
-      "Un bisogno non espresso o non ancora pienamente consapevole",
-      "Un bisogno sempre dichiarato",
-      "Un bisogno già soddisfatto",
-      "Un bisogno solo economico"
+      "modo distintivo in cui un offerta è percepita nella mente dei clienti rispetto alle alternative concorrenti",
+      "una descrizione che insiste soprattutto su aspetti organizzativi interni senza riferimento diretto a bisogni, clienti o posizionamento",
+      "una formulazione che enfatizza quasi esclusivamente risultati economici di breve periodo, trascurando valore e relazione con il mercato",
+      "una spiegazione centrata solo su strumenti operativi generici, senza collegarli chiaramente alla strategia di marketing"
     ],
     "correct": 0,
-    "explanation": "Il bisogno latente non viene dichiarato direttamente e può emergere osservando comportamenti e contesto."
+    "explanation": "modo distintivo in cui un offerta è percepita nella mente dei clienti rispetto alle alternative concorrenti. Questo concetto è fondamentale per comprendere come il marketing collega bisogni, segmentazione e posizionamento competitivo."
   },
   {
     "id": 7,
-    "question": "Come può un bisogno latente diventare un bisogno palese?",
+    "question": "Per Proposta di valore si intende ....",
     "answers": [
-      "Attraverso ascolto, razionalizzazione e intercettazione",
-      "Solo tramite uno sconto",
-      "Solo con la pubblicità",
-      "Solo con una ricerca di mercato quantitativa"
+      "sintesi dei benefici distintivi che un offerta promette a un determinato target rispetto alle alternative",
+      "una descrizione che insiste soprattutto su aspetti organizzativi interni senza riferimento diretto a bisogni, clienti o posizionamento",
+      "una formulazione che enfatizza quasi esclusivamente risultati economici di breve periodo, trascurando valore e relazione con il mercato",
+      "una spiegazione centrata solo su strumenti operativi generici, senza collegarli chiaramente alla strategia di marketing"
     ],
     "correct": 0,
-    "explanation": "Il passaggio avviene grazie ad ascolto, razionalizzazione e intercettazione."
+    "explanation": "sintesi dei benefici distintivi che un offerta promette a un determinato target rispetto alle alternative. Questo concetto è fondamentale per comprendere come il marketing collega bisogni, segmentazione e posizionamento competitivo."
   },
   {
     "id": 8,
-    "question": "Perché il passaggio dal bisogno latente a quello palese è importante?",
+    "question": "Per Benefici ricercati si intende ....",
     "answers": [
-      "Perché è il cuore dell’innovazione",
-      "Perché elimina il bisogno del cliente",
-      "Perché rende inutile il marketing",
-      "Perché riduce ogni forma di percezione"
+      "vantaggi principali che i clienti cercano di ottenere da un prodotto o servizio in relazione ai propri bisogni",
+      "una descrizione che insiste soprattutto su aspetti organizzativi interni senza riferimento diretto a bisogni, clienti o posizionamento",
+      "una formulazione che enfatizza quasi esclusivamente risultati economici di breve periodo, trascurando valore e relazione con il mercato",
+      "una spiegazione centrata solo su strumenti operativi generici, senza collegarli chiaramente alla strategia di marketing"
     ],
     "correct": 0,
-    "explanation": "La trasformazione dei bisogni latenti in bisogni palesi è indicata come il cuore dell’innovazione."
+    "explanation": "vantaggi principali che i clienti cercano di ottenere da un prodotto o servizio in relazione ai propri bisogni. Questo concetto è fondamentale per comprendere come il marketing collega bisogni, segmentazione e posizionamento competitivo."
   },
   {
     "id": 9,
-    "question": "Che cos’è la piramide di Maslow?",
+    "question": "Quando si parla di Bisogni funzionali si intende ....",
     "answers": [
-      "Una gerarchia dei bisogni umani dal livello fisiologico all’autorealizzazione",
-      "Un modello dei canali distributivi",
-      "Una scala dei prezzi",
-      "Una tecnica di segmentazione del mercato"
+      "esigenze legate a prestazioni pratiche, caratteristiche tecniche e utilità concrete del prodotto",
+      "una descrizione che insiste soprattutto su aspetti organizzativi interni senza riferimento diretto a bisogni, clienti o posizionamento",
+      "una formulazione che enfatizza quasi esclusivamente risultati economici di breve periodo, trascurando valore e relazione con il mercato",
+      "una spiegazione centrata solo su strumenti operativi generici, senza collegarli chiaramente alla strategia di marketing"
     ],
     "correct": 0,
-    "explanation": "La piramide di Maslow ordina i bisogni da fisiologia ad autorealizzazione."
+    "explanation": "esigenze legate a prestazioni pratiche, caratteristiche tecniche e utilità concrete del prodotto. Questo concetto è fondamentale per comprendere come il marketing collega bisogni, segmentazione e posizionamento competitivo."
   },
   {
     "id": 10,
-    "question": "Quali sono i cinque livelli della piramide di Maslow?",
+    "question": "Per Bisogni simbolici si intende ....",
     "answers": [
-      "Fisiologia, sicurezza, appartenenza, stima, autorealizzazione",
-      "Prezzo, prodotto, promozione, place, people",
-      "Target, insight, funnel, journey, brand",
-      "Analisi, strategia, mix, vendita, assistenza"
+      "esigenze collegate a significati, identità e immagine di sé che il consumo contribuisce a esprimere",
+      "una descrizione che insiste soprattutto su aspetti organizzativi interni senza riferimento diretto a bisogni, clienti o posizionamento",
+      "una formulazione che enfatizza quasi esclusivamente risultati economici di breve periodo, trascurando valore e relazione con il mercato",
+      "una spiegazione centrata solo su strumenti operativi generici, senza collegarli chiaramente alla strategia di marketing"
     ],
     "correct": 0,
-    "explanation": "I cinque livelli sono fisiologia, sicurezza, appartenenza, stima e autorealizzazione."
+    "explanation": "esigenze collegate a significati, identità e immagine di sé che il consumo contribuisce a esprimere. Questo concetto è fondamentale per comprendere come il marketing collega bisogni, segmentazione e posizionamento competitivo."
   },
   {
     "id": 11,
-    "question": "Come si passa dal bisogno al mercato?",
+    "question": "Per Bisogni sociali si intende ....",
     "answers": [
-      "Bisogno, desiderio, domanda, mercato",
-      "Prodotto, prezzo, place, promotion",
-      "Target, segmentazione, brand, vendita",
-      "Consapevolezza, advertising, sconto, acquisto"
+      "esigenze relative a appartenenza, riconoscimento e relazione con gli altri che si esprimono anche nei consumi",
+      "una descrizione che insiste soprattutto su aspetti organizzativi interni senza riferimento diretto a bisogni, clienti o posizionamento",
+      "una formulazione che enfatizza quasi esclusivamente risultati economici di breve periodo, trascurando valore e relazione con il mercato",
+      "una spiegazione centrata solo su strumenti operativi generici, senza collegarli chiaramente alla strategia di marketing"
     ],
     "correct": 0,
-    "explanation": "La sequenza indicata è bisogno, desiderio, domanda e mercato."
+    "explanation": "esigenze relative a appartenenza, riconoscimento e relazione con gli altri che si esprimono anche nei consumi. Questo concetto è fondamentale per comprendere come il marketing collega bisogni, segmentazione e posizionamento competitivo."
   },
   {
     "id": 12,
-    "question": "Che cos’è la domanda nel processo di mercato?",
+    "question": "Quando si parla di Bisogni latenti si intende ....",
     "answers": [
-      "La formulazione della possibilità e volontà di soddisfare un desiderio sul mercato",
-      "Un semplice interesse astratto",
-      "La presenza di un prodotto sugli scaffali",
-      "La valutazione del costo di produzione"
+      "bisogni presenti ma non consapevolizzati dai clienti, che emergono quando vengono resi visibili da nuove offerte",
+      "una descrizione che insiste soprattutto su aspetti organizzativi interni senza riferimento diretto a bisogni, clienti o posizionamento",
+      "una formulazione che enfatizza quasi esclusivamente risultati economici di breve periodo, trascurando valore e relazione con il mercato",
+      "una spiegazione centrata solo su strumenti operativi generici, senza collegarli chiaramente alla strategia di marketing"
     ],
     "correct": 0,
-    "explanation": "La domanda esprime la volontà e possibilità di soddisfare un desiderio."
+    "explanation": "bisogni presenti ma non consapevolizzati dai clienti, che emergono quando vengono resi visibili da nuove offerte. Questo concetto è fondamentale per comprendere come il marketing collega bisogni, segmentazione e posizionamento competitivo."
   },
   {
     "id": 13,
-    "question": "Che cos’è il mercato in questa prospettiva?",
+    "question": "Per Bisogni espressi si intende ....",
     "answers": [
-      "Lo spazio fisico o virtuale dove si rintraccia e acquista la soluzione",
-      "Solo il punto vendita fisico",
-      "Solo il sito web dell’azienda",
-      "Solo il luogo dove si fa pubblicità"
+      "bisogni che i clienti sono in grado di riconoscere e descrivere esplicitamente nelle ricerche di marketing",
+      "una descrizione che insiste soprattutto su aspetti organizzativi interni senza riferimento diretto a bisogni, clienti o posizionamento",
+      "una formulazione che enfatizza quasi esclusivamente risultati economici di breve periodo, trascurando valore e relazione con il mercato",
+      "una spiegazione centrata solo su strumenti operativi generici, senza collegarli chiaramente alla strategia di marketing"
     ],
     "correct": 0,
-    "explanation": "Il mercato è il contesto in cui il cliente cerca e acquista la soluzione e l’azienda la offre."
+    "explanation": "bisogni che i clienti sono in grado di riconoscere e descrivere esplicitamente nelle ricerche di marketing. Questo concetto è fondamentale per comprendere come il marketing collega bisogni, segmentazione e posizionamento competitivo."
   },
   {
     "id": 14,
-    "question": "Che cosa indica il valore percepito?",
+    "question": "Per Bisogni emergenti si intende ....",
     "answers": [
-      "Il valore che l’acquirente attribuisce al prodotto o servizio in base alla propria percezione",
-      "Il costo di produzione oggettivo",
-      "Il prezzo minimo imposto dalla legge",
-      "Il valore deciso dal concorrente"
+      "nuovi bisogni che si sviluppano in risposta a cambiamenti tecnologici, sociali o culturali",
+      "una descrizione che insiste soprattutto su aspetti organizzativi interni senza riferimento diretto a bisogni, clienti o posizionamento",
+      "una formulazione che enfatizza quasi esclusivamente risultati economici di breve periodo, trascurando valore e relazione con il mercato",
+      "una spiegazione centrata solo su strumenti operativi generici, senza collegarli chiaramente alla strategia di marketing"
     ],
     "correct": 0,
-    "explanation": "Gli acquirenti valutano spesso il prodotto in base al valore percepito, non solo in modo razionale."
+    "explanation": "nuovi bisogni che si sviluppano in risposta a cambiamenti tecnologici, sociali o culturali. Questo concetto è fondamentale per comprendere come il marketing collega bisogni, segmentazione e posizionamento competitivo."
   },
   {
     "id": 15,
-    "question": "Che cosa si intende per percezione nel marketing?",
+    "question": "Quando si parla di Insight di cliente si intende ....",
     "answers": [
-      "Il modo in cui un individuo interpreta la realtà in base a psiche, emozioni, sensibilità ed esperienze",
-      "Un dato sempre oggettivo e identico per tutti",
-      "Solo una preferenza estetica",
-      "Solo il ricordo di un marchio"
+      "comprensione profonda e spesso controintuitiva di ciò che davvero motiva comportamenti e scelte dei clienti",
+      "una descrizione che insiste soprattutto su aspetti organizzativi interni senza riferimento diretto a bisogni, clienti o posizionamento",
+      "una formulazione che enfatizza quasi esclusivamente risultati economici di breve periodo, trascurando valore e relazione con il mercato",
+      "una spiegazione centrata solo su strumenti operativi generici, senza collegarli chiaramente alla strategia di marketing"
     ],
     "correct": 0,
-    "explanation": "La percezione è soggettiva e può distorcere la realtà."
+    "explanation": "comprensione profonda e spesso controintuitiva di ciò che davvero motiva comportamenti e scelte dei clienti. Questo concetto è fondamentale per comprendere come il marketing collega bisogni, segmentazione e posizionamento competitivo."
   },
   {
     "id": 16,
-    "question": "Che cos’è la strategia di marketing?",
+    "question": "Per Buyer persona si intende ....",
     "answers": [
-      "Il modo in cui un’azienda intende innovare la propria offerta per distinguersi e raggiungere obiettivi di medio-lungo termine",
-      "Solo la campagna pubblicitaria del momento",
-      "Solo il listino prezzi",
-      "Solo il rapporto con i fornitori"
+      "profilo semi-fittizio che rappresenta un cliente tipo, costruito combinando dati, ricerche e insight",
+      "una descrizione che insiste soprattutto su aspetti organizzativi interni senza riferimento diretto a bisogni, clienti o posizionamento",
+      "una formulazione che enfatizza quasi esclusivamente risultati economici di breve periodo, trascurando valore e relazione con il mercato",
+      "una spiegazione centrata solo su strumenti operativi generici, senza collegarli chiaramente alla strategia di marketing"
     ],
     "correct": 0,
-    "explanation": "La strategia definisce come innovare l’offerta e differenziarsi nel mercato."
+    "explanation": "profilo semi-fittizio che rappresenta un cliente tipo, costruito combinando dati, ricerche e insight. Questo concetto è fondamentale per comprendere come il marketing collega bisogni, segmentazione e posizionamento competitivo."
   },
   {
     "id": 17,
-    "question": "Che cos’è la value proposition?",
+    "question": "Per Prodotto si intende ....",
     "answers": [
-      "Il valore o la promessa che l’azienda offre al cliente",
-      "Il nome del prodotto",
-      "La quota di mercato",
-      "La sede dell’azienda"
+      "insieme di caratteristiche fisiche, funzionali e simboliche offerte per soddisfare un bisogno o un desiderio",
+      "una descrizione che insiste soprattutto su aspetti organizzativi interni senza riferimento diretto a bisogni, clienti o posizionamento",
+      "una formulazione che enfatizza quasi esclusivamente risultati economici di breve periodo, trascurando valore e relazione con il mercato",
+      "una spiegazione centrata solo su strumenti operativi generici, senza collegarli chiaramente alla strategia di marketing"
     ],
     "correct": 0,
-    "explanation": "La value proposition è la promessa di valore che spiega perché il cliente dovrebbe scegliere quell’offerta."
+    "explanation": "insieme di caratteristiche fisiche, funzionali e simboliche offerte per soddisfare un bisogno o un desiderio. Questo concetto è fondamentale per comprendere come il marketing collega bisogni, segmentazione e posizionamento competitivo."
   },
   {
     "id": 18,
-    "question": "Da cosa sono composte le due direzioni che partono dalla value proposition?",
+    "question": "Quando si parla di Marca si intende ....",
     "answers": [
-      "Customer relationship e channels",
-      "Prezzo e promozione",
-      "Prodotto e distribuzione",
-      "Target e brand"
+      "nome, segno o insieme di elementi che identificano l origine dell offerta e ne condensano significati e associazioni",
+      "una descrizione che insiste soprattutto su aspetti organizzativi interni senza riferimento diretto a bisogni, clienti o posizionamento",
+      "una formulazione che enfatizza quasi esclusivamente risultati economici di breve periodo, trascurando valore e relazione con il mercato",
+      "una spiegazione centrata solo su strumenti operativi generici, senza collegarli chiaramente alla strategia di marketing"
     ],
     "correct": 0,
-    "explanation": "Dal valore promesso partono la relazione con il cliente e i canali per raggiungerlo."
+    "explanation": "nome, segno o insieme di elementi che identificano l origine dell offerta e ne condensano significati e associazioni. Questo concetto è fondamentale per comprendere come il marketing collega bisogni, segmentazione e posizionamento competitivo."
   },
   {
     "id": 19,
-    "question": "Che cosa si intende per customer segments?",
+    "question": "Per Linea di prodotto si intende ....",
     "answers": [
-      "I gruppi di clienti a cui l’azienda si rivolge",
-      "I fornitori dell’azienda",
-      "I dipendenti del reparto marketing",
-      "I prodotti già venduti"
+      "gruppo di prodotti correlati tra loro per funzione, target o fascia di prezzo all interno del portafoglio aziendale",
+      "una descrizione che insiste soprattutto su aspetti organizzativi interni senza riferimento diretto a bisogni, clienti o posizionamento",
+      "una formulazione che enfatizza quasi esclusivamente risultati economici di breve periodo, trascurando valore e relazione con il mercato",
+      "una spiegazione centrata solo su strumenti operativi generici, senza collegarli chiaramente alla strategia di marketing"
     ],
     "correct": 0,
-    "explanation": "I customer segments sono i gruppi di clienti a cui si indirizza la proposta."
+    "explanation": "gruppo di prodotti correlati tra loro per funzione, target o fascia di prezzo all interno del portafoglio aziendale. Questo concetto è fondamentale per comprendere come il marketing collega bisogni, segmentazione e posizionamento competitivo."
   },
   {
     "id": 20,
-    "question": "Che cosa analizza la SWOT analysis?",
+    "question": "Per Assortimento si intende ....",
     "answers": [
-      "Strengths, Weaknesses, Opportunities e Threats",
-      "Sales, Work, Operations e Trends",
-      "Strategy, Weights, Offers e Tasks",
-      "Segments, Wants, Offers e Timing"
+      "insieme delle linee e delle referenze di prodotto che un azienda o un punto vendita decide di offrire",
+      "una descrizione che insiste soprattutto su aspetti organizzativi interni senza riferimento diretto a bisogni, clienti o posizionamento",
+      "una formulazione che enfatizza quasi esclusivamente risultati economici di breve periodo, trascurando valore e relazione con il mercato",
+      "una spiegazione centrata solo su strumenti operativi generici, senza collegarli chiaramente alla strategia di marketing"
     ],
     "correct": 0,
-    "explanation": "SWOT significa punti di forza, debolezza, opportunità e minacce."
+    "explanation": "insieme delle linee e delle referenze di prodotto che un azienda o un punto vendita decide di offrire. Questo concetto è fondamentale per comprendere come il marketing collega bisogni, segmentazione e posizionamento competitivo."
   },
   {
     "id": 21,
-    "question": "A che cosa serve la SWOT analysis?",
+    "question": "Quando si parla di Qualità percepita si intende ....",
     "answers": [
-      "A identificare aree da migliorare, opportunità e aree a rischio",
-      "A fissare il prezzo finale",
-      "A scegliere il logo",
-      "A definire solo i social da usare"
+      "valutazione soggettiva che il cliente attribuisce alla qualità dell offerta sulla base di esperienza, aspettative e segnali di marca",
+      "una descrizione che insiste soprattutto su aspetti organizzativi interni senza riferimento diretto a bisogni, clienti o posizionamento",
+      "una formulazione che enfatizza quasi esclusivamente risultati economici di breve periodo, trascurando valore e relazione con il mercato",
+      "una spiegazione centrata solo su strumenti operativi generici, senza collegarli chiaramente alla strategia di marketing"
     ],
     "correct": 0,
-    "explanation": "La SWOT aiuta a leggere il contesto interno ed esterno per orientare le decisioni."
+    "explanation": "valutazione soggettiva che il cliente attribuisce alla qualità dell offerta sulla base di esperienza, aspettative e segnali di marca. Questo concetto è fondamentale per comprendere come il marketing collega bisogni, segmentazione e posizionamento competitivo."
   },
   {
     "id": 22,
-    "question": "Che cos’è il marketing strategico?",
+    "question": "Per Branding si intende ....",
     "answers": [
-      "La fase che fissa obiettivi, target, segmenti e strategia di posizionamento",
-      "La fase che definisce solo gli sconti",
-      "La fase che gestisce solo la logistica",
-      "La fase che produce solo contenuti social"
+      "insieme di attività volte a progettare, costruire e gestire identità, immagine e significati della marca",
+      "una descrizione che insiste soprattutto su aspetti organizzativi interni senza riferimento diretto a bisogni, clienti o posizionamento",
+      "una formulazione che enfatizza quasi esclusivamente risultati economici di breve periodo, trascurando valore e relazione con il mercato",
+      "una spiegazione centrata solo su strumenti operativi generici, senza collegarli chiaramente alla strategia di marketing"
     ],
     "correct": 0,
-    "explanation": "Il marketing strategico definisce obiettivi, target, segmentazione e posizionamento."
+    "explanation": "insieme di attività volte a progettare, costruire e gestire identità, immagine e significati della marca. Questo concetto è fondamentale per comprendere come il marketing collega bisogni, segmentazione e posizionamento competitivo."
   },
   {
     "id": 23,
-    "question": "Che cos’è la segmentazione?",
+    "question": "Per Brand equity si intende ....",
     "answers": [
-      "Il processo di individuare e suddividere i clienti in segmenti omogenei",
-      "La vendita diretta al pubblico",
-      "La definizione del prezzo",
-      "La scelta del packaging"
+      "valore aggiunto che la marca conferisce al prodotto in termini di preferenza, fedeltà e capacità di generare margini",
+      "una descrizione che insiste soprattutto su aspetti organizzativi interni senza riferimento diretto a bisogni, clienti o posizionamento",
+      "una formulazione che enfatizza quasi esclusivamente risultati economici di breve periodo, trascurando valore e relazione con il mercato",
+      "una spiegazione centrata solo su strumenti operativi generici, senza collegarli chiaramente alla strategia di marketing"
     ],
     "correct": 0,
-    "explanation": "La segmentazione individua i bisogni e suddivide i clienti in gruppi omogenei."
+    "explanation": "valore aggiunto che la marca conferisce al prodotto in termini di preferenza, fedeltà e capacità di generare margini. Questo concetto è fondamentale per comprendere come il marketing collega bisogni, segmentazione e posizionamento competitivo."
   },
   {
     "id": 24,
-    "question": "Quale caratteristica deve avere un segmento di mercato?",
+    "question": "Quando si parla di Prezzo si intende ....",
     "answers": [
-      "Essere distinto, omogeneo internamente, abbastanza grande e raggiungibile",
-      "Essere sempre piccolo e casuale",
-      "Essere identico a tutti gli altri segmenti",
-      "Essere scelto solo in base alla moda"
+      "quantità di denaro o altri valori che il cliente deve scambiare per ottenere il beneficio di un prodotto o servizio",
+      "una descrizione che insiste soprattutto su aspetti organizzativi interni senza riferimento diretto a bisogni, clienti o posizionamento",
+      "una formulazione che enfatizza quasi esclusivamente risultati economici di breve periodo, trascurando valore e relazione con il mercato",
+      "una spiegazione centrata solo su strumenti operativi generici, senza collegarli chiaramente alla strategia di marketing"
     ],
     "correct": 0,
-    "explanation": "Un segmento deve essere distinto, coerente al suo interno, sostenibile e raggiungibile."
+    "explanation": "quantità di denaro o altri valori che il cliente deve scambiare per ottenere il beneficio di un prodotto o servizio. Questo concetto è fondamentale per comprendere come il marketing collega bisogni, segmentazione e posizionamento competitivo."
   },
   {
     "id": 25,
-    "question": "Su quali informazioni si basa la profilazione dei segmenti?",
+    "question": "Per Strategia di prezzo si intende ....",
     "answers": [
-      "Stile di vita, valori, comportamenti di acquisto, bisogni, abitudini, spesa e canali utilizzati",
-      "Solo età e città di residenza",
-      "Solo reddito e titolo di studio",
-      "Solo numero di follower"
+      "insieme di scelte su livello, struttura e dinamica del prezzo in relazione a costi, valore percepito e concorrenza",
+      "una descrizione che insiste soprattutto su aspetti organizzativi interni senza riferimento diretto a bisogni, clienti o posizionamento",
+      "una formulazione che enfatizza quasi esclusivamente risultati economici di breve periodo, trascurando valore e relazione con il mercato",
+      "una spiegazione centrata solo su strumenti operativi generici, senza collegarli chiaramente alla strategia di marketing"
     ],
     "correct": 0,
-    "explanation": "La profilazione richiede una conoscenza ampia e concreta del cliente."
+    "explanation": "insieme di scelte su livello, struttura e dinamica del prezzo in relazione a costi, valore percepito e concorrenza. Questo concetto è fondamentale per comprendere come il marketing collega bisogni, segmentazione e posizionamento competitivo."
   },
   {
     "id": 26,
-    "question": "Che cos’è il targeting?",
+    "question": "Per Prezzo di scrematura si intende ....",
     "answers": [
-      "La scelta dei segmenti obiettivo verso cui orientare il marketing",
-      "La definizione del packaging",
-      "La costruzione del logo",
-      "La gestione del magazzino"
+      "strategia che prevede un prezzo iniziale elevato per intercettare segmenti disposti a pagare di più",
+      "una descrizione che insiste soprattutto su aspetti organizzativi interni senza riferimento diretto a bisogni, clienti o posizionamento",
+      "una formulazione che enfatizza quasi esclusivamente risultati economici di breve periodo, trascurando valore e relazione con il mercato",
+      "una spiegazione centrata solo su strumenti operativi generici, senza collegarli chiaramente alla strategia di marketing"
     ],
     "correct": 0,
-    "explanation": "Il targeting serve a selezionare i segmenti su cui concentrarsi."
+    "explanation": "strategia che prevede un prezzo iniziale elevato per intercettare segmenti disposti a pagare di più. Questo concetto è fondamentale per comprendere come il marketing collega bisogni, segmentazione e posizionamento competitivo."
   },
   {
     "id": 27,
-    "question": "Qual è lo scopo del targeting?",
+    "question": "Quando si parla di Prezzo di penetrazione si intende ....",
     "answers": [
-      "Allocare risorse in modo coerente, efficace ed efficiente",
-      "Rendere il prodotto più costoso",
-      "Aumentare casualmente i segmenti",
-      "Sostituire la segmentazione"
+      "strategia che stabilisce un prezzo iniziale basso per entrare rapidamente nel mercato e conquistare quota",
+      "una descrizione che insiste soprattutto su aspetti organizzativi interni senza riferimento diretto a bisogni, clienti o posizionamento",
+      "una formulazione che enfatizza quasi esclusivamente risultati economici di breve periodo, trascurando valore e relazione con il mercato",
+      "una spiegazione centrata solo su strumenti operativi generici, senza collegarli chiaramente alla strategia di marketing"
     ],
     "correct": 0,
-    "explanation": "Il targeting guida la scelta dei mercati obiettivo e l’uso delle risorse."
+    "explanation": "strategia che stabilisce un prezzo iniziale basso per entrare rapidamente nel mercato e conquistare quota. Questo concetto è fondamentale per comprendere come il marketing collega bisogni, segmentazione e posizionamento competitivo."
   },
   {
     "id": 28,
-    "question": "Che cosa sono le personas?",
+    "question": "Per Prezzo psicologico si intende ....",
     "answers": [
-      "Descrizioni di profili, comportamenti, attitudini e bisogni del target",
-      "Elenco dei concorrenti",
-      "Schede tecniche del prodotto",
-      "Canali di distribuzione"
+      "livello di prezzo che tiene conto delle soglie percettive e delle reazioni emotive dei clienti",
+      "una descrizione che insiste soprattutto su aspetti organizzativi interni senza riferimento diretto a bisogni, clienti o posizionamento",
+      "una formulazione che enfatizza quasi esclusivamente risultati economici di breve periodo, trascurando valore e relazione con il mercato",
+      "una spiegazione centrata solo su strumenti operativi generici, senza collegarli chiaramente alla strategia di marketing"
     ],
     "correct": 0,
-    "explanation": "Le personas rappresentano i clienti tipo in modo sintetico ma informativo."
+    "explanation": "livello di prezzo che tiene conto delle soglie percettive e delle reazioni emotive dei clienti. Questo concetto è fondamentale per comprendere come il marketing collega bisogni, segmentazione e posizionamento competitivo."
   },
   {
     "id": 29,
-    "question": "Che cosa sono i customer insight?",
+    "question": "Per Sconti e promozioni di prezzo si intende ....",
     "answers": [
-      "Comprensioni profonde di motivazioni e credenze che guidano l’agire umano",
-      "Dati anagrafici dei clienti",
-      "Statistiche di vendita del mese",
-      "La lista dei prodotti disponibili"
+      "riduzioni temporanee del prezzo o condizioni economiche vantaggiose per stimolare prova e acquisti",
+      "una descrizione che insiste soprattutto su aspetti organizzativi interni senza riferimento diretto a bisogni, clienti o posizionamento",
+      "una formulazione che enfatizza quasi esclusivamente risultati economici di breve periodo, trascurando valore e relazione con il mercato",
+      "una spiegazione centrata solo su strumenti operativi generici, senza collegarli chiaramente alla strategia di marketing"
     ],
     "correct": 0,
-    "explanation": "Gli insight spiegano perché le persone fanno qualcosa, non solo cosa fanno."
+    "explanation": "riduzioni temporanee del prezzo o condizioni economiche vantaggiose per stimolare prova e acquisti. Questo concetto è fondamentale per comprendere come il marketing collega bisogni, segmentazione e posizionamento competitivo."
   },
   {
     "id": 30,
-    "question": "In quale forma vengono concettualizzati gli insight?",
+    "question": "Quando si parla di Valore percepito si intende ....",
     "answers": [
-      "In prima persona, in modo emotivo e collegato a un pain o a un gain",
-      "Solo in forma tecnica e impersonale",
-      "Solo in terza persona, senza emozioni",
-      "Solo come numeri di mercato"
+      "valutazione complessiva dei benefici ricevuti rispetto ai sacrifici sostenuti dal cliente",
+      "una descrizione che insiste soprattutto su aspetti organizzativi interni senza riferimento diretto a bisogni, clienti o posizionamento",
+      "una formulazione che enfatizza quasi esclusivamente risultati economici di breve periodo, trascurando valore e relazione con il mercato",
+      "una spiegazione centrata solo su strumenti operativi generici, senza collegarli chiaramente alla strategia di marketing"
     ],
     "correct": 0,
-    "explanation": "Gli insight efficaci esprimono vissuti, emozioni e motivazioni del cliente."
+    "explanation": "valutazione complessiva dei benefici ricevuti rispetto ai sacrifici sostenuti dal cliente. Questo concetto è fondamentale per comprendere come il marketing collega bisogni, segmentazione e posizionamento competitivo."
   },
   {
     "id": 31,
-    "question": "Che cos’è l’empathy map?",
+    "question": "Per Canale distributivo si intende ....",
     "answers": [
-      "Uno strumento per entrare in empatia con il target",
-      "Una tabella dei prezzi",
-      "Un report contabile",
-      "Una mappa geografica dei punti vendita"
+      "insieme di organizzazioni e attività che rendono disponibile il prodotto al cliente finale",
+      "una descrizione che insiste soprattutto su aspetti organizzativi interni senza riferimento diretto a bisogni, clienti o posizionamento",
+      "una formulazione che enfatizza quasi esclusivamente risultati economici di breve periodo, trascurando valore e relazione con il mercato",
+      "una spiegazione centrata solo su strumenti operativi generici, senza collegarli chiaramente alla strategia di marketing"
     ],
     "correct": 0,
-    "explanation": "L’empathy map aiuta a comprendere il punto di vista del target."
+    "explanation": "insieme di organizzazioni e attività che rendono disponibile il prodotto al cliente finale. Questo concetto è fondamentale per comprendere come il marketing collega bisogni, segmentazione e posizionamento competitivo."
   },
   {
     "id": 32,
-    "question": "Che cos’è il funnel commerciale?",
+    "question": "Per Distribuzione intensiva si intende ....",
     "answers": [
-      "Il percorso da target a customer attraverso varie tappe di avvicinamento all’acquisto",
-      "La pubblicità televisiva",
-      "La fase di sviluppo del prodotto",
-      "Il posizionamento del prezzo"
+      "presenza del prodotto nel maggior numero possibile di punti vendita per massimizzare la copertura",
+      "una descrizione che insiste soprattutto su aspetti organizzativi interni senza riferimento diretto a bisogni, clienti o posizionamento",
+      "una formulazione che enfatizza quasi esclusivamente risultati economici di breve periodo, trascurando valore e relazione con il mercato",
+      "una spiegazione centrata solo su strumenti operativi generici, senza collegarli chiaramente alla strategia di marketing"
     ],
     "correct": 0,
-    "explanation": "Il funnel descrive il transito dal potenziale cliente al cliente acquisito."
+    "explanation": "presenza del prodotto nel maggior numero possibile di punti vendita per massimizzare la copertura. Questo concetto è fondamentale per comprendere come il marketing collega bisogni, segmentazione e posizionamento competitivo."
   },
   {
     "id": 33,
-    "question": "Che cosa rende un prospect rilevante, riconoscibile e raggiungibile?",
+    "question": "Quando si parla di Distribuzione selettiva si intende ....",
     "answers": [
-      "Il fatto che sia un potenziale cliente interessato e targettizzabile",
-      "Il fatto che abbia già comprato",
-      "Il fatto che non conosca il prodotto",
-      "Il fatto che appartenga ai concorrenti"
+      "scelta di un numero limitato di intermediari o negozi in base a criteri qualitativi",
+      "una descrizione che insiste soprattutto su aspetti organizzativi interni senza riferimento diretto a bisogni, clienti o posizionamento",
+      "una formulazione che enfatizza quasi esclusivamente risultati economici di breve periodo, trascurando valore e relazione con il mercato",
+      "una spiegazione centrata solo su strumenti operativi generici, senza collegarli chiaramente alla strategia di marketing"
     ],
     "correct": 0,
-    "explanation": "Il prospect è il potenziale miglior cliente che può essere intercettato e seguito."
+    "explanation": "scelta di un numero limitato di intermediari o negozi in base a criteri qualitativi. Questo concetto è fondamentale per comprendere come il marketing collega bisogni, segmentazione e posizionamento competitivo."
   },
   {
     "id": 34,
-    "question": "Qual è la prima fase del customer journey indicata nel materiale?",
+    "question": "Per Distribuzione esclusiva si intende ....",
     "answers": [
-      "Discovery",
-      "Conversion",
-      "Delivery",
-      "Advocacy"
+      "accordo con pochi intermediari autorizzati in aree delimitate per mantenere controllo e prestigio",
+      "una descrizione che insiste soprattutto su aspetti organizzativi interni senza riferimento diretto a bisogni, clienti o posizionamento",
+      "una formulazione che enfatizza quasi esclusivamente risultati economici di breve periodo, trascurando valore e relazione con il mercato",
+      "una spiegazione centrata solo su strumenti operativi generici, senza collegarli chiaramente alla strategia di marketing"
     ],
     "correct": 0,
-    "explanation": "La prima fase è discovery, cioè trovare facilmente ciò che si cerca."
+    "explanation": "accordo con pochi intermediari autorizzati in aree delimitate per mantenere controllo e prestigio. Questo concetto è fondamentale per comprendere come il marketing collega bisogni, segmentazione e posizionamento competitivo."
   },
   {
     "id": 35,
-    "question": "Che cosa avviene nella fase di engagement del customer journey?",
+    "question": "Per Punto vendita si intende ....",
     "answers": [
-      "Si capisce in che modo le soluzioni trovate aiutano a risolvere il problema",
-      "Si conclude l’acquisto",
-      "Si condivide la soddisfazione",
-      "Si riceve il prodotto"
+      "luogo fisico o digitale in cui avviene l incontro fra offerta e domanda e si realizza la transazione",
+      "una descrizione che insiste soprattutto su aspetti organizzativi interni senza riferimento diretto a bisogni, clienti o posizionamento",
+      "una formulazione che enfatizza quasi esclusivamente risultati economici di breve periodo, trascurando valore e relazione con il mercato",
+      "una spiegazione centrata solo su strumenti operativi generici, senza collegarli chiaramente alla strategia di marketing"
     ],
     "correct": 0,
-    "explanation": "Nella fase di engagement il cliente valuta come le soluzioni possano risolvere il problema."
+    "explanation": "luogo fisico o digitale in cui avviene l incontro fra offerta e domanda e si realizza la transazione. Questo concetto è fondamentale per comprendere come il marketing collega bisogni, segmentazione e posizionamento competitivo."
   },
   {
     "id": 36,
-    "question": "Che cosa avviene nella fase di conversion?",
+    "question": "Quando si parla di Customer journey si intende ....",
     "answers": [
-      "Si confrontano le alternative e si converte in acquisto la soluzione scelta",
-      "Si scoprono nuovi bisogni",
-      "Si contatta il customer care",
-      "Si diffonde il passaparola"
+      "percorso complessivo che il cliente compie dal bisogno iniziale al post-acquisto attraverso diversi touchpoint",
+      "una descrizione che insiste soprattutto su aspetti organizzativi interni senza riferimento diretto a bisogni, clienti o posizionamento",
+      "una formulazione che enfatizza quasi esclusivamente risultati economici di breve periodo, trascurando valore e relazione con il mercato",
+      "una spiegazione centrata solo su strumenti operativi generici, senza collegarli chiaramente alla strategia di marketing"
     ],
     "correct": 0,
-    "explanation": "La conversion è il passaggio dalla valutazione all’acquisto."
+    "explanation": "percorso complessivo che il cliente compie dal bisogno iniziale al post-acquisto attraverso diversi touchpoint. Questo concetto è fondamentale per comprendere come il marketing collega bisogni, segmentazione e posizionamento competitivo."
   },
   {
     "id": 37,
-    "question": "Che cosa avviene nella fase di delivery?",
+    "question": "Per Esperienza d acquisto si intende ....",
     "answers": [
-      "Si sperimenta la soluzione in opera rispetto alla percezione",
-      "Si disegna il brand",
-      "Si definisce il prezzo",
-      "Si segmenta il mercato"
+      "insieme di percezioni, emozioni e valutazioni vissute dal cliente durante il processo d acquisto",
+      "una descrizione che insiste soprattutto su aspetti organizzativi interni senza riferimento diretto a bisogni, clienti o posizionamento",
+      "una formulazione che enfatizza quasi esclusivamente risultati economici di breve periodo, trascurando valore e relazione con il mercato",
+      "una spiegazione centrata solo su strumenti operativi generici, senza collegarli chiaramente alla strategia di marketing"
     ],
     "correct": 0,
-    "explanation": "La delivery è il momento della verità, cioè l’esperienza concreta della soluzione."
+    "explanation": "insieme di percezioni, emozioni e valutazioni vissute dal cliente durante il processo d acquisto. Questo concetto è fondamentale per comprendere come il marketing collega bisogni, segmentazione e posizionamento competitivo."
   },
   {
     "id": 38,
-    "question": "Che cosa avviene nella fase di advocacy?",
+    "question": "Per Comunicazione di marketing si intende ....",
     "answers": [
-      "Si condivide il livello di soddisfazione derivante dall’esperienza",
-      "Si analizza il bilancio",
-      "Si definisce il logo",
-      "Si imposta la spedizione"
+      "insieme coordinato di messaggi e strumenti usati per informare, persuadere e ricordare ai clienti l offerta",
+      "una descrizione che insiste soprattutto su aspetti organizzativi interni senza riferimento diretto a bisogni, clienti o posizionamento",
+      "una formulazione che enfatizza quasi esclusivamente risultati economici di breve periodo, trascurando valore e relazione con il mercato",
+      "una spiegazione centrata solo su strumenti operativi generici, senza collegarli chiaramente alla strategia di marketing"
     ],
     "correct": 0,
-    "explanation": "L’advocacy riguarda il racconto e la raccomandazione dell’esperienza vissuta."
+    "explanation": "insieme coordinato di messaggi e strumenti usati per informare, persuadere e ricordare ai clienti l offerta. Questo concetto è fondamentale per comprendere come il marketing collega bisogni, segmentazione e posizionamento competitivo."
   },
   {
     "id": 39,
-    "question": "Perché è utile conoscere il customer journey?",
+    "question": "Quando si parla di Pubblicità si intende ....",
     "answers": [
-      "Per progettare una customer experience integrata e coerente tra i touchpoint",
-      "Per scegliere solo il prezzo",
-      "Per ridurre il numero di clienti",
-      "Per eliminare i canali digitali"
+      "forma di comunicazione a pagamento e impersonale che promuove idee, beni o servizi tramite mezzi di massa",
+      "una descrizione che insiste soprattutto su aspetti organizzativi interni senza riferimento diretto a bisogni, clienti o posizionamento",
+      "una formulazione che enfatizza quasi esclusivamente risultati economici di breve periodo, trascurando valore e relazione con il mercato",
+      "una spiegazione centrata solo su strumenti operativi generici, senza collegarli chiaramente alla strategia di marketing"
     ],
     "correct": 0,
-    "explanation": "Conoscere il journey aiuta a costruire esperienze coerenti e competitive."
+    "explanation": "forma di comunicazione a pagamento e impersonale che promuove idee, beni o servizi tramite mezzi di massa. Questo concetto è fondamentale per comprendere come il marketing collega bisogni, segmentazione e posizionamento competitivo."
   },
   {
     "id": 40,
-    "question": "Chi sono i protagonisti della decisione d’acquisto?",
+    "question": "Per Promozione delle vendite si intende ....",
     "answers": [
-      "Iniziatore, influenzatore, decisore, acquirente e utente",
-      "Target, competitor, sponsor, partner e follower",
-      "Brand, logo, prodotto, prezzo e canale",
-      "Lead, prospect, customer, buyer e ambassador"
+      "insieme di incentivi a breve termine per stimolare l acquisto o l intensità d uso di un prodotto",
+      "una descrizione che insiste soprattutto su aspetti organizzativi interni senza riferimento diretto a bisogni, clienti o posizionamento",
+      "una formulazione che enfatizza quasi esclusivamente risultati economici di breve periodo, trascurando valore e relazione con il mercato",
+      "una spiegazione centrata solo su strumenti operativi generici, senza collegarli chiaramente alla strategia di marketing"
     ],
     "correct": 0,
-    "explanation": "Il materiale distingue cinque ruoli nel processo decisionale d’acquisto."
+    "explanation": "insieme di incentivi a breve termine per stimolare l acquisto o l intensità d uso di un prodotto. Questo concetto è fondamentale per comprendere come il marketing collega bisogni, segmentazione e posizionamento competitivo."
   },
   {
     "id": 41,
-    "question": "Che cosa significa posizionamento?",
+    "question": "Per Relazioni pubbliche si intende ....",
     "answers": [
-      "Come l’azienda decide e si aspetta che il marchio venga percepito dal target e dal mercato",
-      "Il punto fisico di un negozio",
-      "La quantità di prodotti in magazzino",
-      "Il livello di sconto applicato"
+      "attività volte a costruire e mantenere relazioni favorevoli con pubblici influenti per la reputazione della marca",
+      "una descrizione che insiste soprattutto su aspetti organizzativi interni senza riferimento diretto a bisogni, clienti o posizionamento",
+      "una formulazione che enfatizza quasi esclusivamente risultati economici di breve periodo, trascurando valore e relazione con il mercato",
+      "una spiegazione centrata solo su strumenti operativi generici, senza collegarli chiaramente alla strategia di marketing"
     ],
     "correct": 0,
-    "explanation": "Il posizionamento riguarda la percezione desiderata del brand nella mente del mercato."
+    "explanation": "attività volte a costruire e mantenere relazioni favorevoli con pubblici influenti per la reputazione della marca. Questo concetto è fondamentale per comprendere come il marketing collega bisogni, segmentazione e posizionamento competitivo."
   },
   {
     "id": 42,
-    "question": "Quali caratteristiche deve avere il posizionamento?",
+    "question": "Quando si parla di Direct marketing si intende ....",
     "answers": [
-      "Essere unico, preciso, durevole e credibile",
-      "Essere casuale e temporaneo",
-      "Essere simile a tutti i competitor",
-      "Essere solo emozionale"
+      "comunicazione diretta con clienti identificabili per generare risposta immediata o costruire relazioni durevoli",
+      "una descrizione che insiste soprattutto su aspetti organizzativi interni senza riferimento diretto a bisogni, clienti o posizionamento",
+      "una formulazione che enfatizza quasi esclusivamente risultati economici di breve periodo, trascurando valore e relazione con il mercato",
+      "una spiegazione centrata solo su strumenti operativi generici, senza collegarli chiaramente alla strategia di marketing"
     ],
     "correct": 0,
-    "explanation": "Il posizionamento efficace deve differenziare davvero e mantenere coerenza nel tempo."
+    "explanation": "comunicazione diretta con clienti identificabili per generare risposta immediata o costruire relazioni durevoli. Questo concetto è fondamentale per comprendere come il marketing collega bisogni, segmentazione e posizionamento competitivo."
   },
   {
     "id": 43,
-    "question": "A che cosa serve la brand equity?",
+    "question": "Per Marketing digitale si intende ....",
     "answers": [
-      "A sostenere il posizionamento e rafforzare il valore percepito del brand",
-      "A fissare il costo di produzione",
-      "A sostituire la pubblicità",
-      "A calcolare il numero di clienti persi"
+      "insieme di attività di marketing realizzate attraverso canali e piattaforme digitali",
+      "una descrizione che insiste soprattutto su aspetti organizzativi interni senza riferimento diretto a bisogni, clienti o posizionamento",
+      "una formulazione che enfatizza quasi esclusivamente risultati economici di breve periodo, trascurando valore e relazione con il mercato",
+      "una spiegazione centrata solo su strumenti operativi generici, senza collegarli chiaramente alla strategia di marketing"
     ],
     "correct": 0,
-    "explanation": "La brand equity è il valore del brand che supporta il posizionamento scelto."
+    "explanation": "insieme di attività di marketing realizzate attraverso canali e piattaforme digitali. Questo concetto è fondamentale per comprendere come il marketing collega bisogni, segmentazione e posizionamento competitivo."
   },
   {
     "id": 44,
-    "question": "Che cosa mostra il modello di Keller?",
+    "question": "Per Content marketing si intende ....",
     "answers": [
-      "Come si costruisce un brand forte lavorando sulla percezione del consumatore",
-      "Come si distribuisce un prodotto in negozio",
-      "Come si calcola il margine di prezzo",
-      "Come si organizza il magazzino"
+      "creazione e distribuzione di contenuti rilevanti per attrarre, coinvolgere e fidelizzare specifici pubblici",
+      "una descrizione che insiste soprattutto su aspetti organizzativi interni senza riferimento diretto a bisogni, clienti o posizionamento",
+      "una formulazione che enfatizza quasi esclusivamente risultati economici di breve periodo, trascurando valore e relazione con il mercato",
+      "una spiegazione centrata solo su strumenti operativi generici, senza collegarli chiaramente alla strategia di marketing"
     ],
     "correct": 0,
-    "explanation": "Il modello di Keller collega esperienze, pensieri e opinioni alla costruzione della brand equity."
+    "explanation": "creazione e distribuzione di contenuti rilevanti per attrarre, coinvolgere e fidelizzare specifici pubblici. Questo concetto è fondamentale per comprendere come il marketing collega bisogni, segmentazione e posizionamento competitivo."
   },
   {
     "id": 45,
-    "question": "Che cos’è il marketing mix?",
+    "question": "Quando si parla di Social media marketing si intende ....",
     "answers": [
-      "L’insieme degli strumenti di marketing usati dall’azienda per perseguire i propri obiettivi",
-      "Solo la promozione online",
-      "Solo la definizione del brand",
-      "Solo la segmentazione del mercato"
+      "uso strategico dei social network per dialogare con i pubblici, sviluppare comunità e sostenere il brand",
+      "una descrizione che insiste soprattutto su aspetti organizzativi interni senza riferimento diretto a bisogni, clienti o posizionamento",
+      "una formulazione che enfatizza quasi esclusivamente risultati economici di breve periodo, trascurando valore e relazione con il mercato",
+      "una spiegazione centrata solo su strumenti operativi generici, senza collegarli chiaramente alla strategia di marketing"
     ],
     "correct": 0,
-    "explanation": "Il marketing mix coordina più leve per sostenere il posizionamento e la vendita."
+    "explanation": "uso strategico dei social network per dialogare con i pubblici, sviluppare comunità e sostenere il brand. Questo concetto è fondamentale per comprendere come il marketing collega bisogni, segmentazione e posizionamento competitivo."
   },
   {
     "id": 46,
-    "question": "Quali sono le 4P del marketing mix?",
+    "question": "Per Funnel di comunicazione si intende ....",
     "answers": [
-      "Product, Price, Place, Promotion",
-      "People, Process, Proof, Post",
-      "Plan, Price, Presence, Product",
-      "Policy, Place, Purchase, Promotion"
+      "rappresentazione delle fasi attraverso cui le persone passano dalla consapevolezza all azione rispetto a un offerta",
+      "una descrizione che insiste soprattutto su aspetti organizzativi interni senza riferimento diretto a bisogni, clienti o posizionamento",
+      "una formulazione che enfatizza quasi esclusivamente risultati economici di breve periodo, trascurando valore e relazione con il mercato",
+      "una spiegazione centrata solo su strumenti operativi generici, senza collegarli chiaramente alla strategia di marketing"
     ],
     "correct": 0,
-    "explanation": "Le quattro P classiche sono prodotto, prezzo, distribuzione e promozione."
+    "explanation": "rappresentazione delle fasi attraverso cui le persone passano dalla consapevolezza all azione rispetto a un offerta. Questo concetto è fondamentale per comprendere come il marketing collega bisogni, segmentazione e posizionamento competitivo."
   },
   {
     "id": 47,
-    "question": "Che cosa riguarda la P di Product?",
+    "question": "Per Messaggio chiave si intende ....",
     "answers": [
-      "Caratteristiche, qualità, design, marca e packaging",
-      "Solo il prezzo finale",
-      "Solo la distribuzione",
-      "Solo la pubblicità"
+      "idea centrale che la comunicazione vuole trasmettere e far ricordare al pubblico di riferimento",
+      "una descrizione che insiste soprattutto su aspetti organizzativi interni senza riferimento diretto a bisogni, clienti o posizionamento",
+      "una formulazione che enfatizza quasi esclusivamente risultati economici di breve periodo, trascurando valore e relazione con il mercato",
+      "una spiegazione centrata solo su strumenti operativi generici, senza collegarli chiaramente alla strategia di marketing"
     ],
     "correct": 0,
-    "explanation": "Product riguarda ciò che si offre al cliente in termini di prodotto e attributi."
+    "explanation": "idea centrale che la comunicazione vuole trasmettere e far ricordare al pubblico di riferimento. Questo concetto è fondamentale per comprendere come il marketing collega bisogni, segmentazione e posizionamento competitivo."
   },
   {
     "id": 48,
-    "question": "Che cosa riguarda la P di Price?",
+    "question": "Quando si parla di Tono di voce si intende ....",
     "answers": [
-      "Il prezzo e la percezione di valore, insieme a sconti e strategia di prezzo",
-      "Solo la grafica del packaging",
-      "Solo i punti vendita",
-      "Solo la comunicazione social"
+      "stile linguistico e modalità espressive con cui il brand comunica nei diversi canali",
+      "una descrizione che insiste soprattutto su aspetti organizzativi interni senza riferimento diretto a bisogni, clienti o posizionamento",
+      "una formulazione che enfatizza quasi esclusivamente risultati economici di breve periodo, trascurando valore e relazione con il mercato",
+      "una spiegazione centrata solo su strumenti operativi generici, senza collegarli chiaramente alla strategia di marketing"
     ],
     "correct": 0,
-    "explanation": "Price riguarda il controvalore monetario e le scelte di pricing."
+    "explanation": "stile linguistico e modalità espressive con cui il brand comunica nei diversi canali. Questo concetto è fondamentale per comprendere come il marketing collega bisogni, segmentazione e posizionamento competitivo."
   },
   {
     "id": 49,
-    "question": "Che cosa riguarda la P di Place?",
+    "question": "Per Unique selling proposition si intende ....",
     "answers": [
-      "I luoghi o le modalità con cui il prodotto viene reso disponibile",
-      "Solo il logo",
-      "Solo il tono della comunicazione",
-      "Solo la ricerca di mercato"
+      "promessa di beneficio unica e distintiva che differenzia chiaramente l offerta dalle alternative",
+      "una descrizione che insiste soprattutto su aspetti organizzativi interni senza riferimento diretto a bisogni, clienti o posizionamento",
+      "una formulazione che enfatizza quasi esclusivamente risultati economici di breve periodo, trascurando valore e relazione con il mercato",
+      "una spiegazione centrata solo su strumenti operativi generici, senza collegarli chiaramente alla strategia di marketing"
     ],
     "correct": 0,
-    "explanation": "Place riguarda distribuzione, canali e accessibilità del prodotto."
+    "explanation": "promessa di beneficio unica e distintiva che differenzia chiaramente l offerta dalle alternative. Questo concetto è fondamentale per comprendere come il marketing collega bisogni, segmentazione e posizionamento competitivo."
   },
   {
     "id": 50,
-    "question": "Che cosa riguarda la P di Promotion?",
+    "question": "Per Reason why si intende ....",
     "answers": [
-      "Le attività e gli strumenti usati per promuovere il prodotto al mercato",
-      "Solo il prezzo",
-      "Solo il processo produttivo",
-      "Solo il design del prodotto"
+      "argomentazione che supporta la promessa centrale spiegando perché il beneficio offerto è credibile",
+      "una descrizione che insiste soprattutto su aspetti organizzativi interni senza riferimento diretto a bisogni, clienti o posizionamento",
+      "una formulazione che enfatizza quasi esclusivamente risultati economici di breve periodo, trascurando valore e relazione con il mercato",
+      "una spiegazione centrata solo su strumenti operativi generici, senza collegarli chiaramente alla strategia di marketing"
     ],
     "correct": 0,
-    "explanation": "Promotion include tutte le attività comunicative e promozionali."
+    "explanation": "argomentazione che supporta la promessa centrale spiegando perché il beneficio offerto è credibile. Questo concetto è fondamentale per comprendere come il marketing collega bisogni, segmentazione e posizionamento competitivo."
   },
   {
     "id": 51,
-    "question": "Che cosa significa customer centricity?",
+    "question": "Quando si parla di Brand positioning statement si intende ....",
     "answers": [
-      "Mettere il cliente al centro delle priorità per offrire la migliore experience e costruire una relazione di lungo termine",
-      "Mettere al centro il prodotto a prescindere dal cliente",
-      "Ridurre il dialogo con il cliente",
-      "Concentrarsi solo sulla concorrenza"
+      "formula sintetica che descrive target, categoria, beneficio chiave e ragione per crederci della marca",
+      "una descrizione che insiste soprattutto su aspetti organizzativi interni senza riferimento diretto a bisogni, clienti o posizionamento",
+      "una formulazione che enfatizza quasi esclusivamente risultati economici di breve periodo, trascurando valore e relazione con il mercato",
+      "una spiegazione centrata solo su strumenti operativi generici, senza collegarli chiaramente alla strategia di marketing"
     ],
     "correct": 0,
-    "explanation": "La customer centricity è un approccio di business centrato sul cliente e sulla relazione duratura."
+    "explanation": "formula sintetica che descrive target, categoria, beneficio chiave e ragione per crederci della marca. Questo concetto è fondamentale per comprendere come il marketing collega bisogni, segmentazione e posizionamento competitivo."
   },
   {
     "id": 52,
-    "question": "Quale tra queste è una leva della customer centricity?",
+    "question": "Per Mappa di posizionamento si intende ....",
     "answers": [
-      "Feedback che guida il miglioramento continuo",
-      "Aumento casuale dei prezzi",
-      "Riduzione dei canali di ascolto",
-      "Standardizzazione rigida senza ascolto"
+      "rappresentazione grafica di come marche o prodotti sono percepiti rispetto a dimensioni rilevanti",
+      "una descrizione che insiste soprattutto su aspetti organizzativi interni senza riferimento diretto a bisogni, clienti o posizionamento",
+      "una formulazione che enfatizza quasi esclusivamente risultati economici di breve periodo, trascurando valore e relazione con il mercato",
+      "una spiegazione centrata solo su strumenti operativi generici, senza collegarli chiaramente alla strategia di marketing"
     ],
     "correct": 0,
-    "explanation": "Il feedback è uno dei principi chiave per migliorare in modo continuo l’esperienza."
+    "explanation": "rappresentazione grafica di come marche o prodotti sono percepiti rispetto a dimensioni rilevanti. Questo concetto è fondamentale per comprendere come il marketing collega bisogni, segmentazione e posizionamento competitivo."
   },
   {
     "id": 53,
-    "question": "Che cosa significa comprendere i clienti nel modello di customer centricity?",
+    "question": "Per Vantaggio competitivo si intende ....",
     "answers": [
-      "Conoscere bisogni, comportamenti, attese e contesto per progettare meglio",
-      "Conoscere solo il fatturato",
-      "Conoscere solo il nome del brand",
-      "Conoscere solo i competitor"
+      "posizione che consente a un impresa di ottenere performance superiori e difficili da imitare",
+      "una descrizione che insiste soprattutto su aspetti organizzativi interni senza riferimento diretto a bisogni, clienti o posizionamento",
+      "una formulazione che enfatizza quasi esclusivamente risultati economici di breve periodo, trascurando valore e relazione con il mercato",
+      "una spiegazione centrata solo su strumenti operativi generici, senza collegarli chiaramente alla strategia di marketing"
     ],
     "correct": 0,
-    "explanation": "Comprendere i clienti significa partire da bisogni e comportamenti reali."
+    "explanation": "posizione che consente a un impresa di ottenere performance superiori e difficili da imitare. Questo concetto è fondamentale per comprendere come il marketing collega bisogni, segmentazione e posizionamento competitivo."
   },
   {
     "id": 54,
-    "question": "Perché le persone non valutano sempre in modo razionale costo e valore?",
+    "question": "Quando si parla di Differenziazione si intende ....",
     "answers": [
-      "Perché agiscono spesso in base al valore percepito",
-      "Perché conoscono sempre il costo di produzione",
-      "Perché il prezzo non conta mai",
-      "Perché la percezione è uguale per tutti"
+      "insieme di caratteristiche che rendono l offerta percepita come diversa e preferibile rispetto ai concorrenti",
+      "una descrizione che insiste soprattutto su aspetti organizzativi interni senza riferimento diretto a bisogni, clienti o posizionamento",
+      "una formulazione che enfatizza quasi esclusivamente risultati economici di breve periodo, trascurando valore e relazione con il mercato",
+      "una spiegazione centrata solo su strumenti operativi generici, senza collegarli chiaramente alla strategia di marketing"
     ],
     "correct": 0,
-    "explanation": "Il testo sottolinea che le decisioni sono guidate dal valore percepito, non solo dalla razionalità economica."
+    "explanation": "insieme di caratteristiche che rendono l offerta percepita come diversa e preferibile rispetto ai concorrenti. Questo concetto è fondamentale per comprendere come il marketing collega bisogni, segmentazione e posizionamento competitivo."
   },
   {
     "id": 55,
-    "question": "Qual è la principale funzione del customer journey nella progettazione della customer experience?",
+    "question": "Per Me too positioning si intende ....",
     "answers": [
-      "Mappare le tappe per migliorare coerenza, relazione e vantaggio competitivo",
-      "Stabilire solo il packaging",
-      "Sostituire il posizionamento",
-      "Evitare il contatto con il cliente"
+      "strategia in cui il posizionamento imita in larga parte quello di un concorrente leader",
+      "una descrizione che insiste soprattutto su aspetti organizzativi interni senza riferimento diretto a bisogni, clienti o posizionamento",
+      "una formulazione che enfatizza quasi esclusivamente risultati economici di breve periodo, trascurando valore e relazione con il mercato",
+      "una spiegazione centrata solo su strumenti operativi generici, senza collegarli chiaramente alla strategia di marketing"
     ],
     "correct": 0,
-    "explanation": "Il journey serve a leggere e migliorare l’esperienza nel tempo e nei touchpoint."
+    "explanation": "strategia in cui il posizionamento imita in larga parte quello di un concorrente leader. Questo concetto è fondamentale per comprendere come il marketing collega bisogni, segmentazione e posizionamento competitivo."
   },
   {
     "id": 56,
-    "question": "Che cos’è la Unique Selling Proposition?",
+    "question": "Per Reposizionamento si intende ....",
     "answers": [
-      "Il vantaggio competitivo distintivo dell’offerta",
-      "Il nome legale dell’azienda",
-      "La strategia di distribuzione",
-      "Il costo minimo del prodotto"
+      "modifica intenzionale del modo in cui l offerta è percepita per adeguarsi a nuovi obiettivi o contesti",
+      "una descrizione che insiste soprattutto su aspetti organizzativi interni senza riferimento diretto a bisogni, clienti o posizionamento",
+      "una formulazione che enfatizza quasi esclusivamente risultati economici di breve periodo, trascurando valore e relazione con il mercato",
+      "una spiegazione centrata solo su strumenti operativi generici, senza collegarli chiaramente alla strategia di marketing"
     ],
     "correct": 0,
-    "explanation": "La USP è ciò che rende la proposta diversa e preferibile rispetto alla concorrenza."
+    "explanation": "modifica intenzionale del modo in cui l offerta è percepita per adeguarsi a nuovi obiettivi o contesti. Questo concetto è fondamentale per comprendere come il marketing collega bisogni, segmentazione e posizionamento competitivo."
   },
   {
     "id": 57,
-    "question": "In che modo il Value Proposition Canvas aiuta la progettazione?",
+    "question": "Quando si parla di Posizionamento di prezzo si intende ....",
     "answers": [
-      "Mettendo in relazione customer profile e value map per verificare il fit",
-      "Sostituendo completamente la ricerca di mercato",
-      "Definendo solo il logo",
-      "Stabilendo il budget annuale"
+      "posizionamento fondato principalmente sul livello di prezzo rispetto ai concorrenti",
+      "una descrizione che insiste soprattutto su aspetti organizzativi interni senza riferimento diretto a bisogni, clienti o posizionamento",
+      "una formulazione che enfatizza quasi esclusivamente risultati economici di breve periodo, trascurando valore e relazione con il mercato",
+      "una spiegazione centrata solo su strumenti operativi generici, senza collegarli chiaramente alla strategia di marketing"
     ],
     "correct": 0,
-    "explanation": "Il canvas collega bisogni del cliente e proposta di valore per valutarne l’allineamento."
+    "explanation": "posizionamento fondato principalmente sul livello di prezzo rispetto ai concorrenti. Questo concetto è fondamentale per comprendere come il marketing collega bisogni, segmentazione e posizionamento competitivo."
   },
   {
     "id": 58,
-    "question": "Quali elementi compongono il customer profile nel Value Proposition Canvas?",
+    "question": "Per Posizionamento di qualità si intende ....",
     "answers": [
-      "Jobs, pains e gains",
-      "Prezzo, canale e promozione",
-      "Logo, brand e packaging",
-      "Segmenti, target e position"
+      "posizionamento basato sulla percezione di superiorità qualitativa dell offerta",
+      "una descrizione che insiste soprattutto su aspetti organizzativi interni senza riferimento diretto a bisogni, clienti o posizionamento",
+      "una formulazione che enfatizza quasi esclusivamente risultati economici di breve periodo, trascurando valore e relazione con il mercato",
+      "una spiegazione centrata solo su strumenti operativi generici, senza collegarli chiaramente alla strategia di marketing"
     ],
     "correct": 0,
-    "explanation": "Il profilo cliente include compiti, dolori e benefici attesi."
+    "explanation": "posizionamento basato sulla percezione di superiorità qualitativa dell offerta. Questo concetto è fondamentale per comprendere come il marketing collega bisogni, segmentazione e posizionamento competitivo."
   },
   {
     "id": 59,
-    "question": "Quali elementi compongono il value map nel Value Proposition Canvas?",
+    "question": "Per Segmentazione demografica si intende ....",
     "answers": [
-      "Products & services, pain relievers, gain creators",
-      "Segmenti, insight e journey",
-      "Brand, mission e vision",
-      "Analisi, strategia e vendita"
+      "suddivisione del mercato in gruppi sulla base di variabili come età, reddito o professione",
+      "una descrizione che insiste soprattutto su aspetti organizzativi interni senza riferimento diretto a bisogni, clienti o posizionamento",
+      "una formulazione che enfatizza quasi esclusivamente risultati economici di breve periodo, trascurando valore e relazione con il mercato",
+      "una spiegazione centrata solo su strumenti operativi generici, senza collegarli chiaramente alla strategia di marketing"
     ],
     "correct": 0,
-    "explanation": "La value map descrive come l’offerta risponde ai bisogni del cliente."
+    "explanation": "suddivisione del mercato in gruppi sulla base di variabili come età, reddito o professione. Questo concetto è fondamentale per comprendere come il marketing collega bisogni, segmentazione e posizionamento competitivo."
   },
   {
     "id": 60,
-    "question": "Quando si dice che c’è fit tra value proposition e customer profile?",
+    "question": "Quando si parla di Segmentazione geografica si intende ....",
     "answers": [
-      "Quando l’offerta affronta i dolori e genera i benefici più significativi del cliente",
-      "Quando l’offerta è solo economica",
-      "Quando l’offerta è identica a quella dei competitor",
-      "Quando il cliente non deve scegliere"
+      "suddivisione del mercato in aree territoriali e contesti locali distinti",
+      "una descrizione che insiste soprattutto su aspetti organizzativi interni senza riferimento diretto a bisogni, clienti o posizionamento",
+      "una formulazione che enfatizza quasi esclusivamente risultati economici di breve periodo, trascurando valore e relazione con il mercato",
+      "una spiegazione centrata solo su strumenti operativi generici, senza collegarli chiaramente alla strategia di marketing"
     ],
     "correct": 0,
-    "explanation": "Il fit si raggiunge quando la proposta risolve i pain e produce i gain rilevanti."
+    "explanation": "suddivisione del mercato in aree territoriali e contesti locali distinti. Questo concetto è fondamentale per comprendere come il marketing collega bisogni, segmentazione e posizionamento competitivo."
   },
   {
     "id": 61,
-    "question": "Perché la validazione della value proposition è necessaria?",
+    "question": "Per Segmentazione psicografica si intende ....",
     "answers": [
-      "Per raccogliere feedback e migliorare continuamente la proposta di valore",
-      "Per evitare ogni ricerca successiva",
-      "Per fissare il prezzo in modo definitivo",
-      "Per eliminare i clienti meno redditizi"
+      "suddivisione del mercato in gruppi basati su stili di vita, valori e personalità",
+      "una descrizione che insiste soprattutto su aspetti organizzativi interni senza riferimento diretto a bisogni, clienti o posizionamento",
+      "una formulazione che enfatizza quasi esclusivamente risultati economici di breve periodo, trascurando valore e relazione con il mercato",
+      "una spiegazione centrata solo su strumenti operativi generici, senza collegarli chiaramente alla strategia di marketing"
     ],
     "correct": 0,
-    "explanation": "La value proposition va testata e migliorata con i clienti reali."
+    "explanation": "suddivisione del mercato in gruppi basati su stili di vita, valori e personalità. Questo concetto è fondamentale per comprendere come il marketing collega bisogni, segmentazione e posizionamento competitivo."
   },
   {
     "id": 62,
-    "question": "Quale obiettivo ha l’analisi della value proposition rispetto ai competitor?",
+    "question": "Per Segmentazione comportamentale si intende ....",
     "answers": [
-      "Verificare se la proposta offre un vantaggio competitivo unico",
-      "Stabilire il colore del logo",
-      "Eliminare il bisogno di posizionamento",
-      "Aumentare i costi di produzione"
+      "suddivisione del mercato in gruppi sulla base di comportamenti di acquisto e uso",
+      "una descrizione che insiste soprattutto su aspetti organizzativi interni senza riferimento diretto a bisogni, clienti o posizionamento",
+      "una formulazione che enfatizza quasi esclusivamente risultati economici di breve periodo, trascurando valore e relazione con il mercato",
+      "una spiegazione centrata solo su strumenti operativi generici, senza collegarli chiaramente alla strategia di marketing"
     ],
     "correct": 0,
-    "explanation": "Serve a capire quanto la proposta differenzi davvero l’azienda."
+    "explanation": "suddivisione del mercato in gruppi sulla base di comportamenti di acquisto e uso. Questo concetto è fondamentale per comprendere come il marketing collega bisogni, segmentazione e posizionamento competitivo."
   },
   {
     "id": 63,
-    "question": "Quali sono le fasi del ciclo di vita del prodotto citate?",
+    "question": "Quando si parla di Nucleo del prodotto si intende ....",
     "answers": [
-      "Introduzione, sviluppo, maturità, declino e rilancio",
-      "Acquisto, uso, fine, riciclo, abbandono",
-      "Idea, test, vendita, profitto, crisi",
-      "Segmentazione, targeting, vendita, assistenza, fidelizzazione"
+      "beneficio fondamentale che il cliente acquista al di là delle caratteristiche fisiche",
+      "una descrizione che insiste soprattutto su aspetti organizzativi interni senza riferimento diretto a bisogni, clienti o posizionamento",
+      "una formulazione che enfatizza quasi esclusivamente risultati economici di breve periodo, trascurando valore e relazione con il mercato",
+      "una spiegazione centrata solo su strumenti operativi generici, senza collegarli chiaramente alla strategia di marketing"
     ],
     "correct": 0,
-    "explanation": "Il materiale descrive il ciclo di vita del prodotto con cinque fasi."
+    "explanation": "beneficio fondamentale che il cliente acquista al di là delle caratteristiche fisiche. Questo concetto è fondamentale per comprendere come il marketing collega bisogni, segmentazione e posizionamento competitivo."
   },
   {
     "id": 64,
-    "question": "Che cosa caratterizza la fase di introduzione del prodotto?",
+    "question": "Per Prodotto atteso si intende ....",
     "answers": [
-      "Ricerca, sviluppo e lancio, con costi economici elevati",
-      "Vendite al massimo e margini già stabili",
-      "Fine del ciclo di vita",
-      "Sostituzione immediata del prodotto"
+      "insieme di attributi e condizioni che il cliente si aspetta normalmente quando acquista un prodotto",
+      "una descrizione che insiste soprattutto su aspetti organizzativi interni senza riferimento diretto a bisogni, clienti o posizionamento",
+      "una formulazione che enfatizza quasi esclusivamente risultati economici di breve periodo, trascurando valore e relazione con il mercato",
+      "una spiegazione centrata solo su strumenti operativi generici, senza collegarli chiaramente alla strategia di marketing"
     ],
     "correct": 0,
-    "explanation": "L’introduzione è la fase più impegnativa dal punto di vista economico."
+    "explanation": "insieme di attributi e condizioni che il cliente si aspetta normalmente quando acquista un prodotto. Questo concetto è fondamentale per comprendere come il marketing collega bisogni, segmentazione e posizionamento competitivo."
   },
   {
     "id": 65,
-    "question": "Che cosa caratterizza la fase di maturità?",
+    "question": "Per Prodotto aumentato si intende ....",
     "answers": [
-      "La crescita rallenta e le vendite si avvicinano al picco massimo",
-      "Le vendite sono appena nate",
-      "Il prodotto è già in declino irreversibile",
-      "Non esistono più margini"
+      "insieme di servizi e elementi aggiuntivi che arricchiscono l offerta oltre le aspettative di base",
+      "una descrizione che insiste soprattutto su aspetti organizzativi interni senza riferimento diretto a bisogni, clienti o posizionamento",
+      "una formulazione che enfatizza quasi esclusivamente risultati economici di breve periodo, trascurando valore e relazione con il mercato",
+      "una spiegazione centrata solo su strumenti operativi generici, senza collegarli chiaramente alla strategia di marketing"
     ],
     "correct": 0,
-    "explanation": "Nella maturità le vendite restano alte ma la crescita rallenta."
+    "explanation": "insieme di servizi e elementi aggiuntivi che arricchiscono l offerta oltre le aspettative di base. Questo concetto è fondamentale per comprendere come il marketing collega bisogni, segmentazione e posizionamento competitivo."
   },
   {
     "id": 66,
-    "question": "Che cosa accade nella fase di declino?",
+    "question": "Quando si parla di Customer satisfaction si intende ....",
     "answers": [
-      "Le vendite iniziano a diminuire",
-      "Le vendite crescono rapidamente",
-      "Il prodotto è appena lanciato",
-      "La promozione si annulla automaticamente"
+      "grado in cui l esperienza di consumo eguaglia o supera le aspettative del cliente",
+      "una descrizione che insiste soprattutto su aspetti organizzativi interni senza riferimento diretto a bisogni, clienti o posizionamento",
+      "una formulazione che enfatizza quasi esclusivamente risultati economici di breve periodo, trascurando valore e relazione con il mercato",
+      "una spiegazione centrata solo su strumenti operativi generici, senza collegarli chiaramente alla strategia di marketing"
     ],
     "correct": 0,
-    "explanation": "Il declino corrisponde alla discesa delle vendite."
+    "explanation": "grado in cui l esperienza di consumo eguaglia o supera le aspettative del cliente. Questo concetto è fondamentale per comprendere come il marketing collega bisogni, segmentazione e posizionamento competitivo."
   },
   {
     "id": 67,
-    "question": "Qual è la domanda strategica posta nella fase di rilancio?",
+    "question": "Per Customer loyalty si intende ....",
     "answers": [
-      "Rilanciare, sostituire o abbandonare",
-      "Aumentare solo il packaging",
-      "Eliminare il prezzo",
-      "Cambiare solo il logo"
+      "tendenza del cliente a riacquistare e raccomandare costantemente la stessa marca nel tempo",
+      "una descrizione che insiste soprattutto su aspetti organizzativi interni senza riferimento diretto a bisogni, clienti o posizionamento",
+      "una formulazione che enfatizza quasi esclusivamente risultati economici di breve periodo, trascurando valore e relazione con il mercato",
+      "una spiegazione centrata solo su strumenti operativi generici, senza collegarli chiaramente alla strategia di marketing"
     ],
     "correct": 0,
-    "explanation": "Nel rilancio il management deve decidere se rilanciare, sostituire o abbandonare il prodotto."
+    "explanation": "tendenza del cliente a riacquistare e raccomandare costantemente la stessa marca nel tempo. Questo concetto è fondamentale per comprendere come il marketing collega bisogni, segmentazione e posizionamento competitivo."
   },
   {
     "id": 68,
-    "question": "Che cosa rappresenta il prezzo?",
+    "question": "Per Net Promoter Score si intende ....",
     "answers": [
-      "Il punto di incontro tra domanda e offerta espresso in moneta corrente",
-      "Solo il costo di produzione",
-      "Solo il margine del distributore",
-      "Solo una leva pubblicitaria"
+      "indicatore sintetico che misura la propensione dei clienti a raccomandare l azienda ad altri",
+      "una descrizione che insiste soprattutto su aspetti organizzativi interni senza riferimento diretto a bisogni, clienti o posizionamento",
+      "una formulazione che enfatizza quasi esclusivamente risultati economici di breve periodo, trascurando valore e relazione con il mercato",
+      "una spiegazione centrata solo su strumenti operativi generici, senza collegarli chiaramente alla strategia di marketing"
     ],
     "correct": 0,
-    "explanation": "Il prezzo è il controvalore richiesto per la value proposition e tiene insieme domanda e offerta."
+    "explanation": "indicatore sintetico che misura la propensione dei clienti a raccomandare l azienda ad altri. Questo concetto è fondamentale per comprendere come il marketing collega bisogni, segmentazione e posizionamento competitivo."
   },
   {
     "id": 69,
-    "question": "Quali elementi vanno considerati nella definizione del prezzo?",
+    "question": "Quando si parla di Share of wallet si intende ....",
     "answers": [
-      "Obiettivi di marketing, costi, competitor, percezione, vincoli legali e fiscali",
-      "Solo il gusto personale del manager",
-      "Solo il colore del prodotto",
-      "Solo la velocità di produzione"
+      "quota della spesa complessiva del cliente in una categoria che viene destinata a una specifica marca",
+      "una descrizione che insiste soprattutto su aspetti organizzativi interni senza riferimento diretto a bisogni, clienti o posizionamento",
+      "una formulazione che enfatizza quasi esclusivamente risultati economici di breve periodo, trascurando valore e relazione con il mercato",
+      "una spiegazione centrata solo su strumenti operativi generici, senza collegarli chiaramente alla strategia di marketing"
     ],
     "correct": 0,
-    "explanation": "Il pricing richiede di considerare più fattori, non solo i costi."
+    "explanation": "quota della spesa complessiva del cliente in una categoria che viene destinata a una specifica marca. Questo concetto è fondamentale per comprendere come il marketing collega bisogni, segmentazione e posizionamento competitivo."
   },
   {
     "id": 70,
-    "question": "Quale limite non può essere superato dal prezzo rispetto al posizionamento?",
+    "question": "Per Customer lifetime value si intende ....",
     "answers": [
-      "Il limite alto coerente con il posizionamento e il limite basso sotto cui il prodotto sembra troppo economico",
-      "Solo il limite alto",
-      "Solo il limite basso",
-      "Nessun limite"
+      "valore attuale dei ricavi e margini attesi da un cliente lungo l intera relazione",
+      "una descrizione che insiste soprattutto su aspetti organizzativi interni senza riferimento diretto a bisogni, clienti o posizionamento",
+      "una formulazione che enfatizza quasi esclusivamente risultati economici di breve periodo, trascurando valore e relazione con il mercato",
+      "una spiegazione centrata solo su strumenti operativi generici, senza collegarli chiaramente alla strategia di marketing"
     ],
     "correct": 0,
-    "explanation": "Il prezzo deve restare coerente sia verso l’alto sia verso il basso rispetto alla percezione di valore e posizionamento."
+    "explanation": "valore attuale dei ricavi e margini attesi da un cliente lungo l intera relazione. Questo concetto è fondamentale per comprendere come il marketing collega bisogni, segmentazione e posizionamento competitivo."
   },
   {
     "id": 71,
-    "question": "Che cosa significa place nella logica del marketing mix?",
+    "question": "Per Marketing relazionale si intende ....",
     "answers": [
-      "I luoghi o le modalità con cui il prodotto viene reso disponibile",
-      "La campagna social",
-      "Il design del packaging",
-      "La ricerca di mercato"
+      "approccio che privilegia la costruzione di relazioni durature e profittevoli con i clienti rispetto a transazioni isolate",
+      "una descrizione che insiste soprattutto su aspetti organizzativi interni senza riferimento diretto a bisogni, clienti o posizionamento",
+      "una formulazione che enfatizza quasi esclusivamente risultati economici di breve periodo, trascurando valore e relazione con il mercato",
+      "una spiegazione centrata solo su strumenti operativi generici, senza collegarli chiaramente alla strategia di marketing"
     ],
     "correct": 0,
-    "explanation": "Place riguarda distribuzione e accessibilità del prodotto."
+    "explanation": "approccio che privilegia la costruzione di relazioni durature e profittevoli con i clienti rispetto a transazioni isolate. Questo concetto è fondamentale per comprendere come il marketing collega bisogni, segmentazione e posizionamento competitivo."
   },
   {
     "id": 72,
-    "question": "Che cos’è la promotion?",
+    "question": "Quando si parla di Orientamento al mercato si intende ....",
     "answers": [
-      "L’insieme delle attività e degli strumenti usati per promuovere il prodotto al mercato",
-      "Solo il prezzo scontato",
-      "Solo la produzione",
-      "Solo l’assistenza post-vendita"
+      "filosofia gestionale che pone al centro la comprensione e la soddisfazione dei bisogni dei clienti e dei pubblici chiave",
+      "una descrizione che insiste soprattutto su aspetti organizzativi interni senza riferimento diretto a bisogni, clienti o posizionamento",
+      "una formulazione che enfatizza quasi esclusivamente risultati economici di breve periodo, trascurando valore e relazione con il mercato",
+      "una spiegazione centrata solo su strumenti operativi generici, senza collegarli chiaramente alla strategia di marketing"
     ],
     "correct": 0,
-    "explanation": "Promotion raccoglie tutte le azioni comunicative e promozionali."
+    "explanation": "filosofia gestionale che pone al centro la comprensione e la soddisfazione dei bisogni dei clienti e dei pubblici chiave. Questo concetto è fondamentale per comprendere come il marketing collega bisogni, segmentazione e posizionamento competitivo."
   },
   {
     "id": 73,
-    "question": "In che modo la promozione agisce sul mercato?",
+    "question": "Per Orientamento alle vendite si intende ....",
     "answers": [
-      "Direttamente sul breve termine e indirettamente sul medio-lungo termine",
-      "Solo sul lungo termine",
-      "Solo sul prezzo",
-      "Solo sul packaging"
+      "approccio che enfatizza la pressione commerciale e la chiusura di vendite nel breve termine",
+      "una descrizione che insiste soprattutto su aspetti organizzativi interni senza riferimento diretto a bisogni, clienti o posizionamento",
+      "una formulazione che enfatizza quasi esclusivamente risultati economici di breve periodo, trascurando valore e relazione con il mercato",
+      "una spiegazione centrata solo su strumenti operativi generici, senza collegarli chiaramente alla strategia di marketing"
     ],
     "correct": 0,
-    "explanation": "La promozione influisce sia su vendite immediate sia su notorietà e immagine nel tempo."
+    "explanation": "approccio che enfatizza la pressione commerciale e la chiusura di vendite nel breve termine. Questo concetto è fondamentale per comprendere come il marketing collega bisogni, segmentazione e posizionamento competitivo."
   },
   {
     "id": 74,
-    "question": "Quale affermazione riassume meglio il rapporto tra marketing e bisogni?",
+    "question": "Per Orientamento al prodotto si intende ....",
     "answers": [
-      "Il marketing non crea bisogni, ma li razionalizza e costruisce valore",
-      "Il marketing crea bisogni dal nulla",
-      "Il marketing agisce solo dopo l’acquisto",
-      "Il marketing riguarda solo la distribuzione"
+      "approccio che privilegia eccellenza tecnica e caratteristiche del prodotto rispetto all analisi dei bisogni",
+      "una descrizione che insiste soprattutto su aspetti organizzativi interni senza riferimento diretto a bisogni, clienti o posizionamento",
+      "una formulazione che enfatizza quasi esclusivamente risultati economici di breve periodo, trascurando valore e relazione con il mercato",
+      "una spiegazione centrata solo su strumenti operativi generici, senza collegarli chiaramente alla strategia di marketing"
     ],
     "correct": 0,
-    "explanation": "Il materiale insiste sul fatto che il marketing interpreta e razionalizza i bisogni, non li inventa."
+    "explanation": "approccio che privilegia eccellenza tecnica e caratteristiche del prodotto rispetto all analisi dei bisogni. Questo concetto è fondamentale per comprendere come il marketing collega bisogni, segmentazione e posizionamento competitivo."
   },
   {
     "id": 75,
-    "question": "Che cosa si intende per customer experience integrata?",
+    "question": "Quando si parla di Orientamento alla produzione si intende ....",
     "answers": [
-      "Un’esperienza coerente tra tutti i touchpoint dell’azienda",
-      "Un singolo contatto pubblicitario",
-      "Un processo interno di produzione",
-      "Un canale di vendita unico"
+      "approccio focalizzato su efficienza produttiva, volumi e riduzione dei costi",
+      "una descrizione che insiste soprattutto su aspetti organizzativi interni senza riferimento diretto a bisogni, clienti o posizionamento",
+      "una formulazione che enfatizza quasi esclusivamente risultati economici di breve periodo, trascurando valore e relazione con il mercato",
+      "una spiegazione centrata solo su strumenti operativi generici, senza collegarli chiaramente alla strategia di marketing"
     ],
     "correct": 0,
-    "explanation": "L’esperienza del cliente deve mantenere coerenza tra tutti i punti di contatto."
+    "explanation": "approccio focalizzato su efficienza produttiva, volumi e riduzione dei costi. Questo concetto è fondamentale per comprendere come il marketing collega bisogni, segmentazione e posizionamento competitivo."
   },
   {
     "id": 76,
-    "question": "Perché il brand forte favorisce advocacy e fedeltà?",
+    "question": "Per Analisi dei competitor si intende ....",
     "answers": [
-      "Perché crea connessione emotiva e simbolica con il cliente",
-      "Perché abbassa automaticamente i prezzi",
-      "Perché elimina la concorrenza",
-      "Perché rende inutile il customer service"
+      "raccolta e interpretazione sistematica di informazioni sui principali concorrenti",
+      "una descrizione che insiste soprattutto su aspetti organizzativi interni senza riferimento diretto a bisogni, clienti o posizionamento",
+      "una formulazione che enfatizza quasi esclusivamente risultati economici di breve periodo, trascurando valore e relazione con il mercato",
+      "una spiegazione centrata solo su strumenti operativi generici, senza collegarli chiaramente alla strategia di marketing"
     ],
     "correct": 0,
-    "explanation": "Una brand equity forte alimenta fiducia, coinvolgimento e affetto verso il brand."
+    "explanation": "raccolta e interpretazione sistematica di informazioni sui principali concorrenti. Questo concetto è fondamentale per comprendere come il marketing collega bisogni, segmentazione e posizionamento competitivo."
   },
   {
     "id": 77,
-    "question": "Che cosa significa demand in relazione al desiderio?",
+    "question": "Per Benchmarking si intende ....",
     "answers": [
-      "La volontà e possibilità di soddisfare un desiderio sul mercato",
-      "Il costo del prodotto",
-      "Il supporto post-vendita",
-      "La pubblicità del marchio"
+      "confronto sistematico con organizzazioni considerate eccellenti per individuare gap e opportunità di miglioramento",
+      "una descrizione che insiste soprattutto su aspetti organizzativi interni senza riferimento diretto a bisogni, clienti o posizionamento",
+      "una formulazione che enfatizza quasi esclusivamente risultati economici di breve periodo, trascurando valore e relazione con il mercato",
+      "una spiegazione centrata solo su strumenti operativi generici, senza collegarli chiaramente alla strategia di marketing"
     ],
     "correct": 0,
-    "explanation": "La domanda nasce quando il desiderio incontra la volontà e possibilità di soddisfazione."
+    "explanation": "confronto sistematico con organizzazioni considerate eccellenti per individuare gap e opportunità di miglioramento. Questo concetto è fondamentale per comprendere come il marketing collega bisogni, segmentazione e posizionamento competitivo."
   },
   {
     "id": 78,
-    "question": "Quale tra queste è una leva del marketing strategico?",
+    "question": "Quando si parla di Posizionamento percettivo si intende ....",
     "answers": [
-      "Segmentazione, targetizzazione e posizionamento",
-      "Solo sconti e offerte",
-      "Solo logistica e magazzino",
-      "Solo assistenza clienti"
+      "modo in cui i consumatori effettivamente percepiscono l offerta, indipendentemente dall intento dell azienda",
+      "una descrizione che insiste soprattutto su aspetti organizzativi interni senza riferimento diretto a bisogni, clienti o posizionamento",
+      "una formulazione che enfatizza quasi esclusivamente risultati economici di breve periodo, trascurando valore e relazione con il mercato",
+      "una spiegazione centrata solo su strumenti operativi generici, senza collegarli chiaramente alla strategia di marketing"
     ],
     "correct": 0,
-    "explanation": "Lo STP process è centrale nel marketing strategico."
+    "explanation": "modo in cui i consumatori effettivamente percepiscono l offerta, indipendentemente dall intento dell azienda. Questo concetto è fondamentale per comprendere come il marketing collega bisogni, segmentazione e posizionamento competitivo."
   },
   {
     "id": 79,
-    "question": "Cosa significa che un segmento è raggiungibile?",
+    "question": "Per Valore di marca si intende ....",
     "answers": [
-      "Può essere intercettato tramite canali e azioni di marketing",
-      "È molto simile al competitor",
-      "Ha sempre lo stesso budget",
-      "Acquista solo online"
+      "insieme di asset tangibili e intangibili associati alla marca che contribuiscono al suo valore complessivo",
+      "una descrizione che insiste soprattutto su aspetti organizzativi interni senza riferimento diretto a bisogni, clienti o posizionamento",
+      "una formulazione che enfatizza quasi esclusivamente risultati economici di breve periodo, trascurando valore e relazione con il mercato",
+      "una spiegazione centrata solo su strumenti operativi generici, senza collegarli chiaramente alla strategia di marketing"
     ],
     "correct": 0,
-    "explanation": "La raggiungibilità riguarda la capacità di contattare efficacemente il segmento."
+    "explanation": "insieme di asset tangibili e intangibili associati alla marca che contribuiscono al suo valore complessivo. Questo concetto è fondamentale per comprendere come il marketing collega bisogni, segmentazione e posizionamento competitivo."
   },
   {
     "id": 80,
-    "question": "Che cosa rappresenta il marketing operativo?",
+    "question": "Per definizione Marketing mix (4P) si intende ....",
     "answers": [
-      "L’implementazione coerente del marketing mix per raggiungere il mercato",
-      "La sola analisi dei bisogni",
-      "La sola scelta del target",
-      "La sola definizione della mission"
+      "insieme coordinato di decisioni su prodotto, prezzo, punto vendita e promozione per servire un determinato mercato",
+      "una descrizione che insiste soprattutto su aspetti organizzativi interni senza riferimento diretto a bisogni, clienti o posizionamento",
+      "una formulazione che enfatizza quasi esclusivamente risultati economici di breve periodo, trascurando valore e relazione con il mercato",
+      "una spiegazione centrata solo su strumenti operativi generici, senza collegarli chiaramente alla strategia di marketing"
     ],
     "correct": 0,
-    "explanation": "Il marketing operativo traduce la strategia in azioni concrete attraverso il marketing mix."
-  }
+    "explanation": "insieme coordinato di decisioni su prodotto, prezzo, punto vendita e promozione per servire un determinato mercato. Questo concetto è fondamentale per comprendere come il marketing collega bisogni, segmentazione e posizionamento competitivo."
+  },
 ];
 
 export default marketing4PQuestions;

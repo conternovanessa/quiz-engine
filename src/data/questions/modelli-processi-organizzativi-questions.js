@@ -1,424 +1,724 @@
 const modelliProcessiOrganizzativiQuestions = [
   {
     "id": 1,
-    "question": "Quale tra questi può essere un segnale di problema organizzativo in un’azienda?",
-    "answers": ["Scarsa chiarezza dei ruoli", "Aumento della liquidità", "Riduzione dei costi di magazzino", "Presenza di brevetti"],
+    "question": "Per Arena politica si intende ....",
+    "answers": [
+      "metafora che vede l organizzazione come luogo di conflitti, coalizioni e negoziazioni per potere, risorse e influenza",
+      "una descrizione che si concentra quasi solo su indicatori economici di breve periodo, senza collegarsi alla progettazione organizzativa",
+      "una formulazione che richiama genericamente il comportamento individuale, senza riferimento a strutture, ruoli o processi",
+      "una spiegazione che menziona solo strumenti operativi isolati, senza considerarne il ruolo nel sistema organizzativo complessivo"
+    ],
     "correct": 0,
-    "explanation": "La scarsa chiarezza dei ruoli è un tipico problema organizzativo, perché genera confusione, inefficienza e sovrapposizioni di attività. Le altre opzioni non descrivono necessariamente una criticità organizzativa."
+    "explanation": "metafora che vede l organizzazione come luogo di conflitti, coalizioni e negoziazioni per potere, risorse e influenza. Questo concetto aiuta a leggere modelli e processi organizzativi evidenziando relazioni tra struttura, ruoli e dinamiche interne."
   },
   {
     "id": 2,
-    "question": "Che cosa si intende per sottodimensionamento in ambito organizzativo?",
-    "answers": ["Una situazione in cui poche persone hanno troppo lavoro", "Una situazione in cui ogni dipendente ha poco lavoro da fare", "Un eccesso di investimenti tecnologici", "Una riduzione della gamma di prodotti"],
+    "question": "Per Autorità formale si intende ....",
+    "answers": [
+      "potere riconosciuto dalla struttura e dal ruolo, che abilita a prendere decisioni e coordinare il lavoro",
+      "una descrizione che si concentra quasi solo su indicatori economici di breve periodo, senza collegarsi alla progettazione organizzativa",
+      "una formulazione che richiama genericamente il comportamento individuale, senza riferimento a strutture, ruoli o processi",
+      "una spiegazione che menziona solo strumenti operativi isolati, senza considerarne il ruolo nel sistema organizzativo complessivo"
+    ],
     "correct": 0,
-    "explanation": "Il sottodimensionamento indica che le risorse umane sono insufficienti rispetto al carico di lavoro, con effetti negativi sull’efficacia. Le altre opzioni descrivono situazioni diverse."
+    "explanation": "potere riconosciuto dalla struttura e dal ruolo, che abilita a prendere decisioni e coordinare il lavoro. Questo concetto aiuta a leggere modelli e processi organizzativi evidenziando relazioni tra struttura, ruoli e dinamiche interne."
   },
   {
     "id": 3,
-    "question": "Che effetto può avere il sovradimensionamento di personale?",
-    "answers": ["Ridurre l’efficienza", "Aumentare automaticamente la motivazione", "Eliminare i conflitti interni", "Migliorare sempre la comunicazione"],
+    "question": "Quando si parla di Business unit si intende ....",
+    "answers": [
+      "unità organizzativa dedicata a uno specifico prodotto, mercato o area geografica all interno di una struttura divisionale",
+      "una descrizione che si concentra quasi solo su indicatori economici di breve periodo, senza collegarsi alla progettazione organizzativa",
+      "una formulazione che richiama genericamente il comportamento individuale, senza riferimento a strutture, ruoli o processi",
+      "una spiegazione che menziona solo strumenti operativi isolati, senza considerarne il ruolo nel sistema organizzativo complessivo"
+    ],
     "correct": 0,
-    "explanation": "Il sovradimensionamento può portare a inefficienza, perché ci sono più risorse del necessario rispetto al lavoro da svolgere. Non garantisce né motivazione né buona comunicazione."
+    "explanation": "unità organizzativa dedicata a uno specifico prodotto, mercato o area geografica all interno di una struttura divisionale. Questo concetto aiuta a leggere modelli e processi organizzativi evidenziando relazioni tra struttura, ruoli e dinamiche interne."
   },
   {
     "id": 4,
-    "question": "Quale metafora descrive l’organizzazione come sistema chiuso, razionale e burocratico?",
-    "answers": ["Macchina", "Organismo", "Tribù", "Iceberg"],
+    "question": "Per Capacità organizzativa si intende ....",
+    "answers": [
+      "insieme di risorse, competenze, relazioni e meccanismi che permettono all impresa di essere efficace ed efficiente",
+      "una descrizione che si concentra quasi solo su indicatori economici di breve periodo, senza collegarsi alla progettazione organizzativa",
+      "una formulazione che richiama genericamente il comportamento individuale, senza riferimento a strutture, ruoli o processi",
+      "una spiegazione che menziona solo strumenti operativi isolati, senza considerarne il ruolo nel sistema organizzativo complessivo"
+    ],
     "correct": 0,
-    "explanation": "La metafora della macchina rappresenta l’organizzazione come sistema razionale, chiuso e orientato alla specializzazione e standardizzazione. Le altre metafore mettono in evidenza aspetti diversi."
+    "explanation": "insieme di risorse, competenze, relazioni e meccanismi che permettono all impresa di essere efficace ed efficiente. Questo concetto aiuta a leggere modelli e processi organizzativi evidenziando relazioni tra struttura, ruoli e dinamiche interne."
   },
   {
     "id": 5,
-    "question": "Quali strumenti sono tipici della visione dell’organizzazione come macchina?",
-    "answers": ["Organigramma, job description e procedure", "Riti, simboli e miti", "Coalizioni informali e giochi di potere", "Emozioni, paure e desideri"],
+    "question": "Per Cattiva comunicazione si intende ....",
+    "answers": [
+      "problema organizzativo che ostacola il coordinamento, aumenta la variabilità e riduce la qualità dei processi",
+      "una descrizione che si concentra quasi solo su indicatori economici di breve periodo, senza collegarsi alla progettazione organizzativa",
+      "una formulazione che richiama genericamente il comportamento individuale, senza riferimento a strutture, ruoli o processi",
+      "una spiegazione che menziona solo strumenti operativi isolati, senza considerarne il ruolo nel sistema organizzativo complessivo"
+    ],
     "correct": 0,
-    "explanation": "Nella visione meccanicistica dell’organizzazione contano struttura formale, mansionari e procedure. Le altre opzioni appartengono ad altre letture dell’organizzazione."
+    "explanation": "problema organizzativo che ostacola il coordinamento, aumenta la variabilità e riduce la qualità dei processi. Questo concetto aiuta a leggere modelli e processi organizzativi evidenziando relazioni tra struttura, ruoli e dinamiche interne."
   },
   {
     "id": 6,
-    "question": "Che cosa mette in evidenza la metafora dell’organizzazione come organismo?",
-    "answers": ["La capacità di adattarsi all’ambiente", "La rigida applicazione delle procedure", "La centralità esclusiva della gerarchia", "L’assenza di influenze esterne"],
+    "question": "Quando si parla di Coerenza organizzativa si intende ....",
+    "answers": [
+      "allineamento tra struttura, strategia, obiettivi, persone e ambiente esterno",
+      "una descrizione che si concentra quasi solo su indicatori economici di breve periodo, senza collegarsi alla progettazione organizzativa",
+      "una formulazione che richiama genericamente il comportamento individuale, senza riferimento a strutture, ruoli o processi",
+      "una spiegazione che menziona solo strumenti operativi isolati, senza considerarne il ruolo nel sistema organizzativo complessivo"
+    ],
     "correct": 0,
-    "explanation": "L’organizzazione come organismo interagisce con l’ambiente e si adatta ai suoi cambiamenti. Non è quindi un sistema chiuso né rigidamente definito solo da regole."
+    "explanation": "allineamento tra struttura, strategia, obiettivi, persone e ambiente esterno. Questo concetto aiuta a leggere modelli e processi organizzativi evidenziando relazioni tra struttura, ruoli e dinamiche interne."
   },
   {
     "id": 7,
-    "question": "Quale elemento è centrale nella metafora dell’organizzazione come organismo?",
-    "answers": ["Il rapporto con clienti, concorrenti, fornitori e contesto", "La sola catena gerarchica", "La sola riduzione dei costi", "La sola standardizzazione dei compiti"],
+    "question": "Per Cost-plus si intende ....",
+    "answers": [
+      "logica di determinazione del prezzo basata su somma di costi e margine, adatta a contesti stabili ma poco competitiva in mercati orientati a costo, tempo e qualità",
+      "una descrizione che si concentra quasi solo su indicatori economici di breve periodo, senza collegarsi alla progettazione organizzativa",
+      "una formulazione che richiama genericamente il comportamento individuale, senza riferimento a strutture, ruoli o processi",
+      "una spiegazione che menziona solo strumenti operativi isolati, senza considerarne il ruolo nel sistema organizzativo complessivo"
+    ],
     "correct": 0,
-    "explanation": "La metafora dell’organismo mette al centro la relazione dinamica con l’ambiente esterno, quindi clienti, concorrenti, fornitori e contesto socioeconomico."
+    "explanation": "logica di determinazione del prezzo basata su somma di costi e margine, adatta a contesti stabili ma poco competitiva in mercati orientati a costo, tempo e qualità. Questo concetto aiuta a leggere modelli e processi organizzativi evidenziando relazioni tra struttura, ruoli e dinamiche interne."
   },
   {
     "id": 8,
-    "question": "Che cosa evidenzia la metafora dell’organizzazione come tribù o clan?",
-    "answers": ["La cultura organizzativa, i valori condivisi e i legami sociali", "La sola struttura formale", "La sola divisione del lavoro", "La sola analisi economico-finanziaria"],
+    "question": "Per definizione Diamante organizzativo si intende ....",
+    "answers": [
+      "modello che rappresenta l organizzazione attraverso più dimensioni metaforiche come macchina, organismo, tribù, arena politica e iceberg",
+      "una descrizione che si concentra quasi solo su indicatori economici di breve periodo, senza collegarsi alla progettazione organizzativa",
+      "una formulazione che richiama genericamente il comportamento individuale, senza riferimento a strutture, ruoli o processi",
+      "una spiegazione che menziona solo strumenti operativi isolati, senza considerarne il ruolo nel sistema organizzativo complessivo"
+    ],
     "correct": 0,
-    "explanation": "La metafora di tribù o clan sottolinea l’importanza di cultura, ideali condivisi e legami sociali. Non si concentra sulla sola struttura formale."
+    "explanation": "modello che rappresenta l organizzazione attraverso più dimensioni metaforiche come macchina, organismo, tribù, arena politica e iceberg. Questo concetto aiuta a leggere modelli e processi organizzativi evidenziando relazioni tra struttura, ruoli e dinamiche interne."
   },
   {
     "id": 9,
-    "question": "Quale tipo di leadership è associata alla metafora di tribù e clan?",
-    "answers": ["Leadership carismatica", "Leadership algoritmica", "Leadership impersonale automatica", "Leadership esclusivamente burocratica"],
+    "question": "Quando si parla di Divisione del lavoro si intende ....",
+    "answers": [
+      "scomposizione delle attività in compiti separati, verticali o orizzontali, per aumentare specializzazione e coordinamento",
+      "una descrizione che si concentra quasi solo su indicatori economici di breve periodo, senza collegarsi alla progettazione organizzativa",
+      "una formulazione che richiama genericamente il comportamento individuale, senza riferimento a strutture, ruoli o processi",
+      "una spiegazione che menziona solo strumenti operativi isolati, senza considerarne il ruolo nel sistema organizzativo complessivo"
+    ],
     "correct": 0,
-    "explanation": "Nel modello tribù e clan la coesione è spesso sostenuta da valori condivisi e da una leadership carismatica, non solo da regole scritte."
+    "explanation": "scomposizione delle attività in compiti separati, verticali o orizzontali, per aumentare specializzazione e coordinamento. Questo concetto aiuta a leggere modelli e processi organizzativi evidenziando relazioni tra struttura, ruoli e dinamiche interne."
   },
   {
     "id": 10,
-    "question": "Che cosa descrive la metafora dell’organizzazione come arena politica?",
-    "answers": ["Un contesto in cui individui e gruppi competono per potere, risorse e influenza", "Un sistema totalmente armonico e privo di conflitti", "Un’organizzazione governata solo da procedure", "Un ambiente in cui la cultura non conta"],
+    "question": "Per Divisionale si intende ....",
+    "answers": [
+      "forma strutturale che organizza l impresa in divisioni per prodotto, mercato o area geografica",
+      "una descrizione che si concentra quasi solo su indicatori economici di breve periodo, senza collegarsi alla progettazione organizzativa",
+      "una formulazione che richiama genericamente il comportamento individuale, senza riferimento a strutture, ruoli o processi",
+      "una spiegazione che menziona solo strumenti operativi isolati, senza considerarne il ruolo nel sistema organizzativo complessivo"
+    ],
     "correct": 0,
-    "explanation": "L’arena politica mette in luce conflitti di interesse, coalizioni e lotte per il potere. Le altre opzioni negano proprio questo aspetto."
+    "explanation": "forma strutturale che organizza l impresa in divisioni per prodotto, mercato o area geografica. Questo concetto aiuta a leggere modelli e processi organizzativi evidenziando relazioni tra struttura, ruoli e dinamiche interne."
   },
   {
     "id": 11,
-    "question": "Perché in un’arena politica è importante comprendere gli stakeholder?",
-    "answers": ["Per capire quanto potere hanno e come influenzano i risultati", "Per assegnare i colori dell’organigramma", "Per evitare ogni forma di negoziazione", "Per ridurre il numero di reparti"],
+    "question": "Per Efficacia si intende ....",
+    "answers": [
+      "capacità dell organizzazione di raggiungere gli obiettivi prefissati",
+      "una descrizione che si concentra quasi solo su indicatori economici di breve periodo, senza collegarsi alla progettazione organizzativa",
+      "una formulazione che richiama genericamente il comportamento individuale, senza riferimento a strutture, ruoli o processi",
+      "una spiegazione che menziona solo strumenti operativi isolati, senza considerarne il ruolo nel sistema organizzativo complessivo"
+    ],
     "correct": 0,
-    "explanation": "Capire gli stakeholder significa comprendere chi detiene potere, risorse e capacità di influenza sui processi e sui risultati organizzativi."
+    "explanation": "capacità dell organizzazione di raggiungere gli obiettivi prefissati. Questo concetto aiuta a leggere modelli e processi organizzativi evidenziando relazioni tra struttura, ruoli e dinamiche interne."
   },
   {
     "id": 12,
-    "question": "Che cosa indica la metafora dell’organizzazione come iceberg?",
-    "answers": ["Che la parte visibile è sostenuta da dinamiche nascoste come emozioni, paure e relazioni di potere", "Che tutto ciò che conta è scritto nelle procedure", "Che conta solo ciò che si vede nell’organigramma", "Che la struttura formale spiega sempre tutto"],
+    "question": "Quando si parla di Efficienza si intende ....",
+    "answers": [
+      "capacità di raggiungere un obiettivo utilizzando il minor numero possibile di risorse",
+      "una descrizione che si concentra quasi solo su indicatori economici di breve periodo, senza collegarsi alla progettazione organizzativa",
+      "una formulazione che richiama genericamente il comportamento individuale, senza riferimento a strutture, ruoli o processi",
+      "una spiegazione che menziona solo strumenti operativi isolati, senza considerarne il ruolo nel sistema organizzativo complessivo"
+    ],
     "correct": 0,
-    "explanation": "L’iceberg distingue tra una parte visibile e una nascosta, mostrando che molti problemi organizzativi nascono da fattori invisibili ma decisivi."
+    "explanation": "capacità di raggiungere un obiettivo utilizzando il minor numero possibile di risorse. Questo concetto aiuta a leggere modelli e processi organizzativi evidenziando relazioni tra struttura, ruoli e dinamiche interne."
   },
   {
     "id": 13,
-    "question": "Quale tra questi appartiene alla parte nascosta dell’iceberg organizzativo?",
-    "answers": ["Paure, desideri e relazioni di potere", "Job description e procedure", "Organigramma ufficiale", "Obiettivi dichiarati"],
+    "question": "Per Elemento socio-tecnico si intende ....",
+    "answers": [
+      "aspetto dell organizzazione che evidenzia l intreccio di variabili tecniche e sociali interdipendenti",
+      "una descrizione che si concentra quasi solo su indicatori economici di breve periodo, senza collegarsi alla progettazione organizzativa",
+      "una formulazione che richiama genericamente il comportamento individuale, senza riferimento a strutture, ruoli o processi",
+      "una spiegazione che menziona solo strumenti operativi isolati, senza considerarne il ruolo nel sistema organizzativo complessivo"
+    ],
     "correct": 0,
-    "explanation": "Paure, desideri e relazioni di potere fanno parte della dimensione invisibile dell’organizzazione. Gli altri elementi appartengono alla parte emersa e formale."
+    "explanation": "aspetto dell organizzazione che evidenzia l intreccio di variabili tecniche e sociali interdipendenti. Questo concetto aiuta a leggere modelli e processi organizzativi evidenziando relazioni tra struttura, ruoli e dinamiche interne."
   },
   {
     "id": 14,
-    "question": "Quale insegnamento emerge dal caso Frair France e Perrin?",
-    "answers": ["Non basta intervenire sulla struttura formale se non si considerano anche cultura, politica interna e dimensione psicologica", "È sufficiente cambiare l’organigramma per risolvere ogni problema", "I bisogni dei lavoratori non incidono sui risultati", "La formazione è irrilevante nei cambiamenti organizzativi"],
+    "question": "Per Equilibrio organizzativo si intende ....",
+    "answers": [
+      "condizione in cui le parti del sistema organizzativo restano coerenti tra loro e con l ambiente",
+      "una descrizione che si concentra quasi solo su indicatori economici di breve periodo, senza collegarsi alla progettazione organizzativa",
+      "una formulazione che richiama genericamente il comportamento individuale, senza riferimento a strutture, ruoli o processi",
+      "una spiegazione che menziona solo strumenti operativi isolati, senza considerarne il ruolo nel sistema organizzativo complessivo"
+    ],
     "correct": 0,
-    "explanation": "Il caso mostra che un cambiamento organizzativo efficace deve considerare non solo struttura e compiti, ma anche motivazione, cultura, potere e vissuto delle persone."
+    "explanation": "condizione in cui le parti del sistema organizzativo restano coerenti tra loro e con l ambiente. Questo concetto aiuta a leggere modelli e processi organizzativi evidenziando relazioni tra struttura, ruoli e dinamiche interne."
   },
   {
     "id": 15,
-    "question": "Nel caso Frair France, quale cambiamento di contesto ha reso inadeguata la vecchia organizzazione?",
-    "answers": ["Il passaggio da una clientela pubblica a una privata", "Il trasferimento della sede centrale", "L’eliminazione del project management", "La riduzione dei fornitori a uno solo"],
+    "question": "Quando si parla di Flessibilità organizzativa si intende ....",
+    "answers": [
+      "capacità di adattare struttura e processi a mercati instabili, progetti e cambiamenti di contesto",
+      "una descrizione che si concentra quasi solo su indicatori economici di breve periodo, senza collegarsi alla progettazione organizzativa",
+      "una formulazione che richiama genericamente il comportamento individuale, senza riferimento a strutture, ruoli o processi",
+      "una spiegazione che menziona solo strumenti operativi isolati, senza considerarne il ruolo nel sistema organizzativo complessivo"
+    ],
     "correct": 0,
-    "explanation": "L’azienda era organizzata bene per servire clienti pubblici in un contesto diverso, ma l’espansione verso clienti privati richiedeva logiche nuove su tempi, costi e qualità."
+    "explanation": "capacità di adattare struttura e processi a mercati instabili, progetti e cambiamenti di contesto. Questo concetto aiuta a leggere modelli e processi organizzativi evidenziando relazioni tra struttura, ruoli e dinamiche interne."
   },
   {
     "id": 16,
-    "question": "Perché la sola modifica della job description dei project manager non era sufficiente nel caso studiato?",
-    "answers": ["Perché il cambiamento richiedeva anche motivazione, competenze e attenzione ai bisogni dei lavoratori", "Perché i project manager non hanno alcun ruolo nelle organizzazioni", "Perché la job description non incide mai su nulla", "Perché bastava cambiare il logo aziendale"],
+    "question": "Per Focus sul cliente si intende ....",
+    "answers": [
+      "orientamento che pone i bisogni di clienti e utenti al centro delle scelte organizzative",
+      "una descrizione che si concentra quasi solo su indicatori economici di breve periodo, senza collegarsi alla progettazione organizzativa",
+      "una formulazione che richiama genericamente il comportamento individuale, senza riferimento a strutture, ruoli o processi",
+      "una spiegazione che menziona solo strumenti operativi isolati, senza considerarne il ruolo nel sistema organizzativo complessivo"
+    ],
     "correct": 0,
-    "explanation": "La revisione formale dei ruoli era troppo limitata rispetto a un cambiamento che coinvolgeva anche abitudini di lavoro, competenze e dinamiche interne."
+    "explanation": "orientamento che pone i bisogni di clienti e utenti al centro delle scelte organizzative. Questo concetto aiuta a leggere modelli e processi organizzativi evidenziando relazioni tra struttura, ruoli e dinamiche interne."
   },
   {
     "id": 17,
-    "question": "Come viene definita l’organizzazione dal punto di vista della progettazione organizzativa?",
-    "answers": ["Un sistema socio-tecnico costituito per raggiungere un obiettivo prefissato", "Un insieme casuale di persone senza relazioni", "Una sola struttura gerarchica", "Un insieme di strumenti informatici"],
+    "question": "Per Forma funzionale si intende ....",
+    "answers": [
+      "struttura che raggruppa il lavoro in funzioni specialistiche come produzione, vendite o finanza",
+      "una descrizione che si concentra quasi solo su indicatori economici di breve periodo, senza collegarsi alla progettazione organizzativa",
+      "una formulazione che richiama genericamente il comportamento individuale, senza riferimento a strutture, ruoli o processi",
+      "una spiegazione che menziona solo strumenti operativi isolati, senza considerarne il ruolo nel sistema organizzativo complessivo"
+    ],
     "correct": 0,
-    "explanation": "L’organizzazione è descritta come sistema socio-tecnico, quindi formato da componenti tecniche e sociali che interagiscono per raggiungere obiettivi."
+    "explanation": "struttura che raggruppa il lavoro in funzioni specialistiche come produzione, vendite o finanza. Questo concetto aiuta a leggere modelli e processi organizzativi evidenziando relazioni tra struttura, ruoli e dinamiche interne."
   },
   {
     "id": 18,
-    "question": "Che cosa significa dire che l’organizzazione è un sistema socio-tecnico?",
-    "answers": ["Che include sia variabili strumentali sia variabili sociali", "Che è composta solo da tecnologie", "Che si basa solo sulle relazioni umane", "Che non ha legami con l’ambiente esterno"],
+    "question": "Quando si parla di Hibrid structure / Struttura ibrida si intende ....",
+    "answers": [
+      "struttura che combina elementi funzionali e divisionali mantenendo un solo capo e minore complessità rispetto alla matrice",
+      "una descrizione che si concentra quasi solo su indicatori economici di breve periodo, senza collegarsi alla progettazione organizzativa",
+      "una formulazione che richiama genericamente il comportamento individuale, senza riferimento a strutture, ruoli o processi",
+      "una spiegazione che menziona solo strumenti operativi isolati, senza considerarne il ruolo nel sistema organizzativo complessivo"
+    ],
     "correct": 0,
-    "explanation": "Sistema socio-tecnico significa che tecnologie, strutture e meccanismi convivono con persone, relazioni, cultura e potere."
+    "explanation": "struttura che combina elementi funzionali e divisionali mantenendo un solo capo e minore complessità rispetto alla matrice. Questo concetto aiuta a leggere modelli e processi organizzativi evidenziando relazioni tra struttura, ruoli e dinamiche interne."
   },
   {
     "id": 19,
-    "question": "Perché si dice che il sistema organizzativo è aperto?",
-    "answers": ["Perché è in rapporto di scambio continuo con l’ambiente", "Perché non ha alcuna regola interna", "Perché non ha confini organizzativi", "Perché non ha obiettivi"],
+    "question": "Per Iceberg organizzativo si intende ....",
+    "answers": [
+      "metafora che distingue tra parte visibile dell organizzazione e parte invisibile fatta di emozioni, valori e dinamiche di potere",
+      "una descrizione che si concentra quasi solo su indicatori economici di breve periodo, senza collegarsi alla progettazione organizzativa",
+      "una formulazione che richiama genericamente il comportamento individuale, senza riferimento a strutture, ruoli o processi",
+      "una spiegazione che menziona solo strumenti operativi isolati, senza considerarne il ruolo nel sistema organizzativo complessivo"
+    ],
     "correct": 0,
-    "explanation": "Un sistema organizzativo è aperto perché interagisce costantemente con l’ambiente esterno e si evolve con esso."
+    "explanation": "metafora che distingue tra parte visibile dell organizzazione e parte invisibile fatta di emozioni, valori e dinamiche di potere. Questo concetto aiuta a leggere modelli e processi organizzativi evidenziando relazioni tra struttura, ruoli e dinamiche interne."
   },
   {
     "id": 20,
-    "question": "Qual è una condizione fondamentale per l’efficacia e l’efficienza di un sistema organizzativo?",
-    "answers": ["La ricerca di coerenza ed equilibrio tra le variabili", "L’aumento continuo del numero di reparti", "La riduzione automatica della gerarchia", "L’eliminazione di ogni formalizzazione"],
+    "question": "Per Interdipendenza si intende ....",
+    "answers": [
+      "relazione per cui il cambiamento di una variabile organizzativa richiede adattamenti nelle altre",
+      "una descrizione che si concentra quasi solo su indicatori economici di breve periodo, senza collegarsi alla progettazione organizzativa",
+      "una formulazione che richiama genericamente il comportamento individuale, senza riferimento a strutture, ruoli o processi",
+      "una spiegazione che menziona solo strumenti operativi isolati, senza considerarne il ruolo nel sistema organizzativo complessivo"
+    ],
     "correct": 0,
-    "explanation": "L’organizzazione funziona bene quando le sue variabili sono coerenti e in equilibrio rispetto a obiettivi, strategia e ambiente."
+    "explanation": "relazione per cui il cambiamento di una variabile organizzativa richiede adattamenti nelle altre. Questo concetto aiuta a leggere modelli e processi organizzativi evidenziando relazioni tra struttura, ruoli e dinamiche interne."
   },
   {
     "id": 21,
-    "question": "Che cosa rappresenta l’organigramma?",
-    "answers": ["La descrizione della struttura organizzativa risultante dalla divisione e ricomposizione del lavoro", "Il piano economico dell’azienda", "La lista dei clienti principali", "L’insieme delle procedure informatiche"],
+    "question": "Quando si parla di Job description si intende ....",
+    "answers": [
+      "descrizione formale di compiti, responsabilità e mansioni associate a un ruolo organizzativo",
+      "una descrizione che si concentra quasi solo su indicatori economici di breve periodo, senza collegarsi alla progettazione organizzativa",
+      "una formulazione che richiama genericamente il comportamento individuale, senza riferimento a strutture, ruoli o processi",
+      "una spiegazione che menziona solo strumenti operativi isolati, senza considerarne il ruolo nel sistema organizzativo complessivo"
+    ],
     "correct": 0,
-    "explanation": "L’organigramma rappresenta la struttura organizzativa e i rapporti formali tra unità e ruoli."
+    "explanation": "descrizione formale di compiti, responsabilità e mansioni associate a un ruolo organizzativo. Questo concetto aiuta a leggere modelli e processi organizzativi evidenziando relazioni tra struttura, ruoli e dinamiche interne."
   },
   {
     "id": 22,
-    "question": "Quali modelli strutturali vengono richiamati nel materiale?",
-    "answers": ["Funzionale, divisionale, per progetto, a matrice e ibrido", "Lineare, circolare, digitale e remoto", "Solo funzionale e divisionale", "Solo matrice e team autonomi"],
+    "question": "Per Mansionario si intende ....",
+    "answers": [
+      "documento che elenca e formalizza mansioni, compiti e responsabilità di un ruolo o posizione",
+      "una descrizione che si concentra quasi solo su indicatori economici di breve periodo, senza collegarsi alla progettazione organizzativa",
+      "una formulazione che richiama genericamente il comportamento individuale, senza riferimento a strutture, ruoli o processi",
+      "una spiegazione che menziona solo strumenti operativi isolati, senza considerarne il ruolo nel sistema organizzativo complessivo"
+    ],
     "correct": 0,
-    "explanation": "Il materiale presenta cinque principali modelli strutturali: funzionale, divisionale, per progetto, a matrice e ibrido."
+    "explanation": "documento che elenca e formalizza mansioni, compiti e responsabilità di un ruolo o posizione. Questo concetto aiuta a leggere modelli e processi organizzativi evidenziando relazioni tra struttura, ruoli e dinamiche interne."
   },
   {
     "id": 23,
-    "question": "Su che cosa si basa la struttura organizzativa per funzioni?",
-    "answers": ["Sulle specializzazioni funzionali come produzione, vendite e finanza", "Sui singoli clienti", "Sulle aree geografiche soltanto", "Sui progetti temporanei"],
+    "question": "Per Machine metaphor / Organizzazione come macchina si intende ....",
+    "answers": [
+      "metafora che interpreta l organizzazione come sistema chiuso, razionale e burocratico, orientato a procedure e ottimizzazione",
+      "una descrizione che si concentra quasi solo su indicatori economici di breve periodo, senza collegarsi alla progettazione organizzativa",
+      "una formulazione che richiama genericamente il comportamento individuale, senza riferimento a strutture, ruoli o processi",
+      "una spiegazione che menziona solo strumenti operativi isolati, senza considerarne il ruolo nel sistema organizzativo complessivo"
+    ],
     "correct": 0,
-    "explanation": "La struttura funzionale divide il lavoro per funzioni omogenee, valorizzando specializzazione e competenza tecnica."
+    "explanation": "metafora che interpreta l organizzazione come sistema chiuso, razionale e burocratico, orientato a procedure e ottimizzazione. Questo concetto aiuta a leggere modelli e processi organizzativi evidenziando relazioni tra struttura, ruoli e dinamiche interne."
   },
   {
     "id": 24,
-    "question": "Qual è un vantaggio tipico della struttura per funzioni?",
-    "answers": ["Alto livello di specializzazione", "Massima flessibilità di mercato", "Riduzione totale delle barriere tra reparti", "Assenza di burocrazia"],
+    "question": "Quando si parla di Matrix structure / Struttura a matrice si intende ....",
+    "answers": [
+      "struttura che combina criteri funzionali e divisionali, con più capi e elevata complessità gestionale",
+      "una descrizione che si concentra quasi solo su indicatori economici di breve periodo, senza collegarsi alla progettazione organizzativa",
+      "una formulazione che richiama genericamente il comportamento individuale, senza riferimento a strutture, ruoli o processi",
+      "una spiegazione che menziona solo strumenti operativi isolati, senza considerarne il ruolo nel sistema organizzativo complessivo"
+    ],
     "correct": 0,
-    "explanation": "La struttura funzionale eccelle nella specializzazione e spesso nell’efficienza. Non è invece famosa per flessibilità o comunicazione trasversale."
+    "explanation": "struttura che combina criteri funzionali e divisionali, con più capi e elevata complessità gestionale. Questo concetto aiuta a leggere modelli e processi organizzativi evidenziando relazioni tra struttura, ruoli e dinamiche interne."
   },
   {
     "id": 25,
-    "question": "Qual è uno svantaggio tipico della struttura per funzioni?",
-    "answers": ["Scarsa comunicazione trasversale tra i reparti", "Costo sempre troppo elevato per duplicazione delle funzioni", "Assenza di competenze tecniche", "Impossibilità di definire ruoli"],
+    "question": "Per Mixed structure / Struttura ibrida si intende ....",
+    "answers": [
+      "soluzione che combina funzionalità e divisioni in modo più semplice della matrice",
+      "una descrizione che si concentra quasi solo su indicatori economici di breve periodo, senza collegarsi alla progettazione organizzativa",
+      "una formulazione che richiama genericamente il comportamento individuale, senza riferimento a strutture, ruoli o processi",
+      "una spiegazione che menziona solo strumenti operativi isolati, senza considerarne il ruolo nel sistema organizzativo complessivo"
+    ],
     "correct": 0,
-    "explanation": "La struttura funzionale tende a creare silos verticali, con difficoltà di coordinamento e comunicazione tra unità diverse."
+    "explanation": "soluzione che combina funzionalità e divisioni in modo più semplice della matrice. Questo concetto aiuta a leggere modelli e processi organizzativi evidenziando relazioni tra struttura, ruoli e dinamiche interne."
   },
   {
     "id": 26,
-    "question": "In quale contesto è più adatta una struttura per funzioni?",
-    "answers": ["In contesti stabilizzati con pochi prodotti e mercato maturo", "In contesti molto instabili con prodotti a ciclo di vita breve", "Quando si lavora solo per progetto", "Quando il mercato cambia ogni settimana"],
+    "question": "Per Organigramma si intende ....",
+    "answers": [
+      "rappresentazione grafica di ruoli, livelli e relazioni gerarchiche o funzionali",
+      "una descrizione che si concentra quasi solo su indicatori economici di breve periodo, senza collegarsi alla progettazione organizzativa",
+      "una formulazione che richiama genericamente il comportamento individuale, senza riferimento a strutture, ruoli o processi",
+      "una spiegazione che menziona solo strumenti operativi isolati, senza considerarne il ruolo nel sistema organizzativo complessivo"
+    ],
     "correct": 0,
-    "explanation": "La struttura per funzioni è più adatta ad ambienti relativamente stabili, con processi ripetitivi e gamma limitata di prodotti."
+    "explanation": "rappresentazione grafica di ruoli, livelli e relazioni gerarchiche o funzionali. Questo concetto aiuta a leggere modelli e processi organizzativi evidenziando relazioni tra struttura, ruoli e dinamiche interne."
   },
   {
     "id": 27,
-    "question": "Su quale criterio si basa la struttura organizzativa per divisioni o business unit?",
-    "answers": ["Sul tipo di prodotto, mercato o area geografica", "Sulle sole competenze tecniche individuali", "Sulle relazioni informali tra dipendenti", "Sui turni di lavoro"],
+    "question": "Per definizione Organizzazione si intende ....",
+    "answers": [
+      "sistema socio-tecnico aperto di variabili interconnesse orientato al raggiungimento di obiettivi",
+      "una descrizione che si concentra quasi solo su indicatori economici di breve periodo, senza collegarsi alla progettazione organizzativa",
+      "una formulazione che richiama genericamente il comportamento individuale, senza riferimento a strutture, ruoli o processi",
+      "una spiegazione che menziona solo strumenti operativi isolati, senza considerarne il ruolo nel sistema organizzativo complessivo"
+    ],
     "correct": 0,
-    "explanation": "La struttura divisionale crea unità dedicate a prodotti, mercati o territori differenti."
+    "explanation": "sistema socio-tecnico aperto di variabili interconnesse orientato al raggiungimento di obiettivi. Questo concetto aiuta a leggere modelli e processi organizzativi evidenziando relazioni tra struttura, ruoli e dinamiche interne."
   },
   {
     "id": 28,
-    "question": "Quale linea dell’organigramma indica un riporto gerarchico?",
-    "answers": ["La linea continua", "La linea tratteggiata", "La linea doppia", "La linea curva"],
+    "question": "Per Organizzazione come organismo si intende ....",
+    "answers": [
+      "metafora che vede l impresa come sistema vivente che interagisce con l ambiente e si adatta",
+      "una descrizione che si concentra quasi solo su indicatori economici di breve periodo, senza collegarsi alla progettazione organizzativa",
+      "una formulazione che richiama genericamente il comportamento individuale, senza riferimento a strutture, ruoli o processi",
+      "una spiegazione che menziona solo strumenti operativi isolati, senza considerarne il ruolo nel sistema organizzativo complessivo"
+    ],
     "correct": 0,
-    "explanation": "Nel materiale la linea continua rappresenta il riporto gerarchico. La linea tratteggiata indica invece un riporto funzionale."
+    "explanation": "metafora che vede l impresa come sistema vivente che interagisce con l ambiente e si adatta. Questo concetto aiuta a leggere modelli e processi organizzativi evidenziando relazioni tra struttura, ruoli e dinamiche interne."
   },
   {
     "id": 29,
-    "question": "Che cosa indica una linea tratteggiata in un organigramma?",
-    "answers": ["Un riporto funzionale", "Un rapporto di proprietà", "Una relazione di amicizia", "L’assenza di responsabilità"],
+    "question": "Per Organizzazione come tribù e clan si intende ....",
+    "answers": [
+      "metafora che mette al centro cultura, valori condivisi, legami sociali e leadership carismatica",
+      "una descrizione che si concentra quasi solo su indicatori economici di breve periodo, senza collegarsi alla progettazione organizzativa",
+      "una formulazione che richiama genericamente il comportamento individuale, senza riferimento a strutture, ruoli o processi",
+      "una spiegazione che menziona solo strumenti operativi isolati, senza considerarne il ruolo nel sistema organizzativo complessivo"
+    ],
     "correct": 0,
-    "explanation": "La linea tratteggiata segnala un riporto funzionale, cioè un legame di indirizzo o coordinamento non strettamente gerarchico."
+    "explanation": "metafora che mette al centro cultura, valori condivisi, legami sociali e leadership carismatica. Questo concetto aiuta a leggere modelli e processi organizzativi evidenziando relazioni tra struttura, ruoli e dinamiche interne."
   },
   {
     "id": 30,
-    "question": "Qual è un vantaggio tipico della struttura divisionale?",
-    "answers": ["Maggiore efficacia e flessibilità rispetto ai cambiamenti di mercato", "Massima semplicità di coordinamento", "Costi sempre bassissimi", "Eliminazione totale dei conflitti interni"],
+    "question": "Quando si parla di Organizzazione come arena politica si intende ....",
+    "answers": [
+      "metafora che evidenzia giochi di potere, coalizioni e conflitti interni",
+      "una descrizione che si concentra quasi solo su indicatori economici di breve periodo, senza collegarsi alla progettazione organizzativa",
+      "una formulazione che richiama genericamente il comportamento individuale, senza riferimento a strutture, ruoli o processi",
+      "una spiegazione che menziona solo strumenti operativi isolati, senza considerarne il ruolo nel sistema organizzativo complessivo"
+    ],
     "correct": 0,
-    "explanation": "La struttura divisionale è più vicina al mercato e reagisce meglio ai cambiamenti, quindi privilegia efficacia e flessibilità."
+    "explanation": "metafora che evidenzia giochi di potere, coalizioni e conflitti interni. Questo concetto aiuta a leggere modelli e processi organizzativi evidenziando relazioni tra struttura, ruoli e dinamiche interne."
   },
   {
     "id": 31,
-    "question": "Qual è uno svantaggio tipico della struttura divisionale?",
-    "answers": ["Duplica funzioni e quindi è costosa", "Riduce troppo la specializzazione", "Non consente adattamento al mercato", "È sempre inadatta a organizzazioni grandi"],
+    "question": "Per Organizzazione come iceberg si intende ....",
+    "answers": [
+      "metafora che richiama la distinzione tra struttura visibile e dimensioni psicologiche e culturali sommerse",
+      "una descrizione che si concentra quasi solo su indicatori economici di breve periodo, senza collegarsi alla progettazione organizzativa",
+      "una formulazione che richiama genericamente il comportamento individuale, senza riferimento a strutture, ruoli o processi",
+      "una spiegazione che menziona solo strumenti operativi isolati, senza considerarne il ruolo nel sistema organizzativo complessivo"
+    ],
     "correct": 0,
-    "explanation": "La struttura divisionale richiede spesso funzioni replicate nelle diverse divisioni, con un aumento dei costi."
+    "explanation": "metafora che richiama la distinzione tra struttura visibile e dimensioni psicologiche e culturali sommerse. Questo concetto aiuta a leggere modelli e processi organizzativi evidenziando relazioni tra struttura, ruoli e dinamiche interne."
   },
   {
     "id": 32,
-    "question": "In quale contesto è particolarmente utile la struttura divisionale?",
-    "answers": ["In mercati instabili, con ampia gamma di prodotti e cicli di vita brevi", "In ambienti molto stabili con un solo prodotto", "Quando non esiste mercato", "Quando si vuole eliminare del tutto il management"],
+    "question": "Per Planning si intende ....",
+    "answers": [
+      "pianificazione di attività, dipendenze e risorse; se carente, genera frequenti problemi organizzativi",
+      "una descrizione che si concentra quasi solo su indicatori economici di breve periodo, senza collegarsi alla progettazione organizzativa",
+      "una formulazione che richiama genericamente il comportamento individuale, senza riferimento a strutture, ruoli o processi",
+      "una spiegazione che menziona solo strumenti operativi isolati, senza considerarne il ruolo nel sistema organizzativo complessivo"
+    ],
     "correct": 0,
-    "explanation": "La struttura divisionale è adatta a mercati dinamici e a organizzazioni con più prodotti o aree geografiche, perché offre maggiore adattabilità."
+    "explanation": "pianificazione di attività, dipendenze e risorse; se carente, genera frequenti problemi organizzativi. Questo concetto aiuta a leggere modelli e processi organizzativi evidenziando relazioni tra struttura, ruoli e dinamiche interne."
   },
   {
     "id": 33,
-    "question": "Qual è la caratteristica distintiva della struttura per progetti?",
-    "answers": ["La temporaneità legata a un progetto con scadenza", "La rigidità permanente dei reparti", "La divisione solo per aree geografiche", "La totale assenza di coordinamento"],
+    "question": "Quando si parla di Project manager si intende ....",
+    "answers": [
+      "figura che coordina un progetto e che, nelle strutture per progetti, esercita più o meno autorità secondo la forza del progetto",
+      "una descrizione che si concentra quasi solo su indicatori economici di breve periodo, senza collegarsi alla progettazione organizzativa",
+      "una formulazione che richiama genericamente il comportamento individuale, senza riferimento a strutture, ruoli o processi",
+      "una spiegazione che menziona solo strumenti operativi isolati, senza considerarne il ruolo nel sistema organizzativo complessivo"
+    ],
     "correct": 0,
-    "explanation": "La struttura per progetti nasce e si organizza intorno a iniziative temporanee, con obiettivi e tempi definiti."
+    "explanation": "figura che coordina un progetto e che, nelle strutture per progetti, esercita più o meno autorità secondo la forza del progetto. Questo concetto aiuta a leggere modelli e processi organizzativi evidenziando relazioni tra struttura, ruoli e dinamiche interne."
   },
   {
     "id": 34,
-    "question": "Che cosa caratterizza un progetto debole?",
-    "answers": ["Le persone vi lavorano part-time e il project manager ha poca autorità", "Le persone vi lavorano full-time e il project manager ha massima autorità", "Non esiste un project manager", "Dura più di dieci anni"],
+    "question": "Per Project structure / Struttura per progetti si intende ....",
+    "answers": [
+      "struttura temporanea basata su progetti a durata limitata, con varianti di progetto debole o forte",
+      "una descrizione che si concentra quasi solo su indicatori economici di breve periodo, senza collegarsi alla progettazione organizzativa",
+      "una formulazione che richiama genericamente il comportamento individuale, senza riferimento a strutture, ruoli o processi",
+      "una spiegazione che menziona solo strumenti operativi isolati, senza considerarne il ruolo nel sistema organizzativo complessivo"
+    ],
     "correct": 0,
-    "explanation": "Nei progetti deboli il coinvolgimento è parziale e il project manager dispone di un’autorità limitata, rendendo il coordinamento più difficile."
+    "explanation": "struttura temporanea basata su progetti a durata limitata, con varianti di progetto debole o forte. Questo concetto aiuta a leggere modelli e processi organizzativi evidenziando relazioni tra struttura, ruoli e dinamiche interne."
   },
   {
     "id": 35,
-    "question": "Che cosa caratterizza una task force o progetto forte?",
-    "answers": ["Coinvolgimento a tempo pieno delle persone e maggiore autorità del project manager", "Assenza di scadenze", "Partecipazione solo simbolica dei membri", "Riduzione totale delle responsabilità del PM"],
+    "question": "Per Procedure si intende ....",
+    "answers": [
+      "sequenze formalizzate di azioni che regolano i processi e standardizzano il funzionamento",
+      "una descrizione che si concentra quasi solo su indicatori economici di breve periodo, senza collegarsi alla progettazione organizzativa",
+      "una formulazione che richiama genericamente il comportamento individuale, senza riferimento a strutture, ruoli o processi",
+      "una spiegazione che menziona solo strumenti operativi isolati, senza considerarne il ruolo nel sistema organizzativo complessivo"
+    ],
     "correct": 0,
-    "explanation": "Nel progetto forte le persone sono dedicate pienamente per un periodo definito e il project manager ottiene maggiore potere formale."
+    "explanation": "sequenze formalizzate di azioni che regolano i processi e standardizzano il funzionamento. Questo concetto aiuta a leggere modelli e processi organizzativi evidenziando relazioni tra struttura, ruoli e dinamiche interne."
   },
   {
     "id": 36,
-    "question": "Qual è una criticità tipica delle task force?",
-    "answers": ["Gestire il prima e il dopo del progetto, cioè selezione e ricollocazione delle persone", "La totale assenza di autorità del PM", "La mancanza di obiettivi temporali", "L’impossibilità di lavorare in team"],
+    "question": "Quando si parla di Ruolo organizzativo si intende ....",
+    "answers": [
+      "posizione occupata da una persona nel sistema, con specifiche responsabilità e aspettative",
+      "una descrizione che si concentra quasi solo su indicatori economici di breve periodo, senza collegarsi alla progettazione organizzativa",
+      "una formulazione che richiama genericamente il comportamento individuale, senza riferimento a strutture, ruoli o processi",
+      "una spiegazione che menziona solo strumenti operativi isolati, senza considerarne il ruolo nel sistema organizzativo complessivo"
+    ],
     "correct": 0,
-    "explanation": "Nelle task force il durante è spesso più semplice, mentre è complesso decidere chi coinvolgere e come reinserire le persone a progetto concluso."
+    "explanation": "posizione occupata da una persona nel sistema, con specifiche responsabilità e aspettative. Questo concetto aiuta a leggere modelli e processi organizzativi evidenziando relazioni tra struttura, ruoli e dinamiche interne."
   },
   {
     "id": 37,
-    "question": "Che cosa unifica la struttura a matrice?",
-    "answers": ["La struttura per funzioni e quella per divisioni", "La struttura informale e quella sindacale", "Solo i reparti di produzione e vendite", "Le task force e i gruppi amicali"],
+    "question": "Per Sistema aperto si intende ....",
+    "answers": [
+      "organizzazione che scambia in modo continuo informazioni e risorse con l ambiente esterno",
+      "una descrizione che si concentra quasi solo su indicatori economici di breve periodo, senza collegarsi alla progettazione organizzativa",
+      "una formulazione che richiama genericamente il comportamento individuale, senza riferimento a strutture, ruoli o processi",
+      "una spiegazione che menziona solo strumenti operativi isolati, senza considerarne il ruolo nel sistema organizzativo complessivo"
+    ],
     "correct": 0,
-    "explanation": "La matrice combina due criteri organizzativi, tipicamente funzioni e divisioni, generando una struttura più ricca ma anche più complessa."
+    "explanation": "organizzazione che scambia in modo continuo informazioni e risorse con l ambiente esterno. Questo concetto aiuta a leggere modelli e processi organizzativi evidenziando relazioni tra struttura, ruoli e dinamiche interne."
   },
   {
     "id": 38,
-    "question": "Quale principio classico viene messo in crisi dalla struttura a matrice?",
-    "answers": ["Ogni dipendente ha un solo capo", "La necessità di comunicare", "La definizione degli obiettivi", "La specializzazione tecnica"],
+    "question": "Per Sistema chiuso si intende ....",
+    "answers": [
+      "visione dell organizzazione come entità poco permeabile all ambiente, tipica della metafora macchina",
+      "una descrizione che si concentra quasi solo su indicatori economici di breve periodo, senza collegarsi alla progettazione organizzativa",
+      "una formulazione che richiama genericamente il comportamento individuale, senza riferimento a strutture, ruoli o processi",
+      "una spiegazione che menziona solo strumenti operativi isolati, senza considerarne il ruolo nel sistema organizzativo complessivo"
+    ],
     "correct": 0,
-    "explanation": "La matrice rompe il principio dell’unità di comando, perché una persona può dipendere contemporaneamente da più linee di autorità."
+    "explanation": "visione dell organizzazione come entità poco permeabile all ambiente, tipica della metafora macchina. Questo concetto aiuta a leggere modelli e processi organizzativi evidenziando relazioni tra struttura, ruoli e dinamiche interne."
   },
   {
     "id": 39,
-    "question": "Qual è un vantaggio della struttura a matrice?",
-    "answers": ["Favorisce lo sviluppo di competenze tecniche e manageriali", "Elimina la complessità", "Garantisce sempre chiarezza assoluta", "Riduce al minimo la negoziazione"],
+    "question": "Per definizione Sistema socio-tecnico si intende ....",
+    "answers": [
+      "organizzazione vista come insieme integrato di componenti tecniche e sociali da gestire in coerenza",
+      "una descrizione che si concentra quasi solo su indicatori economici di breve periodo, senza collegarsi alla progettazione organizzativa",
+      "una formulazione che richiama genericamente il comportamento individuale, senza riferimento a strutture, ruoli o processi",
+      "una spiegazione che menziona solo strumenti operativi isolati, senza considerarne il ruolo nel sistema organizzativo complessivo"
+    ],
     "correct": 0,
-    "explanation": "La matrice espone le persone a più dimensioni organizzative, favorendo crescita professionale tecnica e manageriale."
+    "explanation": "organizzazione vista come insieme integrato di componenti tecniche e sociali da gestire in coerenza. Questo concetto aiuta a leggere modelli e processi organizzativi evidenziando relazioni tra struttura, ruoli e dinamiche interne."
   },
   {
     "id": 40,
-    "question": "Qual è uno svantaggio della struttura a matrice?",
-    "answers": ["Grande complessità di gestione", "Scarsa possibilità di carriera", "Assenza di competenze trasversali", "Impossibilità di adattarsi"],
+    "question": "Per Struttura per divisioni si intende ....",
+    "answers": [
+      "struttura che divide il lavoro per prodotto, mercato o area geografica, utile in contesti instabili",
+      "una descrizione che si concentra quasi solo su indicatori economici di breve periodo, senza collegarsi alla progettazione organizzativa",
+      "una formulazione che richiama genericamente il comportamento individuale, senza riferimento a strutture, ruoli o processi",
+      "una spiegazione che menziona solo strumenti operativi isolati, senza considerarne il ruolo nel sistema organizzativo complessivo"
+    ],
     "correct": 0,
-    "explanation": "La struttura a matrice è difficile da gestire perché richiede negoziazione continua, chiarezza di ruoli e capacità di coordinamento elevate."
+    "explanation": "struttura che divide il lavoro per prodotto, mercato o area geografica, utile in contesti instabili. Questo concetto aiuta a leggere modelli e processi organizzativi evidenziando relazioni tra struttura, ruoli e dinamiche interne."
   },
   {
     "id": 41,
-    "question": "Quale caratteristica distingue la struttura ibrida dalla matrice?",
-    "answers": ["Nella struttura ibrida c’è sempre un solo capo", "Nella struttura ibrida non esistono divisioni", "Nella struttura ibrida non esistono funzioni", "Nella struttura ibrida ogni persona dipende da tre capi"],
+    "question": "Per Struttura funzionale si intende ....",
+    "answers": [
+      "struttura che organizza il lavoro per funzioni specialistiche, adatta a contesti stabili e gamma limitata di prodotti",
+      "una descrizione che si concentra quasi solo su indicatori economici di breve periodo, senza collegarsi alla progettazione organizzativa",
+      "una formulazione che richiama genericamente il comportamento individuale, senza riferimento a strutture, ruoli o processi",
+      "una spiegazione che menziona solo strumenti operativi isolati, senza considerarne il ruolo nel sistema organizzativo complessivo"
+    ],
     "correct": 0,
-    "explanation": "La struttura ibrida combina elementi funzionali e divisionali, ma mantiene il principio di un solo capo, risultando più semplice della matrice."
+    "explanation": "struttura che organizza il lavoro per funzioni specialistiche, adatta a contesti stabili e gamma limitata di prodotti. Questo concetto aiuta a leggere modelli e processi organizzativi evidenziando relazioni tra struttura, ruoli e dinamiche interne."
   },
   {
     "id": 42,
-    "question": "Perché la struttura ibrida è considerata oggi molto diffusa?",
-    "answers": ["Perché si adatta meglio ai contesti attuali unendo flessibilità e chiarezza", "Perché elimina completamente le funzioni", "Perché funziona solo nei monopoli pubblici", "Perché rende inutile il coordinamento"],
+    "question": "Quando si parla di Sottodimensionamento si intende ....",
+    "answers": [
+      "situazione in cui poche persone gestiscono troppo lavoro, con perdita di efficacia",
+      "una descrizione che si concentra quasi solo su indicatori economici di breve periodo, senza collegarsi alla progettazione organizzativa",
+      "una formulazione che richiama genericamente il comportamento individuale, senza riferimento a strutture, ruoli o processi",
+      "una spiegazione che menziona solo strumenti operativi isolati, senza considerarne il ruolo nel sistema organizzativo complessivo"
+    ],
     "correct": 0,
-    "explanation": "La struttura ibrida cerca un equilibrio tra esigenze di specializzazione, adattamento e semplicità organizzativa, risultando adatta a contesti contemporanei."
+    "explanation": "situazione in cui poche persone gestiscono troppo lavoro, con perdita di efficacia. Questo concetto aiuta a leggere modelli e processi organizzativi evidenziando relazioni tra struttura, ruoli e dinamiche interne."
   },
   {
     "id": 43,
-    "question": "Che cosa significa che le variabili organizzative sono interdipendenti?",
-    "answers": ["Che modificare una variabile può influenzarne altre, come struttura e cultura", "Che ogni variabile agisce sempre in modo isolato", "Che contano solo le tecnologie", "Che la cultura non cambia mai"],
+    "question": "Per Sovradimensionamento si intende ....",
+    "answers": [
+      "situazione in cui l organico è troppo ampio rispetto ai carichi di lavoro, con calo di efficienza",
+      "una descrizione che si concentra quasi solo su indicatori economici di breve periodo, senza collegarsi alla progettazione organizzativa",
+      "una formulazione che richiama genericamente il comportamento individuale, senza riferimento a strutture, ruoli o processi",
+      "una spiegazione che menziona solo strumenti operativi isolati, senza considerarne il ruolo nel sistema organizzativo complessivo"
+    ],
     "correct": 0,
-    "explanation": "Le variabili organizzative sono collegate tra loro: cambiare la struttura, per esempio, può avere effetti su cultura, relazioni e processi."
+    "explanation": "situazione in cui l organico è troppo ampio rispetto ai carichi di lavoro, con calo di efficienza. Questo concetto aiuta a leggere modelli e processi organizzativi evidenziando relazioni tra struttura, ruoli e dinamiche interne."
   },
   {
     "id": 44,
-    "question": "Che cosa significa progettare l’organizzazione in modo coerente con il modello di business?",
-    "answers": ["Scegliere la struttura più adatta agli obiettivi, alla strategia e al contesto", "Usare sempre la stessa struttura in ogni situazione", "Copiare l’organigramma dei concorrenti", "Separare completamente organizzazione e strategia"],
+    "question": "Per Task force si intende ....",
+    "answers": [
+      "forma di struttura per progetto forte, in cui le persone lavorano a tempo pieno su un progetto critico",
+      "una descrizione che si concentra quasi solo su indicatori economici di breve periodo, senza collegarsi alla progettazione organizzativa",
+      "una formulazione che richiama genericamente il comportamento individuale, senza riferimento a strutture, ruoli o processi",
+      "una spiegazione che menziona solo strumenti operativi isolati, senza considerarne il ruolo nel sistema organizzativo complessivo"
+    ],
     "correct": 0,
-    "explanation": "La progettazione organizzativa deve essere coerente con strategia, ambiente, prodotti e obiettivi dell’impresa."
+    "explanation": "forma di struttura per progetto forte, in cui le persone lavorano a tempo pieno su un progetto critico. Questo concetto aiuta a leggere modelli e processi organizzativi evidenziando relazioni tra struttura, ruoli e dinamiche interne."
   },
   {
     "id": 45,
-    "question": "Perché la struttura funzionale tende alla burocratizzazione?",
-    "answers": ["Perché enfatizza specializzazione verticale, regole e procedure", "Perché è priva di ruoli definiti", "Perché elimina ogni coordinamento", "Perché si basa solo su gruppi informali"],
+    "question": "Quando si parla di Tribù e clan si intende ....",
+    "answers": [
+      "espressione collegata alla metafora di organizzazione come tribù e clan, centrata su cultura e coesione",
+      "una descrizione che si concentra quasi solo su indicatori economici di breve periodo, senza collegarsi alla progettazione organizzativa",
+      "una formulazione che richiama genericamente il comportamento individuale, senza riferimento a strutture, ruoli o processi",
+      "una spiegazione che menziona solo strumenti operativi isolati, senza considerarne il ruolo nel sistema organizzativo complessivo"
+    ],
     "correct": 0,
-    "explanation": "La struttura funzionale, proprio perché molto specializzata e formalizzata, può rallentare e irrigidire i processi organizzativi."
+    "explanation": "espressione collegata alla metafora di organizzazione come tribù e clan, centrata su cultura e coesione. Questo concetto aiuta a leggere modelli e processi organizzativi evidenziando relazioni tra struttura, ruoli e dinamiche interne."
   },
   {
     "id": 46,
-    "question": "Perché la struttura divisionale viene associata più all’efficacia che all’efficienza?",
-    "answers": ["Perché consente di reagire meglio al mercato anche se comporta costi maggiori", "Perché elimina tutte le duplicazioni", "Perché riduce sempre i costi fissi", "Perché non richiede adattamento"],
+    "question": "Per Variabili organizzative si intende ....",
+    "answers": [
+      "insieme di fattori tecnici e sociali che compongono l organizzazione e devono restare coerenti con gli obiettivi",
+      "una descrizione che si concentra quasi solo su indicatori economici di breve periodo, senza collegarsi alla progettazione organizzativa",
+      "una formulazione che richiama genericamente il comportamento individuale, senza riferimento a strutture, ruoli o processi",
+      "una spiegazione che menziona solo strumenti operativi isolati, senza considerarne il ruolo nel sistema organizzativo complessivo"
+    ],
     "correct": 0,
-    "explanation": "La struttura divisionale favorisce risposta al mercato e adattamento, ma spesso accetta una minore efficienza a causa della duplicazione di funzioni."
+    "explanation": "insieme di fattori tecnici e sociali che compongono l organizzazione e devono restare coerenti con gli obiettivi. Questo concetto aiuta a leggere modelli e processi organizzativi evidenziando relazioni tra struttura, ruoli e dinamiche interne."
   },
   {
     "id": 47,
-    "question": "Quale problema può emergere tra le divisioni in una struttura divisionale?",
-    "answers": ["Dinamiche competitive interne", "Assenza totale di responsabilità", "Impossibilità di definire obiettivi", "Mancanza di funzioni replicate"],
+    "question": "Per Verticale si intende ....",
+    "answers": [
+      "modalità di divisione e coordinamento del lavoro che segue la gerarchia e i livelli di autorità",
+      "una descrizione che si concentra quasi solo su indicatori economici di breve periodo, senza collegarsi alla progettazione organizzativa",
+      "una formulazione che richiama genericamente il comportamento individuale, senza riferimento a strutture, ruoli o processi",
+      "una spiegazione che menziona solo strumenti operativi isolati, senza considerarne il ruolo nel sistema organizzativo complessivo"
+    ],
     "correct": 0,
-    "explanation": "Le divisioni possono entrare in competizione tra loro per risorse, riconoscimento o priorità, generando conflitti interni."
+    "explanation": "modalità di divisione e coordinamento del lavoro che segue la gerarchia e i livelli di autorità. Questo concetto aiuta a leggere modelli e processi organizzativi evidenziando relazioni tra struttura, ruoli e dinamiche interne."
   },
   {
     "id": 48,
-    "question": "Perché in un progetto debole il coordinamento è più difficile?",
-    "answers": ["Perché le persone lavorano su più fronti e il project manager ha autorità limitata", "Perché tutti lavorano a tempo pieno sul progetto", "Perché non ci sono interdipendenze", "Perché il progetto non ha scadenza"],
+    "question": "Quando si parla di Metafora macchina si intende ....",
+    "answers": [
+      "metafora che enfatizza razionalità, burocrazia, procedure e ottimizzazione",
+      "una descrizione che si concentra quasi solo su indicatori economici di breve periodo, senza collegarsi alla progettazione organizzativa",
+      "una formulazione che richiama genericamente il comportamento individuale, senza riferimento a strutture, ruoli o processi",
+      "una spiegazione che menziona solo strumenti operativi isolati, senza considerarne il ruolo nel sistema organizzativo complessivo"
+    ],
     "correct": 0,
-    "explanation": "Nel progetto debole il personale non è completamente dedicato e il PM ha meno potere, quindi il coordinamento quotidiano si complica."
+    "explanation": "metafora che enfatizza razionalità, burocrazia, procedure e ottimizzazione. Questo concetto aiuta a leggere modelli e processi organizzativi evidenziando relazioni tra struttura, ruoli e dinamiche interne."
   },
   {
     "id": 49,
-    "question": "Perché la matrice richiede forti capacità di negoziazione?",
-    "answers": ["Perché i dipendenti si trovano al crocevia di più linee di autorità", "Perché non esistono obiettivi", "Perché manca qualunque specializzazione", "Perché non ci sono più manager"],
+    "question": "Per Metafora organismo si intende ....",
+    "answers": [
+      "metafora che enfatizza adattamento all ambiente e crescita nel contesto",
+      "una descrizione che si concentra quasi solo su indicatori economici di breve periodo, senza collegarsi alla progettazione organizzativa",
+      "una formulazione che richiama genericamente il comportamento individuale, senza riferimento a strutture, ruoli o processi",
+      "una spiegazione che menziona solo strumenti operativi isolati, senza considerarne il ruolo nel sistema organizzativo complessivo"
+    ],
     "correct": 0,
-    "explanation": "La matrice genera sovrapposizioni di responsabilità e autorità, quindi richiede mediazione e negoziazione continue."
+    "explanation": "metafora che enfatizza adattamento all ambiente e crescita nel contesto. Questo concetto aiuta a leggere modelli e processi organizzativi evidenziando relazioni tra struttura, ruoli e dinamiche interne."
   },
   {
     "id": 50,
-    "question": "Quale struttura cerca di combinare efficacia ed efficienza mantenendo maggiore semplicità rispetto alla matrice?",
-    "answers": ["La struttura ibrida", "La struttura per progetti debole", "La struttura tribale", "La struttura puramente funzionale"],
+    "question": "Per Metafora clan / tribù si intende ....",
+    "answers": [
+      "metafora che sottolinea cultura condivisa, coesione e valori comuni",
+      "una descrizione che si concentra quasi solo su indicatori economici di breve periodo, senza collegarsi alla progettazione organizzativa",
+      "una formulazione che richiama genericamente il comportamento individuale, senza riferimento a strutture, ruoli o processi",
+      "una spiegazione che menziona solo strumenti operativi isolati, senza considerarne il ruolo nel sistema organizzativo complessivo"
+    ],
     "correct": 0,
-    "explanation": "La struttura ibrida nasce proprio per combinare logiche diverse, ma mantenendo un’unica linea di comando e una gestione più semplice."
+    "explanation": "metafora che sottolinea cultura condivisa, coesione e valori comuni. Questo concetto aiuta a leggere modelli e processi organizzativi evidenziando relazioni tra struttura, ruoli e dinamiche interne."
   },
   {
     "id": 51,
-    "question": "Che cosa implica considerare l’organizzazione anche come arena politica?",
-    "answers": ["Riconoscere che esistono interessi individuali, coalizioni e giochi di potere", "Negare l’esistenza di conflitti", "Pensare che basti l’organigramma per capire tutto", "Considerare irrilevanti gli stakeholder"],
+    "question": "Quando si parla di Metafora arena politica si intende ....",
+    "answers": [
+      "metafora che mette in luce potere, coalizioni e negoziazioni",
+      "una descrizione che si concentra quasi solo su indicatori economici di breve periodo, senza collegarsi alla progettazione organizzativa",
+      "una formulazione che richiama genericamente il comportamento individuale, senza riferimento a strutture, ruoli o processi",
+      "una spiegazione che menziona solo strumenti operativi isolati, senza considerarne il ruolo nel sistema organizzativo complessivo"
+    ],
     "correct": 0,
-    "explanation": "La lettura politica dell’organizzazione aiuta a comprendere conflitti, alleanze e distribuzione del potere, che spesso non emergono formalmente."
+    "explanation": "metafora che mette in luce potere, coalizioni e negoziazioni. Questo concetto aiuta a leggere modelli e processi organizzativi evidenziando relazioni tra struttura, ruoli e dinamiche interne."
   },
   {
     "id": 52,
-    "question": "Quale delle seguenti affermazioni descrive meglio la parte emersa dell’iceberg organizzativo?",
-    "answers": ["Comprende struttura formale, procedure scritte e comportamenti espliciti", "Comprende paure, ansie e desideri", "Comprende solo le relazioni di potere nascoste", "Comprende solo la cultura informale"],
+    "question": "Per Metafora iceberg si intende ....",
+    "answers": [
+      "metafora che distingue tra dimensioni visibili e invisibili dell organizzazione",
+      "una descrizione che si concentra quasi solo su indicatori economici di breve periodo, senza collegarsi alla progettazione organizzativa",
+      "una formulazione che richiama genericamente il comportamento individuale, senza riferimento a strutture, ruoli o processi",
+      "una spiegazione che menziona solo strumenti operativi isolati, senza considerarne il ruolo nel sistema organizzativo complessivo"
+    ],
     "correct": 0,
-    "explanation": "La parte emersa dell’iceberg è ciò che si vede: organigramma, regole, obiettivi dichiarati e comportamenti osservabili."
+    "explanation": "metafora che distingue tra dimensioni visibili e invisibili dell organizzazione. Questo concetto aiuta a leggere modelli e processi organizzativi evidenziando relazioni tra struttura, ruoli e dinamiche interne."
   },
   {
     "id": 53,
-    "question": "Perché la metafora del clan richiede spesso osservazione e dialogo sul campo?",
-    "answers": ["Perché i valori condivisi non si colgono solo dai documenti formali", "Perché i clan non hanno mai leader", "Perché non esistono relazioni sociali", "Perché tutto è scritto nelle procedure"],
+    "question": "Per Struttura gerarchica si intende ....",
+    "answers": [
+      "configurazione con più livelli di autorità e catena di comando ben definita",
+      "una descrizione che si concentra quasi solo su indicatori economici di breve periodo, senza collegarsi alla progettazione organizzativa",
+      "una formulazione che richiama genericamente il comportamento individuale, senza riferimento a strutture, ruoli o processi",
+      "una spiegazione che menziona solo strumenti operativi isolati, senza considerarne il ruolo nel sistema organizzativo complessivo"
+    ],
     "correct": 0,
-    "explanation": "Cultura, simboli e valori non emergono solo dai documenti: vanno osservati nei comportamenti e nelle interazioni reali."
+    "explanation": "configurazione con più livelli di autorità e catena di comando ben definita. Questo concetto aiuta a leggere modelli e processi organizzativi evidenziando relazioni tra struttura, ruoli e dinamiche interne."
   },
   {
     "id": 54,
-    "question": "Quale fattore rende una persona particolarmente potente in un’arena politica organizzativa?",
-    "answers": ["Possedere competenze critiche e difficilmente sostituibili", "Avere il ruolo con il nome più lungo", "Lavorare sempre da remoto", "Essere il più giovane del team"],
+    "question": "Quando si parla di Struttura piatta si intende ....",
+    "answers": [
+      "struttura con pochi livelli gerarchici e maggiore autonomia operativa",
+      "una descrizione che si concentra quasi solo su indicatori economici di breve periodo, senza collegarsi alla progettazione organizzativa",
+      "una formulazione che richiama genericamente il comportamento individuale, senza riferimento a strutture, ruoli o processi",
+      "una spiegazione che menziona solo strumenti operativi isolati, senza considerarne il ruolo nel sistema organizzativo complessivo"
+    ],
     "correct": 0,
-    "explanation": "Chi possiede conoscenze rilevanti e scarse, cioè difficili da sostituire, acquisisce potere negoziale nell’organizzazione."
+    "explanation": "struttura con pochi livelli gerarchici e maggiore autonomia operativa. Questo concetto aiuta a leggere modelli e processi organizzativi evidenziando relazioni tra struttura, ruoli e dinamiche interne."
   },
   {
     "id": 55,
-    "question": "Perché i veri problemi organizzativi spesso non si vedono subito?",
-    "answers": ["Perché risiedono nella parte nascosta dell’iceberg organizzativo", "Perché sono sempre visibili nei numeri di bilancio", "Perché dipendono solo dal software usato", "Perché si manifestano solo all’esterno"],
+    "question": "Per Catena di comando si intende ....",
+    "answers": [
+      "linea formale attraverso cui scorrono autorità e responsabilità dall alto verso il basso",
+      "una descrizione che si concentra quasi solo su indicatori economici di breve periodo, senza collegarsi alla progettazione organizzativa",
+      "una formulazione che richiama genericamente il comportamento individuale, senza riferimento a strutture, ruoli o processi",
+      "una spiegazione che menziona solo strumenti operativi isolati, senza considerarne il ruolo nel sistema organizzativo complessivo"
+    ],
     "correct": 0,
-    "explanation": "Molti problemi organizzativi nascono da fattori invisibili come relazioni, paure, cultura o conflitti, che però influenzano fortemente i risultati visibili."
+    "explanation": "linea formale attraverso cui scorrono autorità e responsabilità dall alto verso il basso. Questo concetto aiuta a leggere modelli e processi organizzativi evidenziando relazioni tra struttura, ruoli e dinamiche interne."
   },
   {
     "id": 56,
-    "question": "Quale tra questi elementi rientra nelle variabili strumentali del sistema socio-tecnico?",
-    "answers": ["Tecnologie, strutture e meccanismi operativi", "Emozioni, ansie e desideri", "Valori personali e cultura informale", "Coalizioni e cordate"],
+    "question": "Per Span of control si intende ....",
+    "answers": [
+      "numero di persone che riportano direttamente a un responsabile",
+      "una descrizione che si concentra quasi solo su indicatori economici di breve periodo, senza collegarsi alla progettazione organizzativa",
+      "una formulazione che richiama genericamente il comportamento individuale, senza riferimento a strutture, ruoli o processi",
+      "una spiegazione che menziona solo strumenti operativi isolati, senza considerarne il ruolo nel sistema organizzativo complessivo"
+    ],
     "correct": 0,
-    "explanation": "Le variabili strumentali sono quelle tecniche e organizzative, come tecnologie, strutture e meccanismi operativi. Le altre sono variabili sociali o politiche."
+    "explanation": "numero di persone che riportano direttamente a un responsabile. Questo concetto aiuta a leggere modelli e processi organizzativi evidenziando relazioni tra struttura, ruoli e dinamiche interne."
   },
   {
     "id": 57,
-    "question": "Quale tra questi elementi rientra nelle variabili sociali del sistema socio-tecnico?",
-    "answers": ["Persone, relazioni, potere e cultura", "Solo il layout degli uffici", "Solo il software gestionale", "Solo le procedure operative standard"],
+    "question": "Quando si parla di Decentramento si intende ....",
+    "answers": [
+      "grado in cui le decisioni sono distribuite verso livelli più bassi della gerarchia",
+      "una descrizione che si concentra quasi solo su indicatori economici di breve periodo, senza collegarsi alla progettazione organizzativa",
+      "una formulazione che richiama genericamente il comportamento individuale, senza riferimento a strutture, ruoli o processi",
+      "una spiegazione che menziona solo strumenti operativi isolati, senza considerarne il ruolo nel sistema organizzativo complessivo"
+    ],
     "correct": 0,
-    "explanation": "Le variabili sociali riguardano le persone e le loro relazioni, inclusi potere, cultura e dinamiche interpersonali."
+    "explanation": "grado in cui le decisioni sono distribuite verso livelli più bassi della gerarchia. Questo concetto aiuta a leggere modelli e processi organizzativi evidenziando relazioni tra struttura, ruoli e dinamiche interne."
   },
   {
     "id": 58,
-    "question": "Che cosa si intende per divisione e ricomposizione orizzontale e verticale del lavoro?",
-    "answers": ["Il processo con cui si suddividono compiti e responsabilità e poi li si coordina nella struttura", "La semplice riduzione del numero di dipendenti", "La sola eliminazione dei livelli gerarchici", "La sostituzione delle persone con tecnologie"],
+    "question": "Per Accentramento si intende ....",
+    "answers": [
+      "situazione in cui le decisioni sono concentrate ai livelli alti dell organizzazione",
+      "una descrizione che si concentra quasi solo su indicatori economici di breve periodo, senza collegarsi alla progettazione organizzativa",
+      "una formulazione che richiama genericamente il comportamento individuale, senza riferimento a strutture, ruoli o processi",
+      "una spiegazione che menziona solo strumenti operativi isolati, senza considerarne il ruolo nel sistema organizzativo complessivo"
+    ],
     "correct": 0,
-    "explanation": "La struttura organizzativa nasce dalla scomposizione del lavoro e dal successivo coordinamento di attività, ruoli e livelli gerarchici."
+    "explanation": "situazione in cui le decisioni sono concentrate ai livelli alti dell organizzazione. Questo concetto aiuta a leggere modelli e processi organizzativi evidenziando relazioni tra struttura, ruoli e dinamiche interne."
   },
   {
     "id": 59,
-    "question": "Perché la funzione non è più centrale nella struttura ibrida?",
-    "answers": ["Perché alcune funzioni vengono portate dentro le divisioni", "Perché le funzioni vengono eliminate del tutto", "Perché si lavora solo per progetto", "Perché il vertice non esiste più"],
+    "question": "Per Coordinamento orizzontale si intende ....",
+    "answers": [
+      "insieme di meccanismi che favoriscono integrazione e collaborazione tra unità allo stesso livello",
+      "una descrizione che si concentra quasi solo su indicatori economici di breve periodo, senza collegarsi alla progettazione organizzativa",
+      "una formulazione che richiama genericamente il comportamento individuale, senza riferimento a strutture, ruoli o processi",
+      "una spiegazione che menziona solo strumenti operativi isolati, senza considerarne il ruolo nel sistema organizzativo complessivo"
+    ],
     "correct": 0,
-    "explanation": "Nella struttura ibrida alcune logiche funzionali vengono integrate dentro le divisioni, così da bilanciare meglio efficienza ed efficacia."
+    "explanation": "insieme di meccanismi che favoriscono integrazione e collaborazione tra unità allo stesso livello. Questo concetto aiuta a leggere modelli e processi organizzativi evidenziando relazioni tra struttura, ruoli e dinamiche interne."
   },
   {
     "id": 60,
-    "question": "Quale affermazione riassume meglio l’idea generale del programma sui modelli organizzativi?",
-    "answers": ["Non esiste una struttura migliore in assoluto: conta la coerenza con contesto, strategia e obiettivi", "La struttura funzionale è sempre la migliore", "La matrice è sempre da preferire", "La cultura organizzativa è irrilevante nella progettazione"],
+    "question": "Quando si parla di Unità organizzativa si intende ....",
+    "answers": [
+      "insieme di persone e risorse raggruppate in base a un compito, funzione o area di responsabilità",
+      "una descrizione che si concentra quasi solo su indicatori economici di breve periodo, senza collegarsi alla progettazione organizzativa",
+      "una formulazione che richiama genericamente il comportamento individuale, senza riferimento a strutture, ruoli o processi",
+      "una spiegazione che menziona solo strumenti operativi isolati, senza considerarne il ruolo nel sistema organizzativo complessivo"
+    ],
     "correct": 0,
-    "explanation": "Il messaggio di fondo è che ogni modello organizzativo ha vantaggi e limiti e va scelto in coerenza con ambiente, strategia, attività e persone coinvolte."
-  }
+    "explanation": "insieme di persone e risorse raggruppate in base a un compito, funzione o area di responsabilità. Questo concetto aiuta a leggere modelli e processi organizzativi evidenziando relazioni tra struttura, ruoli e dinamiche interne."
+  },
 ];
 
 export default modelliProcessiOrganizzativiQuestions;

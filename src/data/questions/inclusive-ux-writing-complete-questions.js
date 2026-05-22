@@ -1,844 +1,748 @@
 const inclusiveWritingQuestions = [
   {
     "id": 1,
-    "question": "Che cosa rende un testo davvero accessibile?",
+    "question": "Per definizione Accessibile si intende ....",
     "answers": [
-      "La capacità di essere compreso da più persone possibile",
-      "L’uso di parole ricercate",
-      "La presenza di molti tecnicismi",
-      "La lunghezza del testo"
+      "un testo o microtesto è accessibile quando consente a quante più persone possibile di comprenderlo e usarlo senza ostacoli inutili",
+      "una formulazione che insiste soprattutto sugli aspetti organizzativi e sui ruoli degli attori nel processo di progettazione dei contenuti digitali",
+      "una descrizione alternativa che mette al centro le esperienze concrete delle persone ma senza riferimenti specifici a scrittura o interfacce",
+      "una spiegazione che sottolinea soprattutto strumenti, canali e campagne di comunicazione in modo generico e non legato allo UX writing inclusivo"
     ],
     "correct": 0,
-    "explanation": "La risposta corretta è la prima perché l’accessibilità nasce dalla comprensibilità per il numero più ampio possibile di persone."
+    "explanation": "un testo o microtesto è accessibile quando consente a quante più persone possibile di comprenderlo e usarlo senza ostacoli inutili. Questo concetto è centrale per uno UX writing inclusivo, che mira a rendere le interfacce più chiare, rispettose e accessibili."
   },
   {
     "id": 2,
-    "question": "Che cosa aggiunge un testo inclusivo rispetto a uno solo accessibile?",
+    "question": "Per Ageismo si intende ....",
     "answers": [
-      "Rispetta anche le individualità di chi legge",
-      "Diventa più lungo per forza",
-      "Usa sempre un linguaggio tecnico",
-      "Elimina ogni differenza tra i lettori"
+      "forma di pregiudizio o discriminazione legata all età che influisce su linguaggio, rappresentazione e progettazione dei contenuti",
+      "una formulazione che insiste soprattutto sugli aspetti organizzativi e sui ruoli degli attori nel processo di progettazione dei contenuti digitali",
+      "una descrizione alternativa che mette al centro le esperienze concrete delle persone ma senza riferimenti specifici a scrittura o interfacce",
+      "una spiegazione che sottolinea soprattutto strumenti, canali e campagne di comunicazione in modo generico e non legato allo UX writing inclusivo"
     ],
     "correct": 0,
-    "explanation": "La risposta corretta è la prima perché un testo inclusivo non solo si capisce, ma evita anche di urtare o escludere gruppi specifici."
+    "explanation": "forma di pregiudizio o discriminazione legata all età che influisce su linguaggio, rappresentazione e progettazione dei contenuti. Questo concetto è centrale per uno UX writing inclusivo, che mira a rendere le interfacce più chiare, rispettose e accessibili."
   },
   {
     "id": 3,
-    "question": "Perché il gergo può diventare una barriera?",
+    "question": "Quando si parla di Alt text si intende ....",
     "answers": [
-      "Perché ghettizza chi non lo conosce e chiude al cambiamento",
-      "Perché rende il testo sempre più breve",
-      "Perché migliora la comprensione di tutti",
-      "Perché elimina ogni ambiguità"
+      "testo alternativo associato a un contenuto non testuale, usato da screen reader e tecnologie assistive per interpretare immagini e elementi visivi",
+      "una formulazione che insiste soprattutto sugli aspetti organizzativi e sui ruoli degli attori nel processo di progettazione dei contenuti digitali",
+      "una descrizione alternativa che mette al centro le esperienze concrete delle persone ma senza riferimenti specifici a scrittura o interfacce",
+      "una spiegazione che sottolinea soprattutto strumenti, canali e campagne di comunicazione in modo generico e non legato allo UX writing inclusivo"
     ],
     "correct": 0,
-    "explanation": "La risposta corretta è la prima perché il gergo in mano a pochi esclude chi non lo padroneggia e rallenta il cambiamento."
+    "explanation": "testo alternativo associato a un contenuto non testuale, usato da screen reader e tecnologie assistive per interpretare immagini e elementi visivi. Questo concetto è centrale per uno UX writing inclusivo, che mira a rendere le interfacce più chiare, rispettose e accessibili."
   },
   {
     "id": 4,
-    "question": "A chi può essere utile la scrittura chiara?",
+    "question": "Per Ansia si intende ....",
     "answers": [
-      "A molte persone, non solo a chi ha difficoltà di lettura",
-      "Solo a chi ha una disabilità visiva",
-      "Solo a chi studia comunicazione",
-      "Solo a chi usa lo smartphone"
+      "emozione che riduce attenzione, aumenta la visione a tunnel e rende più delicata la fruizione di form, registrazioni e procedure complesse",
+      "una formulazione che insiste soprattutto sugli aspetti organizzativi e sui ruoli degli attori nel processo di progettazione dei contenuti digitali",
+      "una descrizione alternativa che mette al centro le esperienze concrete delle persone ma senza riferimenti specifici a scrittura o interfacce",
+      "una spiegazione che sottolinea soprattutto strumenti, canali e campagne di comunicazione in modo generico e non legato allo UX writing inclusivo"
     ],
     "correct": 0,
-    "explanation": "La risposta corretta è la prima perché la scrittura chiara aiuta DSA, anziani, non madrelingua, persone di fretta e molti altri."
+    "explanation": "emozione che riduce attenzione, aumenta la visione a tunnel e rende più delicata la fruizione di form, registrazioni e procedure complesse. Questo concetto è centrale per uno UX writing inclusivo, che mira a rendere le interfacce più chiare, rispettose e accessibili."
   },
   {
     "id": 5,
-    "question": "Quale insieme descrive il linguaggio chiaro?",
+    "question": "Per Bias si intende ....",
     "answers": [
-      "Pertinenza, reperibilità, comprensibilità e usabilità",
-      "Originalità, ironia, complessità e sorpresa",
-      "Sintesi, gergo, formalità e distanza",
-      "Creatività, ambiguità, varietà e stile"
+      "scorciatoia o distorsione cognitiva che influenza il modo in cui le persone leggono, scelgono e interpretano le interfacce",
+      "una formulazione che insiste soprattutto sugli aspetti organizzativi e sui ruoli degli attori nel processo di progettazione dei contenuti digitali",
+      "una descrizione alternativa che mette al centro le esperienze concrete delle persone ma senza riferimenti specifici a scrittura o interfacce",
+      "una spiegazione che sottolinea soprattutto strumenti, canali e campagne di comunicazione in modo generico e non legato allo UX writing inclusivo"
     ],
     "correct": 0,
-    "explanation": "La risposta corretta è la prima perché queste sono le quattro caratteristiche indicate nelle slide."
+    "explanation": "scorciatoia o distorsione cognitiva che influenza il modo in cui le persone leggono, scelgono e interpretano le interfacce. Questo concetto è centrale per uno UX writing inclusivo, che mira a rendere le interfacce più chiare, rispettose e accessibili."
   },
   {
     "id": 6,
-    "question": "Quale struttura sintattica è preferibile?",
+    "question": "Quando si parla di Burocratese si intende ....",
     "answers": [
-      "Soggetto, verbo, complemento",
-      "Complemento, soggetto, verbo",
-      "Frasi totalmente invertite",
-      "Sequenze nominali senza verbo"
+      "linguaggio opaco, impersonale e complesso che può diventare una barriera nella user experience",
+      "una formulazione che insiste soprattutto sugli aspetti organizzativi e sui ruoli degli attori nel processo di progettazione dei contenuti digitali",
+      "una descrizione alternativa che mette al centro le esperienze concrete delle persone ma senza riferimenti specifici a scrittura o interfacce",
+      "una spiegazione che sottolinea soprattutto strumenti, canali e campagne di comunicazione in modo generico e non legato allo UX writing inclusivo"
     ],
     "correct": 0,
-    "explanation": "La risposta corretta è la prima perché la sequenza soggetto-verbo-complemento è la più lineare."
+    "explanation": "linguaggio opaco, impersonale e complesso che può diventare una barriera nella user experience. Questo concetto è centrale per uno UX writing inclusivo, che mira a rendere le interfacce più chiare, rispettose e accessibili."
   },
   {
     "id": 7,
-    "question": "Perché è meglio evitare le doppie negazioni?",
+    "question": "Per Carico cognitivo si intende ....",
     "answers": [
-      "Aumentano la complessità della frase",
-      "Rendono il testo più elegante",
-      "Accorciano sempre il contenuto",
-      "Sono obbligatorie nei testi formali"
+      "sforzo mentale richiesto per comprendere testi, microtesti e procedure, da ridurre con chiarezza, concretezza e struttura",
+      "una formulazione che insiste soprattutto sugli aspetti organizzativi e sui ruoli degli attori nel processo di progettazione dei contenuti digitali",
+      "una descrizione alternativa che mette al centro le esperienze concrete delle persone ma senza riferimenti specifici a scrittura o interfacce",
+      "una spiegazione che sottolinea soprattutto strumenti, canali e campagne di comunicazione in modo generico e non legato allo UX writing inclusivo"
     ],
     "correct": 0,
-    "explanation": "La risposta corretta è la prima perché le doppie negazioni rallentano la comprensione e possono creare ambiguità."
+    "explanation": "sforzo mentale richiesto per comprendere testi, microtesti e procedure, da ridurre con chiarezza, concretezza e struttura. Questo concetto è centrale per uno UX writing inclusivo, che mira a rendere le interfacce più chiare, rispettose e accessibili."
   },
   {
     "id": 8,
-    "question": "Quale voce verbale è in genere più chiara?",
+    "question": "Per Call to action si intende ....",
     "answers": [
-      "La forma attiva",
-      "La forma passiva sempre",
-      "Il congiuntivo in ogni frase",
-      "L’infinito nominale"
+      "invito all azione che guida la persona verso il passo successivo e deve essere chiaro, utile e coerente con il contesto",
+      "una formulazione che insiste soprattutto sugli aspetti organizzativi e sui ruoli degli attori nel processo di progettazione dei contenuti digitali",
+      "una descrizione alternativa che mette al centro le esperienze concrete delle persone ma senza riferimenti specifici a scrittura o interfacce",
+      "una spiegazione che sottolinea soprattutto strumenti, canali e campagne di comunicazione in modo generico e non legato allo UX writing inclusivo"
     ],
     "correct": 0,
-    "explanation": "La risposta corretta è la prima perché nella forma attiva è immediato capire chi compie l’azione."
+    "explanation": "invito all azione che guida la persona verso il passo successivo e deve essere chiaro, utile e coerente con il contesto. Questo concetto è centrale per uno UX writing inclusivo, che mira a rendere le interfacce più chiare, rispettose e accessibili."
   },
   {
     "id": 9,
-    "question": "Perché è utile usare la stessa parola per lo stesso concetto?",
+    "question": "Quando si parla di Chiarezza si intende ....",
     "answers": [
-      "Per evitare confusione e mantenere coerenza",
-      "Per sembrare più creativi",
-      "Per aumentare il numero di sinonimi",
-      "Per rendere il testo più tecnico"
+      "qualità del linguaggio che permette di capire subito argomento, istruzioni e significato del testo",
+      "una formulazione che insiste soprattutto sugli aspetti organizzativi e sui ruoli degli attori nel processo di progettazione dei contenuti digitali",
+      "una descrizione alternativa che mette al centro le esperienze concrete delle persone ma senza riferimenti specifici a scrittura o interfacce",
+      "una spiegazione che sottolinea soprattutto strumenti, canali e campagne di comunicazione in modo generico e non legato allo UX writing inclusivo"
     ],
     "correct": 0,
-    "explanation": "La risposta corretta è la prima perché la coerenza lessicale aiuta il lettore a orientarsi."
+    "explanation": "qualità del linguaggio che permette di capire subito argomento, istruzioni e significato del testo. Questo concetto è centrale per uno UX writing inclusivo, che mira a rendere le interfacce più chiare, rispettose e accessibili."
   },
   {
     "id": 10,
-    "question": "Come conviene organizzare le informazioni?",
+    "question": "Per Cloze test si intende ....",
     "answers": [
-      "Con una sequenza chiara e mettendo le informazioni importanti all’inizio",
-      "Con concetti sparsi in ordine casuale",
-      "Con un lungo elenco di parole separate da virgole",
-      "Nascondendo il punto principale alla fine"
+      "test di comprensibilità in cui si toglie una parola ogni tot e si chiede alle persone di completare il testo",
+      "una formulazione che insiste soprattutto sugli aspetti organizzativi e sui ruoli degli attori nel processo di progettazione dei contenuti digitali",
+      "una descrizione alternativa che mette al centro le esperienze concrete delle persone ma senza riferimenti specifici a scrittura o interfacce",
+      "una spiegazione che sottolinea soprattutto strumenti, canali e campagne di comunicazione in modo generico e non legato allo UX writing inclusivo"
     ],
     "correct": 0,
-    "explanation": "La risposta corretta è la prima perché l’ordine facilita scansione e comprensione."
+    "explanation": "test di comprensibilità in cui si toglie una parola ogni tot e si chiede alle persone di completare il testo. Questo concetto è centrale per uno UX writing inclusivo, che mira a rendere le interfacce più chiare, rispettose e accessibili."
   },
   {
     "id": 11,
-    "question": "Perché titoli e grassetti sono utili?",
+    "question": "Per Comprensibilità si intende ....",
     "answers": [
-      "Aiutano l’orientamento nel testo",
-      "Servono solo a decorare la pagina",
-      "Possono sostituire il contenuto",
-      "Rendono automaticamente il testo più lungo"
+      "capacità di un testo di essere capito facilmente dal lettore, pilastro del linguaggio chiaro",
+      "una formulazione che insiste soprattutto sugli aspetti organizzativi e sui ruoli degli attori nel processo di progettazione dei contenuti digitali",
+      "una descrizione alternativa che mette al centro le esperienze concrete delle persone ma senza riferimenti specifici a scrittura o interfacce",
+      "una spiegazione che sottolinea soprattutto strumenti, canali e campagne di comunicazione in modo generico e non legato allo UX writing inclusivo"
     ],
     "correct": 0,
-    "explanation": "La risposta corretta è la prima perché titoli e grassetti organizzano l’informazione."
+    "explanation": "capacità di un testo di essere capito facilmente dal lettore, pilastro del linguaggio chiaro. Questo concetto è centrale per uno UX writing inclusivo, che mira a rendere le interfacce più chiare, rispettose e accessibili."
   },
   {
     "id": 12,
-    "question": "Perché gli elenchi puntati sono preferibili?",
+    "question": "Per definizione Contenuto accessibile si intende ....",
     "answers": [
-      "Migliorano leggibilità e scansione visiva",
-      "Sono più difficili da leggere",
-      "Eliminano la necessità di titoli",
-      "Funzionano solo nei social"
+      "contenuto che può essere compreso, trovato e usato da un numero ampio di persone, anche con bisogni diversi",
+      "una formulazione che insiste soprattutto sugli aspetti organizzativi e sui ruoli degli attori nel processo di progettazione dei contenuti digitali",
+      "una descrizione alternativa che mette al centro le esperienze concrete delle persone ma senza riferimenti specifici a scrittura o interfacce",
+      "una spiegazione che sottolinea soprattutto strumenti, canali e campagne di comunicazione in modo generico e non legato allo UX writing inclusivo"
     ],
     "correct": 0,
-    "explanation": "La risposta corretta è la prima perché gli elenchi rendono i contenuti più chiari e ordinati."
+    "explanation": "contenuto che può essere compreso, trovato e usato da un numero ampio di persone, anche con bisogni diversi. Questo concetto è centrale per uno UX writing inclusivo, che mira a rendere le interfacce più chiare, rispettose e accessibili."
   },
   {
     "id": 13,
-    "question": "Che cosa indica che l’informazione accessibile è un diritto?",
+    "question": "Per Conversazione si intende ....",
     "answers": [
-      "Che le persone devono poter accedere alle informazioni senza barriere",
-      "Che solo alcuni utenti possono riceverla",
-      "Che basta pubblicare un PDF qualsiasi",
-      "Che vale solo per i testi lunghi"
+      "metafora di riferimento per lo UX writing, in cui l esperienza digitale segue la logica di un dialogo tra sistema e persona",
+      "una formulazione che insiste soprattutto sugli aspetti organizzativi e sui ruoli degli attori nel processo di progettazione dei contenuti digitali",
+      "una descrizione alternativa che mette al centro le esperienze concrete delle persone ma senza riferimenti specifici a scrittura o interfacce",
+      "una spiegazione che sottolinea soprattutto strumenti, canali e campagne di comunicazione in modo generico e non legato allo UX writing inclusivo"
     ],
     "correct": 0,
-    "explanation": "La risposta corretta è la prima perché l’accesso alle informazioni è essenziale per partecipare alla società."
+    "explanation": "metafora di riferimento per lo UX writing, in cui l esperienza digitale segue la logica di un dialogo tra sistema e persona. Questo concetto è centrale per uno UX writing inclusivo, che mira a rendere le interfacce più chiare, rispettose e accessibili."
   },
   {
     "id": 14,
-    "question": "Perché gli alt text sono importanti?",
+    "question": "Per Copywriting si intende ....",
     "answers": [
-      "Aiutano persone cieche o ipovedenti e chi non carica le immagini",
-      "Servono solo per il SEO",
-      "Sono utili solo agli sviluppatori",
-      "Non hanno alcuna funzione pratica"
+      "scrittura orientata a persuadere e attirare attenzione, distinta dallo UX writing che accompagna e supporta",
+      "una formulazione che insiste soprattutto sugli aspetti organizzativi e sui ruoli degli attori nel processo di progettazione dei contenuti digitali",
+      "una descrizione alternativa che mette al centro le esperienze concrete delle persone ma senza riferimenti specifici a scrittura o interfacce",
+      "una spiegazione che sottolinea soprattutto strumenti, canali e campagne di comunicazione in modo generico e non legato allo UX writing inclusivo"
     ],
     "correct": 0,
-    "explanation": "La risposta corretta è la prima perché gli alt text rendono comprensibile il contenuto dell’immagine anche senza vederla."
+    "explanation": "scrittura orientata a persuadere e attirare attenzione, distinta dallo UX writing che accompagna e supporta. Questo concetto è centrale per uno UX writing inclusivo, che mira a rendere le interfacce più chiare, rispettose e accessibili."
   },
   {
     "id": 15,
-    "question": "Come dovrebbe essere scritto un buon alt text?",
+    "question": "Quando si parla di Design storytelling si intende ....",
     "answers": [
-      "Breve, rilevante e diretto",
-      "Molto lungo e descrittivo di tutto",
-      "Con frasi introduttive tipo “l’immagine rappresenta”",
-      "Con dettagli casuali non pertinenti"
+      "uso delle storie per ideare, progettare e vendere prodotti digitali, con l utente come eroe del racconto",
+      "una formulazione che insiste soprattutto sugli aspetti organizzativi e sui ruoli degli attori nel processo di progettazione dei contenuti digitali",
+      "una descrizione alternativa che mette al centro le esperienze concrete delle persone ma senza riferimenti specifici a scrittura o interfacce",
+      "una spiegazione che sottolinea soprattutto strumenti, canali e campagne di comunicazione in modo generico e non legato allo UX writing inclusivo"
     ],
     "correct": 0,
-    "explanation": "La risposta corretta è la prima perché un alt text efficace va subito al punto."
+    "explanation": "uso delle storie per ideare, progettare e vendere prodotti digitali, con l utente come eroe del racconto. Questo concetto è centrale per uno UX writing inclusivo, che mira a rendere le interfacce più chiare, rispettose e accessibili."
   },
   {
     "id": 16,
-    "question": "Come si gestisce un’immagine decorativa?",
+    "question": "Per Dark pattern si intende ....",
     "answers": [
-      "Con un alt text vuoto",
-      "Con una descrizione molto lunga",
-      "Con il nome del file letto al lettore di schermo",
-      "Con un titolo in maiuscolo"
+      "soluzione comunicativa o di interfaccia che sfrutta ansia, scarsità o confusione per spingere comportamenti non desiderati",
+      "una formulazione che insiste soprattutto sugli aspetti organizzativi e sui ruoli degli attori nel processo di progettazione dei contenuti digitali",
+      "una descrizione alternativa che mette al centro le esperienze concrete delle persone ma senza riferimenti specifici a scrittura o interfacce",
+      "una spiegazione che sottolinea soprattutto strumenti, canali e campagne di comunicazione in modo generico e non legato allo UX writing inclusivo"
     ],
     "correct": 0,
-    "explanation": "La risposta corretta è la prima perché se l’immagine è decorativa non deve appesantire la lettura assistiva."
+    "explanation": "soluzione comunicativa o di interfaccia che sfrutta ansia, scarsità o confusione per spingere comportamenti non desiderati. Questo concetto è centrale per uno UX writing inclusivo, che mira a rendere le interfacce più chiare, rispettose e accessibili."
   },
   {
     "id": 17,
-    "question": "Che cosa rende un link accessibile?",
+    "question": "Per Delizia superficiale si intende ....",
     "answers": [
-      "Un testo chiaro che dica dove porta",
-      "L’uso obbligatorio di un URL completo visibile",
-      "La formula “clicca qui”",
-      "La sottolineatura anche dei testi non cliccabili"
+      "piccolo elemento piacevole, come animazioni o microtesti accattivanti, che rende più gradevole l esperienza",
+      "una formulazione che insiste soprattutto sugli aspetti organizzativi e sui ruoli degli attori nel processo di progettazione dei contenuti digitali",
+      "una descrizione alternativa che mette al centro le esperienze concrete delle persone ma senza riferimenti specifici a scrittura o interfacce",
+      "una spiegazione che sottolinea soprattutto strumenti, canali e campagne di comunicazione in modo generico e non legato allo UX writing inclusivo"
     ],
     "correct": 0,
-    "explanation": "La risposta corretta è la prima perché il link deve far capire subito la destinazione o l’azione."
+    "explanation": "piccolo elemento piacevole, come animazioni o microtesti accattivanti, che rende più gradevole l esperienza. Questo concetto è centrale per uno UX writing inclusivo, che mira a rendere le interfacce più chiare, rispettose e accessibili."
   },
   {
     "id": 18,
-    "question": "Perché i tag semantici sono importanti?",
+    "question": "Quando si parla di Delizia profonda si intende ....",
     "answers": [
-      "Strutturano la pagina e la rendono comprensibile a browser e lettori di schermo",
-      "Servono solo per il colore del testo",
-      "Sono un’alternativa ai contenuti",
-      "Sono utili solo ai motori di ricerca"
+      "piacere generato da un esperienza fluida e priva di barriere, che riduce frizioni e ostacoli",
+      "una formulazione che insiste soprattutto sugli aspetti organizzativi e sui ruoli degli attori nel processo di progettazione dei contenuti digitali",
+      "una descrizione alternativa che mette al centro le esperienze concrete delle persone ma senza riferimenti specifici a scrittura o interfacce",
+      "una spiegazione che sottolinea soprattutto strumenti, canali e campagne di comunicazione in modo generico e non legato allo UX writing inclusivo"
     ],
     "correct": 0,
-    "explanation": "La risposta corretta è la prima perché i tag semantici organizzano il contenuto per persone e tecnologie assistive."
+    "explanation": "piacere generato da un esperienza fluida e priva di barriere, che riduce frizioni e ostacoli. Questo concetto è centrale per uno UX writing inclusivo, che mira a rendere le interfacce più chiare, rispettose e accessibili."
   },
   {
     "id": 19,
-    "question": "Che cosa significa una sezione social accessibile?",
+    "question": "Per Design storytelling plot si intende ....",
     "answers": [
-      "Uso parsimonioso di emoji e niente font speciali non leggibili",
-      "Uso massiccio di simboli decorativi",
-      "Testi scritti solo in maiuscolo",
-      "Frasi volutamente ambigue"
+      "struttura narrativa che descrive promessa del brand, target, domande drammatiche e parole chiave della narrazione",
+      "una formulazione che insiste soprattutto sugli aspetti organizzativi e sui ruoli degli attori nel processo di progettazione dei contenuti digitali",
+      "una descrizione alternativa che mette al centro le esperienze concrete delle persone ma senza riferimenti specifici a scrittura o interfacce",
+      "una spiegazione che sottolinea soprattutto strumenti, canali e campagne di comunicazione in modo generico e non legato allo UX writing inclusivo"
     ],
     "correct": 0,
-    "explanation": "La risposta corretta è la prima perché font speciali ed emoji eccessive possono essere poco leggibili per i lettori di schermo."
+    "explanation": "struttura narrativa che descrive promessa del brand, target, domande drammatiche e parole chiave della narrazione. Questo concetto è centrale per uno UX writing inclusivo, che mira a rendere le interfacce più chiare, rispettose e accessibili."
   },
   {
     "id": 20,
-    "question": "Che cosa significa che le parole possono cambiare la realtà?",
+    "question": "Per Emozione si intende ....",
     "answers": [
-      "Il linguaggio contribuisce a costruire rappresentazioni sociali e disuguaglianze",
-      "Le parole non hanno mai effetti concreti",
-      "Il linguaggio è solo una forma estetica",
-      "La comunicazione non incide sui comportamenti"
+      "stato affettivo che influenza lettura e uso delle interfacce, includendo gioia, interesse, sorpresa, rabbia, tristezza e ansia",
+      "una formulazione che insiste soprattutto sugli aspetti organizzativi e sui ruoli degli attori nel processo di progettazione dei contenuti digitali",
+      "una descrizione alternativa che mette al centro le esperienze concrete delle persone ma senza riferimenti specifici a scrittura o interfacce",
+      "una spiegazione che sottolinea soprattutto strumenti, canali e campagne di comunicazione in modo generico e non legato allo UX writing inclusivo"
     ],
     "correct": 0,
-    "explanation": "La risposta corretta è la prima perché il linguaggio influenza ciò che una comunità rende visibile o invisibile."
+    "explanation": "stato affettivo che influenza lettura e uso delle interfacce, includendo gioia, interesse, sorpresa, rabbia, tristezza e ansia. Questo concetto è centrale per uno UX writing inclusivo, che mira a rendere le interfacce più chiare, rispettose e accessibili."
   },
   {
     "id": 21,
-    "question": "Che cosa indica la prospettiva dell’intento rispetto a quella dell’impatto?",
+    "question": "Quando si parla di Empatia si intende ....",
     "answers": [
-      "Non basta voler fare bene: contano anche gli effetti reali generati",
-      "L’intento coincide sempre con il risultato",
-      "L’impatto non è misurabile",
-      "L’intento è irrilevante"
+      "capacità di mettersi nei panni delle persone per cui si scrive, anticipando timori, bisogni e reazioni emotive",
+      "una formulazione che insiste soprattutto sugli aspetti organizzativi e sui ruoli degli attori nel processo di progettazione dei contenuti digitali",
+      "una descrizione alternativa che mette al centro le esperienze concrete delle persone ma senza riferimenti specifici a scrittura o interfacce",
+      "una spiegazione che sottolinea soprattutto strumenti, canali e campagne di comunicazione in modo generico e non legato allo UX writing inclusivo"
     ],
     "correct": 0,
-    "explanation": "La risposta corretta è la prima perché il valore di una comunicazione dipende anche dalle conseguenze concrete."
+    "explanation": "capacità di mettersi nei panni delle persone per cui si scrive, anticipando timori, bisogni e reazioni emotive. Questo concetto è centrale per uno UX writing inclusivo, che mira a rendere le interfacce più chiare, rispettose e accessibili."
   },
   {
     "id": 22,
-    "question": "Che cosa sono normocentrismo, androcentrismo ed eurocentrismo?",
+    "question": "Per Espressione inclusiva si intende ....",
     "answers": [
-      "Tre modi di guardare il mondo che assumono come standard un punto di vista dominante",
-      "Tre forme di scrittura inclusiva",
-      "Tre tecniche di semplificazione testuale",
-      "Tre categorie di accessibilità digitale"
+      "modo di scrivere che rispetta identità, differenze e contesti di chi legge, evitando linguaggio esclusivo o stereotipato",
+      "una formulazione che insiste soprattutto sugli aspetti organizzativi e sui ruoli degli attori nel processo di progettazione dei contenuti digitali",
+      "una descrizione alternativa che mette al centro le esperienze concrete delle persone ma senza riferimenti specifici a scrittura o interfacce",
+      "una spiegazione che sottolinea soprattutto strumenti, canali e campagne di comunicazione in modo generico e non legato allo UX writing inclusivo"
     ],
     "correct": 0,
-    "explanation": "La risposta corretta è la prima perché descrivono prospettive che prendono come norma una soggettività dominante."
+    "explanation": "modo di scrivere che rispetta identità, differenze e contesti di chi legge, evitando linguaggio esclusivo o stereotipato. Questo concetto è centrale per uno UX writing inclusivo, che mira a rendere le interfacce più chiare, rispettose e accessibili."
   },
   {
     "id": 23,
-    "question": "Perché l’idea del “si è sempre fatto così” è problematica?",
+    "question": "Per FAQ si intende ....",
     "answers": [
-      "Blocca il cambiamento e consolida schemi poco inclusivi",
-      "Garantisce sempre innovazione",
-      "Migliora la personalizzazione",
-      "Rende il testo più breve"
+      "sezione di domande frequenti che risponde ai dubbi reali degli utenti e contrasta la confusione",
+      "una formulazione che insiste soprattutto sugli aspetti organizzativi e sui ruoli degli attori nel processo di progettazione dei contenuti digitali",
+      "una descrizione alternativa che mette al centro le esperienze concrete delle persone ma senza riferimenti specifici a scrittura o interfacce",
+      "una spiegazione che sottolinea soprattutto strumenti, canali e campagne di comunicazione in modo generico e non legato allo UX writing inclusivo"
     ],
     "correct": 0,
-    "explanation": "La risposta corretta è la prima perché le abitudini possono diventare scorciatoie che impediscono di vedere alternative."
+    "explanation": "sezione di domande frequenti che risponde ai dubbi reali degli utenti e contrasta la confusione. Questo concetto è centrale per uno UX writing inclusivo, che mira a rendere le interfacce più chiare, rispettose e accessibili."
   },
   {
     "id": 24,
-    "question": "Che cosa sono le persone minorizzate?",
+    "question": "Quando si parla di Femminili professionali si intende ....",
     "answers": [
-      "Gruppi resi minoranza socialmente, anche se non lo sono numericamente",
-      "Solo le persone numericamente poche",
-      "Solo le categorie giuridiche protette",
-      "Solo i gruppi più visibili"
+      "forme femminili dei ruoli professionali, consigliate per evitare il maschile sovraesteso",
+      "una formulazione che insiste soprattutto sugli aspetti organizzativi e sui ruoli degli attori nel processo di progettazione dei contenuti digitali",
+      "una descrizione alternativa che mette al centro le esperienze concrete delle persone ma senza riferimenti specifici a scrittura o interfacce",
+      "una spiegazione che sottolinea soprattutto strumenti, canali e campagne di comunicazione in modo generico e non legato allo UX writing inclusivo"
     ],
     "correct": 0,
-    "explanation": "La risposta corretta è la prima perché lo status di minoranza può essere costruito socialmente."
+    "explanation": "forme femminili dei ruoli professionali, consigliate per evitare il maschile sovraesteso. Questo concetto è centrale per uno UX writing inclusivo, che mira a rendere le interfacce più chiare, rispettose e accessibili."
   },
   {
     "id": 25,
-    "question": "Che cosa si intende per minority stress?",
+    "question": "Per Framing si intende ....",
     "answers": [
-      "Stress aggiuntivo vissuto da persone appartenenti a gruppi emarginati o minorizzati",
-      "Stress legato solo al lavoro da ufficio",
-      "Stress tipico dei teenager",
-      "Stress prodotto dalle password"
+      "modo in cui un contenuto viene incorniciato o presentato, con forte impatto su comprensione e decisione",
+      "una formulazione che insiste soprattutto sugli aspetti organizzativi e sui ruoli degli attori nel processo di progettazione dei contenuti digitali",
+      "una descrizione alternativa che mette al centro le esperienze concrete delle persone ma senza riferimenti specifici a scrittura o interfacce",
+      "una spiegazione che sottolinea soprattutto strumenti, canali e campagne di comunicazione in modo generico e non legato allo UX writing inclusivo"
     ],
     "correct": 0,
-    "explanation": "La risposta corretta è la prima perché la marginalizzazione aggiunge un carico psicologico specifico."
+    "explanation": "modo in cui un contenuto viene incorniciato o presentato, con forte impatto su comprensione e decisione. Questo concetto è centrale per uno UX writing inclusivo, che mira a rendere le interfacce più chiare, rispettose e accessibili."
   },
   {
     "id": 26,
-    "question": "Quale forma di discriminazione è apertamente ostile?",
+    "question": "Per Gioia si intende ....",
     "answers": [
-      "La discriminazione ostile",
-      "La discriminazione benevola",
-      "La discriminazione interiorizzata",
-      "La comunicazione neutra"
+      "emozione che aumenta piacere, impulsività e percezione positiva dell esperienza",
+      "una formulazione che insiste soprattutto sugli aspetti organizzativi e sui ruoli degli attori nel processo di progettazione dei contenuti digitali",
+      "una descrizione alternativa che mette al centro le esperienze concrete delle persone ma senza riferimenti specifici a scrittura o interfacce",
+      "una spiegazione che sottolinea soprattutto strumenti, canali e campagne di comunicazione in modo generico e non legato allo UX writing inclusivo"
     ],
     "correct": 0,
-    "explanation": "La risposta corretta è la prima perché è la forma esplicitamente negativa e aggressiva."
+    "explanation": "emozione che aumenta piacere, impulsività e percezione positiva dell esperienza. Questo concetto è centrale per uno UX writing inclusivo, che mira a rendere le interfacce più chiare, rispettose e accessibili."
   },
   {
     "id": 27,
-    "question": "Che cosa caratterizza la discriminazione benevola?",
+    "question": "Quando si parla di Google Trends si intende ....",
     "answers": [
-      "Sembra positiva ma rinforza la subalternità",
-      "È sempre invisibile e innocua",
-      "Coincide con la tutela formale",
-      "Elimina i pregiudizi"
+      "strumento per individuare ricerche correlate, confrontare termini e osservare trend di interesse del pubblico",
+      "una formulazione che insiste soprattutto sugli aspetti organizzativi e sui ruoli degli attori nel processo di progettazione dei contenuti digitali",
+      "una descrizione alternativa che mette al centro le esperienze concrete delle persone ma senza riferimenti specifici a scrittura o interfacce",
+      "una spiegazione che sottolinea soprattutto strumenti, canali e campagne di comunicazione in modo generico e non legato allo UX writing inclusivo"
     ],
     "correct": 0,
-    "explanation": "La risposta corretta è la prima perché può sembrare gentile ma mantiene rapporti di inferiorità."
+    "explanation": "strumento per individuare ricerche correlate, confrontare termini e osservare trend di interesse del pubblico. Questo concetto è centrale per uno UX writing inclusivo, che mira a rendere le interfacce più chiare, rispettose e accessibili."
   },
   {
     "id": 28,
-    "question": "Che cosa indica la discriminazione interiorizzata?",
+    "question": "Per Gulpease si intende ....",
     "answers": [
-      "L’assunzione, da parte delle persone minorizzate, di giudizi discriminatori su se stesse",
-      "Una politica aziendale inclusiva",
-      "Un tipo di onboarding",
-      "Una forma di accessibilità visiva"
+      "indice di leggibilità per l italiano che considera lunghezza delle frasi e delle parole: più è alto, più il testo è leggibile",
+      "una formulazione che insiste soprattutto sugli aspetti organizzativi e sui ruoli degli attori nel processo di progettazione dei contenuti digitali",
+      "una descrizione alternativa che mette al centro le esperienze concrete delle persone ma senza riferimenti specifici a scrittura o interfacce",
+      "una spiegazione che sottolinea soprattutto strumenti, canali e campagne di comunicazione in modo generico e non legato allo UX writing inclusivo"
     ],
     "correct": 0,
-    "explanation": "La risposta corretta è la prima perché riguarda l’interiorizzazione del giudizio discriminatorio."
+    "explanation": "indice di leggibilità per l italiano che considera lunghezza delle frasi e delle parole: più è alto, più il testo è leggibile. Questo concetto è centrale per uno UX writing inclusivo, che mira a rendere le interfacce più chiare, rispettose e accessibili."
   },
   {
     "id": 29,
-    "question": "Che cosa significa usare un linguaggio person-first?",
+    "question": "Per Inclusivo si intende ....",
     "answers": [
-      "Mettere la persona prima della condizione o dell’etichetta",
-      "Mettere sempre prima la diagnosi",
-      "Usare solo il cognome",
-      "Evitare ogni riferimento alle persone"
+      "contenuto che oltre a essere comprensibile rispetta identità e individualità di chi legge",
+      "una formulazione che insiste soprattutto sugli aspetti organizzativi e sui ruoli degli attori nel processo di progettazione dei contenuti digitali",
+      "una descrizione alternativa che mette al centro le esperienze concrete delle persone ma senza riferimenti specifici a scrittura o interfacce",
+      "una spiegazione che sottolinea soprattutto strumenti, canali e campagne di comunicazione in modo generico e non legato allo UX writing inclusivo"
     ],
     "correct": 0,
-    "explanation": "La risposta corretta è la prima perché il focus resta sulla persona e non sulla sua caratteristica."
+    "explanation": "contenuto che oltre a essere comprensibile rispetta identità e individualità di chi legge. Questo concetto è centrale per uno UX writing inclusivo, che mira a rendere le interfacce più chiare, rispettose e accessibili."
   },
   {
     "id": 30,
-    "question": "Perché è importante parlare di disabilità in modo preciso?",
+    "question": "Quando si parla di Intento si intende ....",
     "answers": [
-      "Per evitare parole abiliste e rappresentazioni riduttive",
-      "Per rendere il testo più complesso",
-      "Per evitare ogni descrizione",
-      "Per usare sempre e solo termini medici"
+      "ciò che l autore o il brand voleva comunicare",
+      "una formulazione che insiste soprattutto sugli aspetti organizzativi e sui ruoli degli attori nel processo di progettazione dei contenuti digitali",
+      "una descrizione alternativa che mette al centro le esperienze concrete delle persone ma senza riferimenti specifici a scrittura o interfacce",
+      "una spiegazione che sottolinea soprattutto strumenti, canali e campagne di comunicazione in modo generico e non legato allo UX writing inclusivo"
     ],
     "correct": 0,
-    "explanation": "La risposta corretta è la prima perché le parole influenzano la percezione sociale della disabilità."
+    "explanation": "ciò che l autore o il brand voleva comunicare. Questo concetto è centrale per uno UX writing inclusivo, che mira a rendere le interfacce più chiare, rispettose e accessibili."
   },
   {
     "id": 31,
-    "question": "Quale termine è più corretto in molti contesti?",
+    "question": "Per Impatto si intende ....",
     "answers": [
-      "Persona con disabilità",
-      "Portatore di handicap",
-      "Diversamente abile",
-      "Costretto in carrozzina"
+      "effetto reale che un contenuto o una scelta linguistica produce sulle persone",
+      "una formulazione che insiste soprattutto sugli aspetti organizzativi e sui ruoli degli attori nel processo di progettazione dei contenuti digitali",
+      "una descrizione alternativa che mette al centro le esperienze concrete delle persone ma senza riferimenti specifici a scrittura o interfacce",
+      "una spiegazione che sottolinea soprattutto strumenti, canali e campagne di comunicazione in modo generico e non legato allo UX writing inclusivo"
     ],
     "correct": 0,
-    "explanation": "La risposta corretta è la prima perché è una formulazione rispettosa e centrata sulla persona."
+    "explanation": "effetto reale che un contenuto o una scelta linguistica produce sulle persone. Questo concetto è centrale per uno UX writing inclusivo, che mira a rendere le interfacce più chiare, rispettose e accessibili."
   },
   {
     "id": 32,
-    "question": "Che cosa significa abilismo benevolo?",
+    "question": "Per Interfaccia verbale si intende ....",
     "answers": [
-      "Eroicizzare o infantilizzare la disabilità con un tono compassionevole",
-      "Riconoscere pari diritti e autonomia",
-      "Usare un linguaggio neutro e preciso",
-      "Favorire l’autodeterminazione"
+      "parte dell esperienza digitale composta da parole, microtesti e loro organizzazione conversazionale",
+      "una formulazione che insiste soprattutto sugli aspetti organizzativi e sui ruoli degli attori nel processo di progettazione dei contenuti digitali",
+      "una descrizione alternativa che mette al centro le esperienze concrete delle persone ma senza riferimenti specifici a scrittura o interfacce",
+      "una spiegazione che sottolinea soprattutto strumenti, canali e campagne di comunicazione in modo generico e non legato allo UX writing inclusivo"
     ],
     "correct": 0,
-    "explanation": "La risposta corretta è la prima perché l’abilismo benevolo trasforma la disabilità in pietà o eroismo."
+    "explanation": "parte dell esperienza digitale composta da parole, microtesti e loro organizzazione conversazionale. Questo concetto è centrale per uno UX writing inclusivo, che mira a rendere le interfacce più chiare, rispettose e accessibili."
   },
   {
     "id": 33,
-    "question": "Che cos’è la neurodiversità?",
+    "question": "Per definizione Linguaggio chiaro si intende ....",
     "answers": [
-      "La variabilità dei sistemi nervosi delle persone",
-      "Una malattia singola",
-      "Una categoria solo clinica",
-      "Un sinonimo di disabilità motoria"
+      "stile di scrittura che rende il contenuto facilmente comprensibile, reperibile, usabile e pertinente",
+      "una formulazione che insiste soprattutto sugli aspetti organizzativi e sui ruoli degli attori nel processo di progettazione dei contenuti digitali",
+      "una descrizione alternativa che mette al centro le esperienze concrete delle persone ma senza riferimenti specifici a scrittura o interfacce",
+      "una spiegazione che sottolinea soprattutto strumenti, canali e campagne di comunicazione in modo generico e non legato allo UX writing inclusivo"
     ],
     "correct": 0,
-    "explanation": "La risposta corretta è la prima perché la neurodiversità riguarda la variabilità neurologica umana."
+    "explanation": "stile di scrittura che rende il contenuto facilmente comprensibile, reperibile, usabile e pertinente. Questo concetto è centrale per uno UX writing inclusivo, che mira a rendere le interfacce più chiare, rispettose e accessibili."
   },
   {
     "id": 34,
-    "question": "Che cosa si intende per ageismo?",
+    "question": "Per Linguaggio ampio si intende ....",
     "answers": [
-      "Pregiudizi e stereotipi legati all’età",
-      "Discriminazione solo economica",
-      "Una forma di accessibilità",
-      "Un tipo di linguaggio tecnico"
+      "linguaggio che prova a rappresentare pluralità e identità diverse senza ridurre le persone a un solo tratto",
+      "una formulazione che insiste soprattutto sugli aspetti organizzativi e sui ruoli degli attori nel processo di progettazione dei contenuti digitali",
+      "una descrizione alternativa che mette al centro le esperienze concrete delle persone ma senza riferimenti specifici a scrittura o interfacce",
+      "una spiegazione che sottolinea soprattutto strumenti, canali e campagne di comunicazione in modo generico e non legato allo UX writing inclusivo"
     ],
     "correct": 0,
-    "explanation": "La risposta corretta è la prima perché l’ageismo riguarda stereotipi su età giovane o anziana."
+    "explanation": "linguaggio che prova a rappresentare pluralità e identità diverse senza ridurre le persone a un solo tratto. Questo concetto è centrale per uno UX writing inclusivo, che mira a rendere le interfacce più chiare, rispettose e accessibili."
   },
   {
     "id": 35,
-    "question": "Quando è meglio non parlare dell’età di una persona?",
+    "question": "Per Leggibilità si intende ....",
     "answers": [
-      "Quando non aggiunge nulla al contesto",
-      "Quando la persona è adulta",
-      "Quando si scrive un titolo",
-      "Quando l’età è esatta"
+      "facilità visiva e cognitiva di lettura di un testo, influenzata da font, impaginazione, spaziatura e struttura",
+      "una formulazione che insiste soprattutto sugli aspetti organizzativi e sui ruoli degli attori nel processo di progettazione dei contenuti digitali",
+      "una descrizione alternativa che mette al centro le esperienze concrete delle persone ma senza riferimenti specifici a scrittura o interfacce",
+      "una spiegazione che sottolinea soprattutto strumenti, canali e campagne di comunicazione in modo generico e non legato allo UX writing inclusivo"
     ],
     "correct": 0,
-    "explanation": "La risposta corretta è la prima perché l’età va citata solo se davvero rilevante."
+    "explanation": "facilità visiva e cognitiva di lettura di un testo, influenzata da font, impaginazione, spaziatura e struttura. Questo concetto è centrale per uno UX writing inclusivo, che mira a rendere le interfacce più chiare, rispettose e accessibili."
   },
   {
     "id": 36,
-    "question": "Quale formulazione è più inclusiva?",
+    "question": "Quando si parla di Microtesto si intende ....",
     "answers": [
-      "Persone tra i 18 e i 30 anni",
-      "Giovani tra i 18 e i 30 anni",
-      "Vecchi sopra i 65 anni",
-      "Ragazzi di tutte le età"
+      "piccolo frammento di testo che guida, rassicura, orienta o informa l utente dentro l esperienza digitale",
+      "una formulazione che insiste soprattutto sugli aspetti organizzativi e sui ruoli degli attori nel processo di progettazione dei contenuti digitali",
+      "una descrizione alternativa che mette al centro le esperienze concrete delle persone ma senza riferimenti specifici a scrittura o interfacce",
+      "una spiegazione che sottolinea soprattutto strumenti, canali e campagne di comunicazione in modo generico e non legato allo UX writing inclusivo"
     ],
     "correct": 0,
-    "explanation": "La risposta corretta è la prima perché è precisa e non stereotipa."
+    "explanation": "piccolo frammento di testo che guida, rassicura, orienta o informa l utente dentro l esperienza digitale. Questo concetto è centrale per uno UX writing inclusivo, che mira a rendere le interfacce più chiare, rispettose e accessibili."
   },
   {
     "id": 37,
-    "question": "Che cosa sono i microtesti nel UX writing?",
+    "question": "Per Minority stress si intende ....",
     "answers": [
-      "Piccoli testi che guidano, rassicurano e orientano nell’interfaccia",
-      "Lunghi documenti di policy",
-      "Soltanto i titoli della home page",
-      "I commenti di marketing non editati"
+      "stress aggiuntivo vissuto da persone appartenenti a gruppi minorizzati a causa di discriminazione e pressione sociale",
+      "una formulazione che insiste soprattutto sugli aspetti organizzativi e sui ruoli degli attori nel processo di progettazione dei contenuti digitali",
+      "una descrizione alternativa che mette al centro le esperienze concrete delle persone ma senza riferimenti specifici a scrittura o interfacce",
+      "una spiegazione che sottolinea soprattutto strumenti, canali e campagne di comunicazione in modo generico e non legato allo UX writing inclusivo"
     ],
     "correct": 0,
-    "explanation": "La risposta corretta è la prima perché i microtesti sono elementi brevi ma decisivi della conversazione."
+    "explanation": "stress aggiuntivo vissuto da persone appartenenti a gruppi minorizzati a causa di discriminazione e pressione sociale. Questo concetto è centrale per uno UX writing inclusivo, che mira a rendere le interfacce più chiare, rispettose e accessibili."
   },
   {
     "id": 38,
-    "question": "Quale ruolo ha il UX writer?",
+    "question": "Per Marketing ed esclusione si intende ....",
     "answers": [
-      "Progettare e migliorare i microtesti dell’esperienza utente",
-      "Fare solo pubblicità persuasiva",
-      "Gestire solo il codice dell’interfaccia",
-      "Tradurre manuali tecnici in modo letterale"
+      "tema che descrive come linguaggio e strategie commerciali possano includere o escludere gruppi di persone",
+      "una formulazione che insiste soprattutto sugli aspetti organizzativi e sui ruoli degli attori nel processo di progettazione dei contenuti digitali",
+      "una descrizione alternativa che mette al centro le esperienze concrete delle persone ma senza riferimenti specifici a scrittura o interfacce",
+      "una spiegazione che sottolinea soprattutto strumenti, canali e campagne di comunicazione in modo generico e non legato allo UX writing inclusivo"
     ],
     "correct": 0,
-    "explanation": "La risposta corretta è la prima perché il UX writer accompagna le persone con testi chiari ed efficaci."
+    "explanation": "tema che descrive come linguaggio e strategie commerciali possano includere o escludere gruppi di persone. Questo concetto è centrale per uno UX writing inclusivo, che mira a rendere le interfacce più chiare, rispettose e accessibili."
   },
   {
     "id": 39,
-    "question": "Qual è l’obiettivo principale dello UX writing?",
+    "question": "Quando si parla di Normocentrismo si intende ....",
     "answers": [
-      "Rendere le esperienze accessibili, fruttuose e chiare per il maggior numero di persone possibile",
-      "Aumentare la quantità di testo in pagina",
-      "Usare il linguaggio più creativo possibile",
-      "Ridurre la coerenza narrativa"
+      "idea di normalità centrata su un modello dominante di persona, che può escludere differenze e pluralità",
+      "una formulazione che insiste soprattutto sugli aspetti organizzativi e sui ruoli degli attori nel processo di progettazione dei contenuti digitali",
+      "una descrizione alternativa che mette al centro le esperienze concrete delle persone ma senza riferimenti specifici a scrittura o interfacce",
+      "una spiegazione che sottolinea soprattutto strumenti, canali e campagne di comunicazione in modo generico e non legato allo UX writing inclusivo"
     ],
     "correct": 0,
-    "explanation": "La risposta corretta è la prima perché il fine è aiutare le persone a raggiungere i loro obiettivi."
+    "explanation": "idea di normalità centrata su un modello dominante di persona, che può escludere differenze e pluralità. Questo concetto è centrale per uno UX writing inclusivo, che mira a rendere le interfacce più chiare, rispettose e accessibili."
   },
   {
     "id": 40,
-    "question": "Perché le esperienze digitali sono anche esperienze verbali?",
+    "question": "Per Narrativa del brand si intende ....",
     "answers": [
-      "Perché le persone interagiscono con testi, microtesti e feedback come in una conversazione",
-      "Perché i pulsanti non contano",
-      "Perché il design non influenza la comprensione",
-      "Perché i contenuti scritti sono opzionali"
+      "storia coerente che il brand costruisce attorno a promessa, benefici, valori e ruolo dell utente",
+      "una formulazione che insiste soprattutto sugli aspetti organizzativi e sui ruoli degli attori nel processo di progettazione dei contenuti digitali",
+      "una descrizione alternativa che mette al centro le esperienze concrete delle persone ma senza riferimenti specifici a scrittura o interfacce",
+      "una spiegazione che sottolinea soprattutto strumenti, canali e campagne di comunicazione in modo generico e non legato allo UX writing inclusivo"
     ],
     "correct": 0,
-    "explanation": "La risposta corretta è la prima perché le parole sono una vera interfaccia di dialogo."
+    "explanation": "storia coerente che il brand costruisce attorno a promessa, benefici, valori e ruolo dell utente. Questo concetto è centrale per uno UX writing inclusivo, che mira a rendere le interfacce più chiare, rispettose e accessibili."
   },
   {
     "id": 41,
-    "question": "Quale caratteristica distingue il buon UX writing?",
+    "question": "Per Onesto si intende ....",
     "answers": [
-      "È onesto, empatico e utile",
-      "È sempre ironico",
-      "È volutamente ambiguo",
-      "Fa compiere azioni non volute"
+      "caratteristica dello UX writing per cui il testo non deve indurre l utente a fare ciò che non vuole o a fraintendere",
+      "una formulazione che insiste soprattutto sugli aspetti organizzativi e sui ruoli degli attori nel processo di progettazione dei contenuti digitali",
+      "una descrizione alternativa che mette al centro le esperienze concrete delle persone ma senza riferimenti specifici a scrittura o interfacce",
+      "una spiegazione che sottolinea soprattutto strumenti, canali e campagne di comunicazione in modo generico e non legato allo UX writing inclusivo"
     ],
     "correct": 0,
-    "explanation": "La risposta corretta è la prima perché il buon UX writing aiuta senza manipolare."
+    "explanation": "caratteristica dello UX writing per cui il testo non deve indurre l utente a fare ciò che non vuole o a fraintendere. Questo concetto è centrale per uno UX writing inclusivo, che mira a rendere le interfacce più chiare, rispettose e accessibili."
   },
   {
     "id": 42,
-    "question": "Perché nel brand storytelling serve coerenza narrativa?",
+    "question": "Quando si parla di Onboarding si intende ....",
     "answers": [
-      "Perché il messaggio deve restare coerente lungo tutto il percorso",
-      "Perché i testi non devono cambiare mai",
-      "Perché conta solo il logo",
-      "Perché la narrazione non influisce sull’esperienza"
+      "fase iniziale di relazione con un servizio in cui i microtesti cementano il rapporto, validano la scelta e orientano i primi passi",
+      "una formulazione che insiste soprattutto sugli aspetti organizzativi e sui ruoli degli attori nel processo di progettazione dei contenuti digitali",
+      "una descrizione alternativa che mette al centro le esperienze concrete delle persone ma senza riferimenti specifici a scrittura o interfacce",
+      "una spiegazione che sottolinea soprattutto strumenti, canali e campagne di comunicazione in modo generico e non legato allo UX writing inclusivo"
     ],
     "correct": 0,
-    "explanation": "La risposta corretta è la prima perché il racconto del brand funziona se è consistente e riconoscibile."
+    "explanation": "fase iniziale di relazione con un servizio in cui i microtesti cementano il rapporto, validano la scelta e orientano i primi passi. Questo concetto è centrale per uno UX writing inclusivo, che mira a rendere le interfacce più chiare, rispettose e accessibili."
   },
   {
     "id": 43,
-    "question": "Chi è l’eroe nella narrazione di un brand?",
+    "question": "Per Pertinenza si intende ....",
     "answers": [
-      "La persona che usa il prodotto e vuole risolvere un problema",
-      "L’azienda stessa sempre e comunque",
-      "Il reparto legale",
-      "Il concorrente principale"
+      "qualità del testo che rende immediatamente riconoscibile l argomento o lo scopo della comunicazione",
+      "una formulazione che insiste soprattutto sugli aspetti organizzativi e sui ruoli degli attori nel processo di progettazione dei contenuti digitali",
+      "una descrizione alternativa che mette al centro le esperienze concrete delle persone ma senza riferimenti specifici a scrittura o interfacce",
+      "una spiegazione che sottolinea soprattutto strumenti, canali e campagne di comunicazione in modo generico e non legato allo UX writing inclusivo"
     ],
     "correct": 0,
-    "explanation": "La risposta corretta è la prima perché nel racconto l’utente è il protagonista che affronta difficoltà."
+    "explanation": "qualità del testo che rende immediatamente riconoscibile l argomento o lo scopo della comunicazione. Questo concetto è centrale per uno UX writing inclusivo, che mira a rendere le interfacce più chiare, rispettose e accessibili."
   },
   {
     "id": 44,
-    "question": "Che cosa sono le “domande drammatiche” nello storytelling di brand?",
+    "question": "Per Person-first language si intende ....",
     "answers": [
-      "I dubbi e i bisogni che motivano l’azione dell’utente",
-      "Le FAQ aziendali",
-      "Le domande del team marketing solo interno",
-      "Le questioni fiscali del brand"
+      "scelta linguistica che mette prima la persona e poi la condizione, come persona con disabilità",
+      "una formulazione che insiste soprattutto sugli aspetti organizzativi e sui ruoli degli attori nel processo di progettazione dei contenuti digitali",
+      "una descrizione alternativa che mette al centro le esperienze concrete delle persone ma senza riferimenti specifici a scrittura o interfacce",
+      "una spiegazione che sottolinea soprattutto strumenti, canali e campagne di comunicazione in modo generico e non legato allo UX writing inclusivo"
     ],
     "correct": 0,
-    "explanation": "La risposta corretta è la prima perché indicano i problemi che il brand promette di aiutare a risolvere."
+    "explanation": "scelta linguistica che mette prima la persona e poi la condizione, come persona con disabilità. Questo concetto è centrale per uno UX writing inclusivo, che mira a rendere le interfacce più chiare, rispettose e accessibili."
   },
   {
     "id": 45,
-    "question": "Perché la gioia è importante nella user experience?",
+    "question": "Quando si parla di Password friction si intende ....",
     "answers": [
-      "Perché aumenta piacere, naturalezza e desiderio di continuare",
-      "Perché elimina ogni bisogno di chiarezza",
-      "Perché sostituisce la funzionalità",
-      "Perché è utile solo nelle landing page"
+      "frustrazione generata da registrazioni, creazione password e verifiche ripetute che vanno ridotte",
+      "una formulazione che insiste soprattutto sugli aspetti organizzativi e sui ruoli degli attori nel processo di progettazione dei contenuti digitali",
+      "una descrizione alternativa che mette al centro le esperienze concrete delle persone ma senza riferimenti specifici a scrittura o interfacce",
+      "una spiegazione che sottolinea soprattutto strumenti, canali e campagne di comunicazione in modo generico e non legato allo UX writing inclusivo"
     ],
     "correct": 0,
-    "explanation": "La risposta corretta è la prima perché la gioia rende l’esperienza più piacevole e memorabile."
+    "explanation": "frustrazione generata da registrazioni, creazione password e verifiche ripetute che vanno ridotte. Questo concetto è centrale per uno UX writing inclusivo, che mira a rendere le interfacce più chiare, rispettose e accessibili."
   },
   {
     "id": 46,
-    "question": "Che ruolo ha l’ansia nelle interfacce digitali?",
+    "question": "Per Primacy si intende ....",
     "answers": [
-      "Può bloccare attenzione e azione, quindi va anticipata e ridotta",
-      "È sempre positiva",
-      "È irrilevante per il design",
-      "Serve a rendere i testi più lunghi"
+      "bias che porta a ricordare di più gli elementi iniziali di una lista o di un testo",
+      "una formulazione che insiste soprattutto sugli aspetti organizzativi e sui ruoli degli attori nel processo di progettazione dei contenuti digitali",
+      "una descrizione alternativa che mette al centro le esperienze concrete delle persone ma senza riferimenti specifici a scrittura o interfacce",
+      "una spiegazione che sottolinea soprattutto strumenti, canali e campagne di comunicazione in modo generico e non legato allo UX writing inclusivo"
     ],
     "correct": 0,
-    "explanation": "La risposta corretta è la prima perché l’ansia può frenare l’azione e aumentare gli errori."
+    "explanation": "bias che porta a ricordare di più gli elementi iniziali di una lista o di un testo. Questo concetto è centrale per uno UX writing inclusivo, che mira a rendere le interfacce più chiare, rispettose e accessibili."
   },
   {
     "id": 47,
-    "question": "Come si può rassicurare una persona prima di un’azione delicata?",
+    "question": "Per Reperibilità si intende ....",
     "answers": [
-      "Settando aspettative chiare e ribadendo i benefici importanti",
-      "Usando ironia e ambiguità",
-      "Nascondendo le informazioni utili",
-      "Aumentando i campi del modulo"
+      "capacità di trovare facilmente ciò che serve dentro un contenuto o interfaccia",
+      "una formulazione che insiste soprattutto sugli aspetti organizzativi e sui ruoli degli attori nel processo di progettazione dei contenuti digitali",
+      "una descrizione alternativa che mette al centro le esperienze concrete delle persone ma senza riferimenti specifici a scrittura o interfacce",
+      "una spiegazione che sottolinea soprattutto strumenti, canali e campagne di comunicazione in modo generico e non legato allo UX writing inclusivo"
     ],
     "correct": 0,
-    "explanation": "La risposta corretta è la prima perché prima dell’azione bisogna chiarire cosa succederà e perché conviene."
+    "explanation": "capacità di trovare facilmente ciò che serve dentro un contenuto o interfaccia. Questo concetto è centrale per uno UX writing inclusivo, che mira a rendere le interfacce più chiare, rispettose e accessibili."
   },
   {
     "id": 48,
-    "question": "Come si può rassicurare una persona dopo un’azione conclusa?",
+    "question": "Quando si parla di Recency si intende ....",
     "answers": [
-      "Dando conferma, anticipando domande e offrendo vie per proseguire",
-      "Lasciandola senza feedback",
-      "Mostrando errori generici",
-      "Ripetendo la stessa richiesta"
+      "bias che porta a ricordare di più gli elementi finali di una lista o di un testo",
+      "una formulazione che insiste soprattutto sugli aspetti organizzativi e sui ruoli degli attori nel processo di progettazione dei contenuti digitali",
+      "una descrizione alternativa che mette al centro le esperienze concrete delle persone ma senza riferimenti specifici a scrittura o interfacce",
+      "una spiegazione che sottolinea soprattutto strumenti, canali e campagne di comunicazione in modo generico e non legato allo UX writing inclusivo"
     ],
     "correct": 0,
-    "explanation": "La risposta corretta è la prima perché dopo l’azione servono conferma e orientamento."
+    "explanation": "bias che porta a ricordare di più gli elementi finali di una lista o di un testo. Questo concetto è centrale per uno UX writing inclusivo, che mira a rendere le interfacce più chiare, rispettose e accessibili."
   },
   {
     "id": 49,
-    "question": "Perché gli stati vuoti non devono sembrare errori?",
+    "question": "Per Registrazione si intende ....",
     "answers": [
-      "Perché spesso indicano solo assenza momentanea di contenuti e vanno spiegati",
-      "Perché l’utente non deve sapere cosa sta succedendo",
-      "Perché sono un guasto tecnico per definizione",
-      "Perché vanno nascosti"
+      "momento delicato in cui i microtesti devono anticipare timori e guidare con chiarezza la creazione dell account",
+      "una formulazione che insiste soprattutto sugli aspetti organizzativi e sui ruoli degli attori nel processo di progettazione dei contenuti digitali",
+      "una descrizione alternativa che mette al centro le esperienze concrete delle persone ma senza riferimenti specifici a scrittura o interfacce",
+      "una spiegazione che sottolinea soprattutto strumenti, canali e campagne di comunicazione in modo generico e non legato allo UX writing inclusivo"
     ],
     "correct": 0,
-    "explanation": "La risposta corretta è la prima perché uno stato vuoto va spiegato e trasformato in una nuova opportunità."
+    "explanation": "momento delicato in cui i microtesti devono anticipare timori e guidare con chiarezza la creazione dell account. Questo concetto è centrale per uno UX writing inclusivo, che mira a rendere le interfacce più chiare, rispettose e accessibili."
   },
   {
     "id": 50,
-    "question": "Che cosa devono fare i messaggi di errore?",
+    "question": "Per Riprova sociale si intende ....",
     "answers": [
-      "Informare senza tecnicismi, non colpevolizzare e offrire una soluzione",
-      "Colpevolizzare l’utente",
-      "Essere ironici e vaghi",
-      "Nascondere la causa del problema"
+      "strategia che evidenzia recensioni, valutazioni o scelte di molti utenti per sostenere fiducia e decisioni",
+      "una formulazione che insiste soprattutto sugli aspetti organizzativi e sui ruoli degli attori nel processo di progettazione dei contenuti digitali",
+      "una descrizione alternativa che mette al centro le esperienze concrete delle persone ma senza riferimenti specifici a scrittura o interfacce",
+      "una spiegazione che sottolinea soprattutto strumenti, canali e campagne di comunicazione in modo generico e non legato allo UX writing inclusivo"
     ],
     "correct": 0,
-    "explanation": "La risposta corretta è la prima perché un errore ben scritto aiuta a capire e a riprovare."
+    "explanation": "strategia che evidenzia recensioni, valutazioni o scelte di molti utenti per sostenere fiducia e decisioni. Questo concetto è centrale per uno UX writing inclusivo, che mira a rendere le interfacce più chiare, rispettose e accessibili."
   },
   {
     "id": 51,
-    "question": "Perché i form complessi aumentano il rischio di abbandono?",
+    "question": "Quando si parla di Sorpresa si intende ....",
     "answers": [
-      "Perché più sono lunghi, più aumentano frustrazione e carico cognitivo",
-      "Perché le persone amano compilare molti campi",
-      "Perché il contenuto è sempre inutile",
-      "Perché il design non conta"
+      "emozione transitoria che mette in discussione le aspettative e può riattivare interesse o attenzione",
+      "una formulazione che insiste soprattutto sugli aspetti organizzativi e sui ruoli degli attori nel processo di progettazione dei contenuti digitali",
+      "una descrizione alternativa che mette al centro le esperienze concrete delle persone ma senza riferimenti specifici a scrittura o interfacce",
+      "una spiegazione che sottolinea soprattutto strumenti, canali e campagne di comunicazione in modo generico e non legato allo UX writing inclusivo"
     ],
     "correct": 0,
-    "explanation": "La risposta corretta è la prima perché la complessità aumenta fatica, errori e abbandono."
+    "explanation": "emozione transitoria che mette in discussione le aspettative e può riattivare interesse o attenzione. Questo concetto è centrale per uno UX writing inclusivo, che mira a rendere le interfacce più chiare, rispettose e accessibili."
   },
   {
     "id": 52,
-    "question": "Che cosa aiuta a ridurre il carico cognitivo nei processi complessi?",
+    "question": "Per Sottotitoli si intende ....",
     "answers": [
-      "Svelamento progressivo e solo i campi necessari",
-      "Aggiungere istruzioni in ogni punto",
-      "Riempire la pagina di testo",
-      "Usare sempre più scelte possibili"
+      "testi a supporto dei contenuti audiovisivi fondamentali per l accessibilità informativa",
+      "una formulazione che insiste soprattutto sugli aspetti organizzativi e sui ruoli degli attori nel processo di progettazione dei contenuti digitali",
+      "una descrizione alternativa che mette al centro le esperienze concrete delle persone ma senza riferimenti specifici a scrittura o interfacce",
+      "una spiegazione che sottolinea soprattutto strumenti, canali e campagne di comunicazione in modo generico e non legato allo UX writing inclusivo"
     ],
     "correct": 0,
-    "explanation": "La risposta corretta è la prima perché mostrare informazioni a piccoli passi facilita l’azione."
+    "explanation": "testi a supporto dei contenuti audiovisivi fondamentali per l accessibilità informativa. Questo concetto è centrale per uno UX writing inclusivo, che mira a rendere le interfacce più chiare, rispettose e accessibili."
   },
   {
     "id": 53,
-    "question": "Che cosa deve fare un testo rivolto a persone con disabilità cognitiva?",
+    "question": "Per Stati vuoti si intende ....",
     "answers": [
-      "Essere semplice, concreto e prevedibile",
-      "Usare metafore complesse",
-      "Preferire numeri romani e frasi ambigue",
-      "Aumentare il numero di abbreviazioni"
+      "schermate senza contenuto che devono spiegare l assenza e guidare verso una nuova azione",
+      "una formulazione che insiste soprattutto sugli aspetti organizzativi e sui ruoli degli attori nel processo di progettazione dei contenuti digitali",
+      "una descrizione alternativa che mette al centro le esperienze concrete delle persone ma senza riferimenti specifici a scrittura o interfacce",
+      "una spiegazione che sottolinea soprattutto strumenti, canali e campagne di comunicazione in modo generico e non legato allo UX writing inclusivo"
     ],
     "correct": 0,
-    "explanation": "La risposta corretta è la prima perché servono chiarezza e struttura molto leggibile."
+    "explanation": "schermate senza contenuto che devono spiegare l assenza e guidare verso una nuova azione. Questo concetto è centrale per uno UX writing inclusivo, che mira a rendere le interfacce più chiare, rispettose e accessibili."
   },
   {
     "id": 54,
-    "question": "Perché le maiuscole sono sconsigliate nei testi accessibili?",
+    "question": "Quando si parla di Storytelling di brand si intende ....",
     "answers": [
-      "Perché rendono la lettura più difficile",
-      "Perché sono sempre vietate per legge",
-      "Perché non si possono usare nei titoli",
-      "Perché migliorano troppo la leggibilità"
+      "racconto coerente del brand che mette in relazione eroe, promessa, ostacoli, parole chiave e soluzione",
+      "una formulazione che insiste soprattutto sugli aspetti organizzativi e sui ruoli degli attori nel processo di progettazione dei contenuti digitali",
+      "una descrizione alternativa che mette al centro le esperienze concrete delle persone ma senza riferimenti specifici a scrittura o interfacce",
+      "una spiegazione che sottolinea soprattutto strumenti, canali e campagne di comunicazione in modo generico e non legato allo UX writing inclusivo"
     ],
     "correct": 0,
-    "explanation": "La risposta corretta è la prima perché le parole in maiuscolo sono più faticose da leggere."
+    "explanation": "racconto coerente del brand che mette in relazione eroe, promessa, ostacoli, parole chiave e soluzione. Questo concetto è centrale per uno UX writing inclusivo, che mira a rendere le interfacce più chiare, rispettose e accessibili."
   },
   {
     "id": 55,
-    "question": "Che cosa significa evitare il font serif nei testi accessibili?",
+    "question": "Per Svelamento progressivo si intende ....",
     "answers": [
-      "Preferire caratteri più leggibili e semplici da decodificare",
-      "Usare solo font decorativi",
-      "Scrivere sempre in corsivo",
-      "Ridurre lo spazio tra le lettere"
+      "tecnica che mostra le informazioni solo quando servono, riducendo il carico cognitivo",
+      "una formulazione che insiste soprattutto sugli aspetti organizzativi e sui ruoli degli attori nel processo di progettazione dei contenuti digitali",
+      "una descrizione alternativa che mette al centro le esperienze concrete delle persone ma senza riferimenti specifici a scrittura o interfacce",
+      "una spiegazione che sottolinea soprattutto strumenti, canali e campagne di comunicazione in modo generico e non legato allo UX writing inclusivo"
     ],
     "correct": 0,
-    "explanation": "La risposta corretta è la prima perché i caratteri più semplici facilitano la lettura digitale."
+    "explanation": "tecnica che mostra le informazioni solo quando servono, riducendo il carico cognitivo. Questo concetto è centrale per uno UX writing inclusivo, che mira a rendere le interfacce più chiare, rispettose e accessibili."
   },
   {
     "id": 56,
-    "question": "Perché il linguaggio ampio è importante?",
+    "question": "Per Trasparente si intende ....",
     "answers": [
-      "Per rispettare identità diverse e non appiattire le persone in categorie rigide",
-      "Per eliminare ogni riferimento alle persone",
-      "Per complicare il testo",
-      "Per sostituire la chiarezza con la neutralità assoluta"
+      "principio per cui il testo evita ambiguità, sigle e formule oscure, mostrando chiaramente cosa succede",
+      "una formulazione che insiste soprattutto sugli aspetti organizzativi e sui ruoli degli attori nel processo di progettazione dei contenuti digitali",
+      "una descrizione alternativa che mette al centro le esperienze concrete delle persone ma senza riferimenti specifici a scrittura o interfacce",
+      "una spiegazione che sottolinea soprattutto strumenti, canali e campagne di comunicazione in modo generico e non legato allo UX writing inclusivo"
     ],
     "correct": 0,
-    "explanation": "La risposta corretta è la prima perché un linguaggio ampio prova a non escludere nessuno."
+    "explanation": "principio per cui il testo evita ambiguità, sigle e formule oscure, mostrando chiaramente cosa succede. Questo concetto è centrale per uno UX writing inclusivo, che mira a rendere le interfacce più chiare, rispettose e accessibili."
   },
   {
     "id": 57,
-    "question": "Che cosa bisogna fare quando si parla di genere in un form?",
+    "question": "Quando si parla di Trasparenza si intende ....",
     "answers": [
-      "Chiedere informazioni solo se davvero utili o necessarie per legge",
-      "Chiedere sempre sesso e orientamento sessuale",
-      "Usare solo il maschile sovraesteso",
-      "Evitare ogni opzione di personalizzazione"
+      "modo di comunicare che chiarisce cosa si sta facendo, perché e con quali effetti, soprattutto nei passaggi delicati",
+      "una formulazione che insiste soprattutto sugli aspetti organizzativi e sui ruoli degli attori nel processo di progettazione dei contenuti digitali",
+      "una descrizione alternativa che mette al centro le esperienze concrete delle persone ma senza riferimenti specifici a scrittura o interfacce",
+      "una spiegazione che sottolinea soprattutto strumenti, canali e campagne di comunicazione in modo generico e non legato allo UX writing inclusivo"
     ],
     "correct": 0,
-    "explanation": "La risposta corretta è la prima perché le domande sul genere vanno poste solo se servono davvero."
+    "explanation": "modo di comunicare che chiarisce cosa si sta facendo, perché e con quali effetti, soprattutto nei passaggi delicati. Questo concetto è centrale per uno UX writing inclusivo, che mira a rendere le interfacce più chiare, rispettose e accessibili."
   },
   {
     "id": 58,
-    "question": "Qual è il messaggio complessivo delle slide?",
+    "question": "Per definizione UX writing si intende ....",
     "answers": [
-      "Le parole possono includere o escludere, quindi vanno progettate con cura, chiarezza ed empatia",
-      "La forma del testo è secondaria rispetto al contenuto",
-      "L’accessibilità riguarda solo chi ha disabilità visive",
-      "Basta tradurre testi difficili in versioni più corte"
+      "progettazione dei testi dell interfaccia per guidare, rassicurare, orientare e rendere l esperienza digitale chiara e accessibile",
+      "una formulazione che insiste soprattutto sugli aspetti organizzativi e sui ruoli degli attori nel processo di progettazione dei contenuti digitali",
+      "una descrizione alternativa che mette al centro le esperienze concrete delle persone ma senza riferimenti specifici a scrittura o interfacce",
+      "una spiegazione che sottolinea soprattutto strumenti, canali e campagne di comunicazione in modo generico e non legato allo UX writing inclusivo"
     ],
     "correct": 0,
-    "explanation": "La risposta corretta è la prima perché il linguaggio è parte del design e ha effetti concreti sulle persone."
+    "explanation": "progettazione dei testi dell interfaccia per guidare, rassicurare, orientare e rendere l esperienza digitale chiara e accessibile. Questo concetto è centrale per uno UX writing inclusivo, che mira a rendere le interfacce più chiare, rispettose e accessibili."
   },
   {
     "id": 59,
-    "question": "Che cosa indica la reperibilità nel linguaggio chiaro?",
+    "question": "Per Utente come eroe si intende ....",
     "answers": [
-      "La facilità con cui chi legge trova ciò che cerca",
-      "La velocità di download di una pagina",
-      "La quantità di immagini presenti",
-      "La presenza di link esterni"
+      "idea narrativa secondo cui il protagonista della storia è la persona che usa il prodotto o servizio, non il brand",
+      "una formulazione che insiste soprattutto sugli aspetti organizzativi e sui ruoli degli attori nel processo di progettazione dei contenuti digitali",
+      "una descrizione alternativa che mette al centro le esperienze concrete delle persone ma senza riferimenti specifici a scrittura o interfacce",
+      "una spiegazione che sottolinea soprattutto strumenti, canali e campagne di comunicazione in modo generico e non legato allo UX writing inclusivo"
     ],
     "correct": 0,
-    "explanation": "La risposta corretta è la prima perché la reperibilità riguarda la facilità nel trovare le informazioni necessarie."
+    "explanation": "idea narrativa secondo cui il protagonista della storia è la persona che usa il prodotto o servizio, non il brand. Questo concetto è centrale per uno UX writing inclusivo, che mira a rendere le interfacce più chiare, rispettose e accessibili."
   },
   {
     "id": 60,
-    "question": "Che cosa indica l’usabilità di un testo?",
+    "question": "Quando si parla di Voce del brand si intende ....",
     "answers": [
-      "La possibilità di usare facilmente le informazioni trovate",
-      "La sua bellezza grafica",
-      "La lunghezza delle frasi",
-      "La presenza di parole straniere"
+      "tono e personalità coerenti con l identità del marchio, da mantenere costanti nei testi",
+      "una formulazione che insiste soprattutto sugli aspetti organizzativi e sui ruoli degli attori nel processo di progettazione dei contenuti digitali",
+      "una descrizione alternativa che mette al centro le esperienze concrete delle persone ma senza riferimenti specifici a scrittura o interfacce",
+      "una spiegazione che sottolinea soprattutto strumenti, canali e campagne di comunicazione in modo generico e non legato allo UX writing inclusivo"
     ],
     "correct": 0,
-    "explanation": "La risposta corretta è la prima perché un testo usabile permette di agire con facilità a partire dalle informazioni lette."
+    "explanation": "tono e personalità coerenti con l identità del marchio, da mantenere costanti nei testi. Questo concetto è centrale per uno UX writing inclusivo, che mira a rendere le interfacce più chiare, rispettose e accessibili."
   },
   {
     "id": 61,
-    "question": "Quale stile è consigliato nelle slide per rivolgersi alle persone?",
+    "question": "Per Visione a tunnel si intende ....",
     "answers": [
-      "Dare del tu",
-      "Usare sempre il voi",
-      "Usare il lei burocratico",
-      "Evitare ogni forma diretta"
+      "effetto dell ansia che restringe l attenzione e rende difficile elaborare alternative o informazioni aggiuntive",
+      "una formulazione che insiste soprattutto sugli aspetti organizzativi e sui ruoli degli attori nel processo di progettazione dei contenuti digitali",
+      "una descrizione alternativa che mette al centro le esperienze concrete delle persone ma senza riferimenti specifici a scrittura o interfacce",
+      "una spiegazione che sottolinea soprattutto strumenti, canali e campagne di comunicazione in modo generico e non legato allo UX writing inclusivo"
     ],
     "correct": 0,
-    "explanation": "La risposta corretta è la prima perché nelle slide il linguaggio chiaro privilegia un tono diretto e vicino."
+    "explanation": "effetto dell ansia che restringe l attenzione e rende difficile elaborare alternative o informazioni aggiuntive. Questo concetto è centrale per uno UX writing inclusivo, che mira a rendere le interfacce più chiare, rispettose e accessibili."
   },
   {
     "id": 62,
-    "question": "Perché le ripetizioni non vanno temute nel linguaggio chiaro?",
+    "question": "Per Web accessibile si intende ....",
     "answers": [
-      "Perché aiutano a mantenere lo stesso concetto riconoscibile",
-      "Perché rendono il testo più poetico",
-      "Perché sostituiscono i titoli",
-      "Perché servono solo nei social"
+      "contenuto e interfaccia pensati per essere compresi e usati da più persone possibile, anche con tecnologie assistive",
+      "una formulazione che insiste soprattutto sugli aspetti organizzativi e sui ruoli degli attori nel processo di progettazione dei contenuti digitali",
+      "una descrizione alternativa che mette al centro le esperienze concrete delle persone ma senza riferimenti specifici a scrittura o interfacce",
+      "una spiegazione che sottolinea soprattutto strumenti, canali e campagne di comunicazione in modo generico e non legato allo UX writing inclusivo"
     ],
     "correct": 0,
-    "explanation": "La risposta corretta è la prima perché ripetere lo stesso termine evita ambiguità inutili."
+    "explanation": "contenuto e interfaccia pensati per essere compresi e usati da più persone possibile, anche con tecnologie assistive. Questo concetto è centrale per uno UX writing inclusivo, che mira a rendere le interfacce più chiare, rispettose e accessibili."
   },
-  {
-    "id": 63,
-    "question": "Quale lunghezza media delle frasi è consigliata nelle slide sul linguaggio chiaro?",
-    "answers": [
-      "Circa 15 parole",
-      "Circa 40 parole",
-      "Almeno 30 parole",
-      "Non esiste alcun riferimento"
-    ],
-    "correct": 0,
-    "explanation": "La risposta corretta è la prima perché le slide suggeriscono frasi brevi, intorno alle 15 parole."
-  },
-  {
-    "id": 64,
-    "question": "Che cosa è meglio usare tra indicativo e condizionale nel linguaggio chiaro?",
-    "answers": [
-      "L’indicativo, quando possibile",
-      "Il condizionale sempre",
-      "Il congiuntivo in ogni messaggio",
-      "Una forma impersonale"
-    ],
-    "correct": 0,
-    "explanation": "La risposta corretta è la prima perché indicativo e imperativo risultano più diretti e semplici."
-  },
-  {
-    "id": 65,
-    "question": "Che cosa è consigliato per i testi destinati a persone con disabilità cognitive?",
-    "answers": [
-      "Scrivere date per esteso, come 18 aprile 2024",
-      "Usare solo numeri abbreviati come 18.04.24",
-      "Usare numeri romani",
-      "Omettere tutte le date"
-    ],
-    "correct": 0,
-    "explanation": "La risposta corretta è la prima perché la data scritta per esteso è più facile da comprendere."
-  },
-  {
-    "id": 66,
-    "question": "Che cosa misura l’indice Gulpease?",
-    "answers": [
-      "La leggibilità di un testo in italiano",
-      "La velocità di lettura ad alta voce",
-      "La qualità grafica di una pagina",
-      "Il numero di link accessibili"
-    ],
-    "correct": 0,
-    "explanation": "La risposta corretta è la prima perché l’indice Gulpease serve a valutare la leggibilità dei testi italiani."
-  },
-  {
-    "id": 67,
-    "question": "Quali variabili considera l’indice Gulpease?",
-    "answers": [
-      "Lunghezza delle parole e lunghezza delle frasi",
-      "Numero di immagini e di titoli",
-      "Numero di verbi e aggettivi",
-      "Colore del testo e font"
-    ],
-    "correct": 0,
-    "explanation": "La risposta corretta è la prima perché Gulpease si basa soprattutto su lunghezza di parole e frasi."
-  },
-  {
-    "id": 68,
-    "question": "Che cos’è un cloze test?",
-    "answers": [
-      "Un test in cui si lasciano spazi nel testo da completare",
-      "Un test solo visivo su layout e colori",
-      "Un’intervista individuale non strutturata",
-      "Un controllo tecnico del codice HTML"
-    ],
-    "correct": 0,
-    "explanation": "La risposta corretta è la prima perché il cloze test verifica la comprensione chiedendo di completare un testo."
-  },
-  {
-    "id": 69,
-    "question": "Che cosa valuta il test dell’evidenziatore?",
-    "answers": [
-      "Quali parti del testo ispirano fiducia o creano confusione",
-      "La velocità del server",
-      "La correttezza grammaticale automatica",
-      "Il numero di CTA presenti"
-    ],
-    "correct": 0,
-    "explanation": "La risposta corretta è la prima perché il test chiede alle persone di evidenziare ciò che è chiaro o poco affidabile."
-  },
-  {
-    "id": 70,
-    "question": "A che cosa serve un A/B test nello UX writing?",
-    "answers": [
-      "A confrontare due versioni di un testo per capire quale funziona meglio",
-      "A tradurre un testo in due lingue",
-      "A scrivere due headline in rima",
-      "A verificare la velocità di caricamento"
-    ],
-    "correct": 0,
-    "explanation": "La risposta corretta è la prima perché l’A/B test mette a confronto due varianti per selezionare la migliore."
-  }
 ];
 
 export default inclusiveWritingQuestions;
