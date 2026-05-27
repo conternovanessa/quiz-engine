@@ -3,7 +3,7 @@ import Home from "./pages/Home";
 import Quiz from "./pages/Quiz";
 import Results from "./pages/Results";
 import Selection from "./pages/Selection";
-import ErrorPage from "./pages/ErrorPage"; // <-- nuovo
+import ErrorPage from "./pages/Errorpage"; 
 
 function App() {
   return (
