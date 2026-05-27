@@ -1,6 +1,15 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 
+function shuffleArray(array) {
+  const copy = [...array];
+  for (let i = copy.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [copy[i], copy[j]] = [copy[j], copy[i]];
+  }
+  return copy;
+}
+
 function Quiz() {
   const navigate = useNavigate();
 
@@ -8,19 +17,35 @@ function Quiz() {
 
   useEffect(() => {
     const data = JSON.parse(localStorage.getItem("quiz"));
-
     if (!data) return;
+
+    // Per ogni domanda:
+    // - incapsula le risposte in oggetti { text, isCorrect }
+    // - mischia questi oggetti
+    // - ricava il nuovo indice della risposta corretta
+    const shuffledQuestions = data.questions.map((q) => {
+      const answerObjects = q.answers.map((text, index) => ({
+        text,
+        isCorrect: index === q.correctAnswer,
+      }));
+
+      const shuffled = shuffleArray(answerObjects);
+      const newCorrectIndex = shuffled.findIndex((a) => a.isCorrect);
+
+      return {
+        ...q,
+        answers: shuffled.map((a) => a.text),
+        correctAnswer: newCorrectIndex,
+      };
+    });
 
     setSession({
       mode: data.mode,
-      questions: data.questions,
+      questions: shuffledQuestions,
       currentIndex: 0,
-      // in exam mode lo score verrà ricalcolato sulle risposte
       score: 0,
-      // answers è un array indicizzato per domanda: answers[index] = answerObj
       answers: [],
       feedback: null,
-      // risposta selezionata ma non ancora confermata su questa domanda
       selectedIndex: null,
     });
   }, []);
@@ -48,7 +73,6 @@ function Quiz() {
     }));
   }
 
-  // ricalcola lo score in base alle risposte corrette (usato in exam mode)
   function recalculateScore(updatedAnswers) {
     return updatedAnswers.reduce((acc, ans) => {
       if (ans && ans.isCorrect) return acc + 1;
@@ -56,9 +80,7 @@ function Quiz() {
     }, 0);
   }
 
-  // selezione risposta (non conferma)
   function handleSelectAnswer(index) {
-    // in learning mode, se c'è già feedback su questa domanda, non permetto di cambiare
     if (feedback && !isExamMode) return;
 
     updateSession({
@@ -66,7 +88,6 @@ function Quiz() {
     });
   }
 
-  // conferma risposta corrente (Conferma/Avanti)
   function handleConfirmAndNext() {
     if (selectedIndex === null) return;
 
@@ -83,16 +104,13 @@ function Quiz() {
       subject: question.subject,
     };
 
-    // copia l'array e inserisce/aggiorna la risposta all'indice corrente
     const updatedAnswers = [...answers];
     updatedAnswers[currentIndex] = newAnswer;
 
     if (isExamMode) {
-      // exam mode: ricalcolo score da tutte le risposte
       const updatedScore = recalculateScore(updatedAnswers);
       goNext(updatedScore, updatedAnswers);
     } else {
-      // learning mode: mostra feedback sotto la card
       const updatedScore = isCorrect ? score + 1 : score;
       updateSession({
         feedback: newAnswer,
@@ -102,15 +120,11 @@ function Quiz() {
     }
   }
 
-  // dopo aver letto il feedback in learning mode, vai avanti
   function handleContinueAfterFeedback() {
     if (!feedback) return;
-
-    // lo score è già aggiornato, answers già contiene la risposta
     goNext(score, answers);
   }
 
-  // EXAM MODE: vai alla domanda precedente
   function handlePreviousExam() {
     if (!isExamMode) return;
     if (currentIndex === 0) return;
@@ -136,14 +150,11 @@ function Quiz() {
         score: updatedScore,
         answers: updatedAnswers,
         feedback: null,
-        // se nella prossima domanda c'è già una risposta salvata, la ricarichiamo
         selectedIndex: savedAnswer ? savedAnswer.selectedIndex : null,
       });
     } else {
-      // fine quiz
       localStorage.setItem("answers", JSON.stringify(updatedAnswers));
       localStorage.setItem("score", updatedScore);
-
       navigate("/results");
     }
   }
@@ -177,8 +188,6 @@ function Quiz() {
             {question.answers.map((a, i) => {
               const isSelected = selectedIndex === i;
 
-              // solo in learning mode, dopo la conferma (feedback presente),
-              // coloriamo corretta/sbagliata
               const isCorrectAnswer =
                 !isExamMode && feedback && i === feedback.correctIndex;
               const isWrongSelected =
@@ -204,7 +213,7 @@ function Quiz() {
                   type="button"
                   onClick={() => handleSelectAnswer(i)}
                   className={answerClass}
-                  disabled={!!feedback && !isExamMode} // in learning mode, dopo feedback, non cambi più risposta
+                  disabled={!!feedback && !isExamMode}
                 >
                   <span className="quiz__answer-text">{a}</span>
                 </button>
@@ -213,7 +222,7 @@ function Quiz() {
           </div>
         </div>
 
-        {/* FEEDBACK solo in learn mode (sotto la card) */}
+        {/* FEEDBACK solo in learn mode */}
         {!isExamMode && feedback && (
           <div className="quiz__feedback">
             <h3
@@ -239,7 +248,7 @@ function Quiz() {
           </div>
         )}
 
-        {/* Barra di azioni (sotto tutto) */}
+        {/* Barra di azioni */}
         <div className="quiz__actions">
           {isExamMode && (
             <>
